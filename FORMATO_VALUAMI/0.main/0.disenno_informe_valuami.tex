@@ -1,0 +1,99 @@
+\usepackage{textcomp}
+% \decimalpoint
+%------------Diseño de página --------------------------------
+\usepackage[centering, letterpaper,margin=2cm,top=1cm, headsep=24pt, headheight=2cm,includehead, includefoot]{geometry}
+
+%------------Colores----------------------
+
+\definecolor{principal}{RGB}{0, 53, 73}
+\definecolor{secundario}{RGB}{43, 82, 96}
+\definecolor{terciario}{RGB}{43,82,96}
+
+%--------------Hipervinculos en color, ligas-azul, archivos-magenta, url-azul----------------
+\hypersetup{
+    colorlinks=true,
+    linkcolor=secundario,
+    filecolor=magenta,      
+    urlcolor=blue}
+
+%-------------Encabezado---------------------
+
+
+%--------------Pie de página------------------
+\fancypagestyle{plain}{
+	\fancyhf{}
+	\fancyhead[L]{
+	\includegraphics[height=1.5cm]{../0.imagenes/GENERAL/LOGOS/logo_cp2}
+	}
+	\fancyhead[R]{
+	\includegraphics[height=1.5cm]{../0.imagenes/GENERAL/LOGOS/isotipo_valuami}
+	}
+	\fancyfoot[L]{
+		\begin{tabular}{b{3cm}}
+		\includegraphics[width= 1.5cm, page = 1]{../0.imagenes/GENERAL/LOGOS/qr}
+		\end{tabular}
+	}
+	\fancyfoot[C]{
+	\begin{center}
+	\bfseries \footnotesize 
+	\textcolor{principal}{VALUAMI\textregistered} \\
+		\scriptsize \it 
+		Amargura 50, Interior 7 y 8, Antigua Granada Parques de la Herradura. \\ 
+		Huixquilucan, Estado de M\'exico. CP. 52786 \\ 
+		Tel. 52 94 7680 / 55 89 96 34.
+	\end{center}
+	}
+	\fancyfoot[R]{\footnotesize{\thepage\hspace{3pt}de \pageref{LastPage}}}
+}
+
+\pagestyle{plain}
+% \lfoot{
+% \begin{tabular}{b{2cm}}
+% \includegraphics[width=1.5cm]{\rutaImagenes/qr}
+% \end{tabular}
+% }
+
+%------------Títulos de seccion y subseccion--------------
+
+
+
+\renewcommand \thechapter {\Roman{chapter}}
+\renewcommand \thesection {\Alph{section}}
+\renewcommand \thesubsection {\thesection.\arabic{subsection}}
+\renewcommand \thesubsubsection {\thesection.\arabic{subsection}.\arabic{subsubsection}}
+
+\titleformat{\section}[hang]{\color{gray}\huge\bfseries}{\thesection.}{1em}{} 
+\renewcommand{\chaptername}{Cap\'itulo}
+\renewcommand{\contentsname}{\'Indice}
+
+\chapterfont{\color{principal}}
+\sectionfont{\color{principal}}
+\subsectionfont{\color{secundario}}
+\subsubsectionfont{\color{terciario}}
+
+\titleformat{\chapter}[display]{\normalfont\Large\filcenter\sffamily}
+{\titlerule[1pt]%
+\vspace{1pt}%
+\titlerule
+\vspace{1pc}%
+\LARGE\MakeUppercase{\chaptertitlename} \thechapter
+}
+{1pc}
+{
+\titlerule
+\vspace{1pc}%
+\Huge
+}
+\titlespacing{\chapter}{0pt}{*-8}{*1.5}
+
+%------------------Profundidad del índice---------------------------
+
+\setcounter{tocdepth}{3}
+\setcounter{secnumdepth}{3}
+\makeatletter
+\patchcmd{\l@chapter}{1.5em}{1cm}{}{}
+\makeatother
+
+%------------------Marca de agua---------------
+
+\backgroundsetup{angle=0, contents={\includegraphics[width=2cm]{../0.imagenes/GENERAL/LOGOS/isotipo_valuami.pdf}},opacity=.2, scale=5}

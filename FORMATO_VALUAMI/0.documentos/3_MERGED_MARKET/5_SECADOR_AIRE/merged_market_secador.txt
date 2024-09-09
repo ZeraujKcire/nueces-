@@ -1,0 +1,6 @@
+MARCA        EDAD  CAP  PRECIO
+Kaeser       0     42   32745.00
+Kaeser       11    20   18555.50
+Beko         4     50   27650.00
+Atlas_Copco  3     63   28379.00
+Atlas_Copco  18    32   15701.25

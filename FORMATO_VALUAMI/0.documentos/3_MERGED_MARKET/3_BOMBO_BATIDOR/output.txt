@@ -1,0 +1,99 @@
+[1] "--- DATABASE ---"
+[1] "X1. EDAD"
+[1] "X2. VOL"
+[1] "Y. PRECIO"
+[1] "--- 2 GRAFICO DE DISPERSION ---"
+[1] "--- 3.1 HOMOCEDASTICIDAD ---"
+
+	studentized Breusch-Pagan test
+
+data:  regresion
+BP = 4, df = 2, p-value = 0.1353
+
+[1] "--- 3.2 INDEPENDIENCIA ---"
+
+	Durbin-Watson test
+
+data:  regresion
+DW = 2.5, p-value = 1
+alternative hypothesis: true autocorrelation is greater than 0
+
+[1] "--- 3.3 NORMALIDAD ---"
+
+	Shapiro-Wilk normality test
+
+data:  residuales
+W = 0.94466, p-value = 0.683
+
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  residuales
+D = 0.25, p-value = 0.9062
+alternative hypothesis: two-sided
+
+[1] "--- 4 ESTIMACION DE BETA_i ---"
+
+Call:
+lm(formula = Y ~ X1 + X2, data = datos, na.action = "na.exclude")
+
+Coefficients:
+(Intercept)           X1           X2  
+     370099        -4749         3022  
+
+[1] "--- 6 TABLA ANOVA ---"
+Analysis of Variance Table
+
+Response: Y
+          Df     Sum Sq    Mean Sq  F value  Pr(>F)  
+X1         1 4.2486e+10 4.2486e+10 154.8403 0.05105 .
+X2         1 1.5084e+06 1.5084e+06   0.0055 0.95288  
+Residuals  1 2.7438e+08 2.7438e+08                   
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+[1] "TABLA ANOVA. NUEVA"
+          Suma Cuadrados Grados Lib. Cuadrados Medios        F
+Regresión    42487120937           2      21243560469 77.42292
+Error          274383350           1        274383350  0.00000
+Totales      42761504287           3      21517943819  0.00000
+[1] "--- 7 SIGNIFICANCIA ---"
+
+Call:
+lm(formula = Y ~ X1 + X2, data = datos, na.action = "na.exclude")
+
+Residuals:
+         1          2          3          4 
+ 1.171e+04 -1.171e+04  2.274e-12 -4.093e-12 
+
+Coefficients:
+            Estimate Std. Error t value Pr(>|t|)  
+(Intercept) 370098.9   112790.4   3.281   0.1883  
+X1           -4749.1      405.7 -11.705   0.0543 .
+X2            3022.0    40758.1   0.074   0.9529  
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 16560 on 1 degrees of freedom
+Multiple R-squared:  0.9936,	Adjusted R-squared:  0.9808 
+F-statistic: 77.42 on 2 and 1 DF,  p-value: 0.0801
+
+[1] " --- PRUEBAS HP DE COEF. --- "
+[1] -12.7062  12.7062
+              Estimate  Std. Error      t value   Pr(>|t|)
+(Intercept) 370098.917 112790.3705   3.28129888 0.18832207
+X1           -4749.095    405.7462 -11.70459329 0.05425883
+X2            3021.970  40758.1471   0.07414394 0.95288471
+[1] " --- 10 OBSERVACIONES INFLIYENTES --- "
+Influence measures of
+	 lm(formula = Y ~ X1 + X2, data = datos, na.action = "na.exclude") :
+
+  dfb.1_ dfb.X1 dfb.X2 dffit cov.r cook.d hat inf
+1    NaN    NaN    NaN   NaN   NaN  0.333 0.5    
+2    NaN    NaN    NaN   NaN   NaN  0.333 0.5    
+3      0      0      0   NaN   NaN    NaN 1.0    
+4      0      0      0   NaN   NaN    NaN 1.0    
+[1] " --- 11 COEFICIENTE DE DETERMINACIÓN --- "
+[1] 0.9935834
+[1] " --- SUSTITUCION --- "
+       1 
+353908.4 

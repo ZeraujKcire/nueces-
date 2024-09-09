@@ -1,0 +1,14 @@
+CATEGORIAS                                       HAY_MERCADO_USADO?
+Tanque_para_aire_comprimido                      Si
+Secador_de_aire_caliente
+Polipasto_eléctrico                              Si
+Maquina_embolsadora                              
+Maquina_seleccionadora_de_granos
+Maquina_seleccionadora_de_granos_con_plataforma
+Bombo_batidor                                    Si
+Compresor                                        Si
+Maquina_de_aspersion
+Secador_de_aire_refrigerado                      Si
+Compresor_de_aire_tipo_tornillo                  Si
+Linea_embasadora_con_24_cabezales
+Linea_embasadora_con_14_cabezales

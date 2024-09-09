@@ -1,0 +1,42 @@
+\documentclass[tikz]{standalone}
+\input{../0.main/0.parametros.tex}
+
+% === COLORS === (((
+\definecolor{principal}{RGB}{0, 53, 73}
+\definecolor{secundario}{RGB}{43, 82, 96}
+\definecolor{terciario}{RGB}{43,82,96}
+% )))
+
+\begin{document}
+
+\begin{tikzpicture}[scale=1.2]
+
+	% === ELEMENTS AROUND THE PAGE === (((
+	\clip (-5,-6.6) rectangle (4.95,6.6);
+	\node (a) at (0,0) {\includegraphics[width=  12cm]{../0.imagenes/GENERAL/LOGOS/background_valuami}};
+	\fill [white] (-2,-2) rectangle (2,2);
+	\node at (0,4.5) {\includegraphics[width=  4cm,page=1]{../0.imagenes/GENERAL/LOGOS/logo_valuami_fondo_blanco}};
+	\node at (3.4,-5) {\includegraphics[width=  1.5cm]{../0.imagenes/GENERAL/LOGOS/qr}};
+	% )))
+
+	% === PARAMETROS=== (((
+	\node at (0,-0.5) {\includegraphics[width= 8cm]{../0.imagenes/PORTADA/1}};
+	\node [principal] at (0,2.5) {\shortstack{\sc\Large Valuación de Maquinaria y Equipo \\ \sc para Selección y Embolsado de Nuez.}};
+	% )))
+
+	% === DATOS === (((
+	\node at (0,-3) {Dictamen de Valuación.};
+	\node [black!60,right] at (-4,-4) {\footnotesize Solicitante: \personaSolicitante};
+	\node [principal,right] at (-4,-4.5) {\bfseries Mtro. \peritoValuador};
+	% \node [right] at (-3,-5) {\footnotesize };
+	\node [right] at (-4,-5.3) {\tiny \shortstack[l]{\descripcionFirmaPerito}};
+	% )))
+
+	% === GRID FOR DRAWING === (((
+	% \draw [help lines] (a.south west) grid (a.north east);
+	% \fill [red] (0,0) circle (2pt);
+	% )))
+
+\end{tikzpicture}
+
+\end{document}
