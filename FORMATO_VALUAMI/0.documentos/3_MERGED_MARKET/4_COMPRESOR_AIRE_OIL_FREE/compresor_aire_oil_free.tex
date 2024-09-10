@@ -1,0 +1,170 @@
+\documentclass{article}
+\title{\sc Compresor Horizontal, Oil Free.}
+\author{\it VALUAMI.}
+\usepackage[margin = 0.5in]{geometry}
+\usepackage{graphicx}
+\usepackage{amsmath}
+\begin{document}
+\maketitle
+
+\section{\centering --- Variables ---} % (((
+Se definen:
+\begin{center}
+  \begin{tabular}{|l|l|l|}
+    \hline 
+    Variable & Descripción   & Unidades\\ \hline 
+    Y:  & Precio del activo  & MXN \\ \hline 
+    X1: & Edad del activo    & Años \\ \hline 
+		X2: & Capacidad  & \(hp\) \\ \hline 
+  \end{tabular}
+\end{center} 
+% )))
+
+\section{\centering --- Datos Usados ---} % (((
+Se toma una muestra estadísticamente significativa. \\ 
+La comprobación de este hecho se realiza la comprobación de este hecho a lo largo de las siguientes secciones.
+\begin{center}
+	\begin{tabular}{*{4}{|p{3cm}}|}
+		\hline 
+MARCA          & EDAD  & POT  & PRECIO\\ \hline
+Ingresoll Rand & 0     & 10   & \$105,913.72\\ \hline
+Carrollair     & 0     & 10   & \$126,021.06\\ \hline
+GK-660-2/16    & 32    & 7    & \$26,196.00\\ \hline
+MH11           & 21    & 15   & \$32,172.75\\ \hline
+CV             & 51    & 5    & \$10,862.50\\ \hline
+1WD74          & 18    & 10   & \$43,450.00\\ \hline
+	\end{tabular}
+\end{center}
+% )))
+
+\section{\centering --- Matriz de Dispersion ---} % (((
+\begin{center}
+  \begin{tabular}{|p{11cm}|p{5cm}|}
+    \hline
+    Gráfica & Interpretación. \\ \hline 
+    \begin{minipage}{\textwidth}
+    \includegraphics[width= 0.5 \linewidth, page=1]{r/Rplots.pdf}
+    \end{minipage} 
+    &
+		Se tiene una correlación lineal negativa fuerte (el \(90.6\%\) de los datos lo corroboran),
+		entre la Edad del Activo, y el Precio del Activo.
+		\\ \hline 
+  \end{tabular}
+\end{center} 
+% )))
+
+\newpage
+
+\section{\centering --- Supuestos del Modelo de Regresión ---} % (((
+
+Se realizará el análisis estadístico con un \(90\%\) de confianza. \\ 
+Es decir, \(1- \alpha = 0.9\).
+
+\subsection{--- Homocedasticidad ---} % (((
+\begin{center}
+  \begin{tabular}{|l|p{8cm}|}
+    \cline{1-2}
+    \multicolumn{2}{|c|}{Hipótesis}\\ \cline{1-2}
+    \multicolumn{2}{|l|}{\(H_0:\) La varianza de los residuales es constante.} \\ 
+    \multicolumn{2}{|l|}{\(H_a:\) La varianza de los residuales no es constante.} \\ \cline{1-2}
+    Estadístico de Prueba & \(BP = 0.89468\).\\ \cline{1-2} 
+		Región de Rechazo de \(H_0\) & \((0, \alpha )\).\\ \cline{1-2} 
+    Valor \(p\) & \(0.6393\).\\ \cline{1-2} 
+    Conclusión & Se tiene que \(p> \alpha\). \newline 
+		Por tanto no se rechaza \(H_0\). \newline 
+		Es decir, la varianza no es constante. \\ \cline{1-2} 
+  \end{tabular}
+\end{center}
+% )))
+
+\subsection{--- Independencia ---} % (((
+\begin{center}
+  \begin{tabular}{|l|p{8cm}|}
+    \cline{1-2}
+    \multicolumn{2}{|c|}{Hipótesis}\\ \cline{1-2}
+    \multicolumn{2}{|l|}{\(H_0:\) Los residuos son independientes.} \\ 
+    \multicolumn{2}{|l|}{\(H_a:\) Los residuos no son indpendientes.} \\ \cline{1-2}
+    Estadístico de Prueba & \(DW = 2.6999\).\\ \cline{1-2} 
+		Región de Rechazo de \(H_0\) & \((0, \alpha )\).\\ \cline{1-2} 
+    Valor \(p\) & \(0.8643\).\\ \cline{1-2} 
+    Conclusión & Se tiene que \(p> \alpha\). \newline 
+		Por tanto no se rechaza \(H_0\). \newline 
+		Es decir, los residuos son independientes.\\ \cline{1-2} 
+  \end{tabular}
+\end{center}
+% )))
+
+\subsection{--- Normalidad ---} % (((
+\begin{center}
+  \begin{tabular}{|l|p{8cm}|}
+    \cline{1-2}
+    \multicolumn{2}{|c|}{Hipótesis}\\ \cline{1-2}
+    \multicolumn{2}{|l|}{\(H_0:\) Los residuos siguen una distribución normal} \\ 
+    \multicolumn{2}{|l|}{\(H_a:\) Los residuos no siguen una distribución normal.} \\ \cline{1-2}
+    Estadístico de Prueba & \(W = 0.94854\).\\ \cline{1-2} 
+		Región de Rechazo de \(H_0\) & \((0, \alpha )\).\\ \cline{1-2} 
+    Valor \(p\) & \(0.7285\).\\ \cline{1-2} 
+    Conclusión & Se tiene que \(p> \alpha\). \newline 
+		Por tanto no se rechaza \(H_0\). \newline 
+		Es decir, los residuos siguen una distribución normal.\\ \cline{1-2} 
+  \end{tabular}
+\end{center}
+% )))
+
+% )))
+
+\newpage
+
+\section{\centering Modelo de Regresión Estimado ---} % (((
+\begin{align}
+	Y & = &              160,408 & - 2,673 \cdot X_1           & - 5,118     \cdot X_2   \\[2mm]
+	\mbox{Precio} & = &  160,408 & - 2,673 \cdot (\mbox{Edad}) & - 5,118     \cdot (\mbox{hp})
+	\label{eq:1}
+\end{align}
+% )))
+
+\section{\centering --- Tabla Anova ---} % (((
+\begin{center}
+  \begin{tabular}{|l|l|l|l|l|}
+    \hline 
+    Fuentes de Variación  & Suma de Cuadrados & Grados de Libertad & Cuadrados Medios & F\\ \hline 
+Regresión  &  10087994715          &  2       & 5043997358 & 16.01483\\ \hline
+Error      &    944873575          &  3       &  314957858 &  0.00000\\ \hline
+Totales    &  11032868290          &  5       & 5358955216 &  0.00000\\ \hline
+  \end{tabular}
+\end{center} 
+% )))
+
+\section{\centering --- Prueba de Significancia del Modelo ---} % (((
+Se calcula un \(r ^ 2 = 0.8204134\). \\ 
+Se comprueba la significancia del modelo con el estadístico \(F\) de la Tabla Anova.
+\begin{center}
+  \begin{tabular}{|l|p{6cm}|}
+    \cline{1-2}
+    \multicolumn{2}{|c|}{Hipótesis}\\ \cline{1-2}
+    \multicolumn{2}{|l|}{\(H_0:\) El modelo no es significativo.} \\ 
+    \multicolumn{2}{|l|}{\(H_a:\) El modelo es significativo.} \\ \cline{1-2}
+    Estadístico de Prueba & \(16.01\).\\ \cline{1-2} 
+		Región de Rechazo de \(H_0\) & \((0, \alpha )\).\\ \cline{1-2} 
+    Valor \(p\) & \(0.02506\).\\ \cline{1-2} 
+    Conclusión & Se tiene que \(p<\alpha\). \newline 
+		Por tanto se rechaza \(H_0\). \newline 
+		Es decir, el modelo es significativo.\\ \cline{1-2} 
+  \end{tabular}
+\end{center} 
+% )))
+
+\section{\centering Estimación del Valor de Mercado aplicado al Activo.} % (((
+Se obtiene el valor de mercado por medio de las características del activo y el modelo de regresión \eqref{eq:1}.
+\begin{center}
+  \begin{tabular}{|l|l|l|}
+    \hline 
+		Descripción   & Unidades  & Activo \\ \hline 
+    Edad del activo    & Años      & 5      \\ \hline 
+		Toneladas de cap.  & \(hp\) & 10   \\ \hline 
+		Precio del activo   & MXN       & \$74,836.82   \\ \hline 
+  \end{tabular}
+\end{center} 
+% )))
+
+\end{document}

@@ -1,0 +1,13 @@
+
+
+MARCA           EDAD  POT  PRECIO
+EVANS           0     75   576000.00
+Carroll         0     75   565500.00
+EVANS           0     75   570862.00
+Eaton           9     75   221196.00
+Ingresoll_Rand  15    75   175113.00
+Ingresoll_Rand  13    100  237785.00
+Ingresoll_Rand  19    75   6623.00
+Ingresoll_Rand  15    50   219352.00
+Sullair         12    75   458981.00
+ALMIG           15    100  225503.90

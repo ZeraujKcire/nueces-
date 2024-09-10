@@ -1,0 +1,19 @@
+MARCA           EDAD  CAP  PRECIO
+Speedaire       0     35   104750.90
+Hankison        0     25   54461.60
+Ingersoll_Rand  0     15   151014.60
+Atlas_Copco     11    14   31224.75
+Compair         19    70   29625.00
+Kaeser          0     42   32745.00
+Kaeser          11    20   18555.50
+Beko            4     50   27650.00
+Atlas_Copco     3     63   28379.00
+Atlas_Copco     18    32   15701.25
+
+
+MARCA           EDAD  CAP  PRECIO
+Ingersoll_Rand  0     35   60768.4
+Kaeser          11    20   18555.50
+Beko            4     50   27650.00
+Atlas_Copco     3     63   28379.00
+Atlas_Copco     18    32   15701.25

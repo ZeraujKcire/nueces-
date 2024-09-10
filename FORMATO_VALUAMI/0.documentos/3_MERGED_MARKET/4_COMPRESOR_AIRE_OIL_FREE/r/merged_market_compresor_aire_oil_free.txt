@@ -1,0 +1,7 @@
+MARCA           EDAD  POT  PRECIO
+Ingresoll_Rand  0     10   105913.72
+Carrollair      0     10   126021.06
+GK-660-2/16     32    7    26196.00
+MH11            21    15   32172.75
+CV              51    5    10862.50
+1WD74           18    10   43450.00

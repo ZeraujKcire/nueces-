@@ -1,0 +1,5 @@
+MARCA           EDAD  POT  PRECIO
+EVANS           0     75   570862.00
+Ingresoll_Rand  13    100  237785.00
+Ingresoll_Rand  15    50   219352.00
+ALMIG           15    100  225503.90

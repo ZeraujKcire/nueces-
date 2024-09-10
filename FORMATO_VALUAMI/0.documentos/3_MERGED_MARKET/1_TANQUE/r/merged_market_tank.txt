@@ -1,0 +1,5 @@
+MARCA      EDAD  VOL   PRECIO
+Tankidara  0     1000  61416.20
+Sin_Dato   39    875   19515.00
+Sin_Dato   11    1000  37729.00
+Sin_Dato   11    1000  36297.90
