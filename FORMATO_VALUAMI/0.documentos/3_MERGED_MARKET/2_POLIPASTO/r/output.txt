@@ -15,7 +15,7 @@ BP = 1.5527, df = 2, p-value = 0.4601
 	Durbin-Watson test
 
 data:  regresion
-DW = 1.3517, p-value = 1
+DW = 1.3517, p-value < 2.2e-16
 alternative hypothesis: true autocorrelation is greater than 0
 
 [1] "--- 3.3 NORMALIDAD ---"
@@ -39,23 +39,21 @@ lm(formula = Y ~ X1 + X2, data = datos, na.action = "na.exclude")
 
 Coefficients:
 (Intercept)           X1           X2  
-     -25647         1771        29299  
+    -565.86        34.81      1053.27  
 
 [1] "--- 6 TABLA ANOVA ---"
 Analysis of Variance Table
 
 Response: Y
-          Df    Sum Sq   Mean Sq F value  Pr(>F)  
-X1         1  31273231  31273231  193.96 0.04563 *
-X2         1 417354519 417354519 2588.49 0.01251 *
-Residuals  1    161234    161234                  
----
-Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+          Df Sum Sq Mean Sq F value Pr(>F)
+X1         1 529494  529494  1.9948 0.3922
+X2         1 539364  539364  2.0320 0.3895
+Residuals  1 265440  265440               
 [1] "TABLA ANOVA. NUEVA"
           Suma Cuadrados Grados Lib. Cuadrados Medios        F
-Regresión    448627750.2           2      224313875.1 1391.228
-Error           161234.5           1         161234.5    0.000
-Totales      448788984.7           3      224475109.6    0.000
+Regresión      1068858.3           2         534429.1 2.013367
+Error           265440.5           1         265440.5 0.000000
+Totales        1334298.8           3         799869.6 0.000000
 [1] "--- 7 SIGNIFICANCIA ---"
 
 Call:
@@ -63,28 +61,26 @@ lm(formula = Y ~ X1 + X2, data = datos, na.action = "na.exclude")
 
 Residuals:
       1       2       3       4 
-  37.88  205.20   88.39 -331.48 
+  48.61  263.29  113.42 -425.31 
 
 Coefficients:
-            Estimate Std. Error t value Pr(>|t|)  
-(Intercept) -25646.7     1507.9  -17.01   0.0374 *
-X1            1771.4       46.4   38.18   0.0167 *
-X2           29298.8      575.9   50.88   0.0125 *
----
-Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+            Estimate Std. Error t value Pr(>|t|)
+(Intercept)  -565.86    1934.77  -0.292    0.819
+X1             34.81      59.53   0.585    0.663
+X2           1053.27     738.89   1.425    0.389
 
-Residual standard error: 401.5 on 1 degrees of freedom
-Multiple R-squared:  0.9996,	Adjusted R-squared:  0.9989 
-F-statistic:  1391 on 2 and 1 DF,  p-value: 0.01895
+Residual standard error: 515.2 on 1 degrees of freedom
+Multiple R-squared:  0.8011,	Adjusted R-squared:  0.4032 
+F-statistic: 2.013 on 2 and 1 DF,  p-value: 0.446
 
 [1] " --- REDUCCION MODELO --- "
 [1] -6.313752  6.313752
-             Estimate Std. Error   t value   Pr(>|t|)
-(Intercept) -25646.65 1507.91139 -17.00806 0.03738743
-X1            1771.42   46.39738  38.17932 0.01667066
-X2           29298.76  575.87148  50.87725 0.01251125
+              Estimate Std. Error    t value  Pr(>|t|)
+(Intercept) -565.86287 1934.77494 -0.2924696 0.8188601
+X1            34.81122   59.53167  0.5847513 0.6631443
+X2          1053.26516  738.89070  1.4254681 0.3894509
 [1] " --- 11 COEFICIENTE DE DETERMINACIÓN --- "
-[1] 0.9996407
+[1] 0.8010637
 [1] " --- SUSTITUCION --- "
        1 
-30070.81 
+1326.879 

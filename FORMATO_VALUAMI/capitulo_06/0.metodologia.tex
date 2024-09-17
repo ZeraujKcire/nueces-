@@ -1,0 +1,67 @@
+
+\chapter{METODOLOGÍA CONDSIDERACIONES Y SUPUESTOS.} %(((
+
+Se usaron las siguientes metodologías de avalúo abarcando la totalidad de los
+activos.
+
+\begin{tabular}{|cp{7cm}|p{2cm}|p{2cm}|}
+	\hline 
+	& Nombre & Enfoque de Mercado & Enfoque de Costos \\ \hline 
+	1. & Secador de aire caliente & & Si \\ \hline
+	2. & Máquina embolsadora & & Si \\ \hline
+	3. & Máquina seleccionadora de granos y semillas por color & & Si \\ \hline
+	4. & Máquina seleccionadora de granos y semillas por color con plataforma & & Si \\ \hline
+	5. & Máquina de aspersión de poliuretano & & Si \\ \hline
+	6. & Línea embasadora de 24 cabezales & & Si \\ \hline
+	7. & Línea embasadora de 14 cabezales & & Si \\ \hline
+	8. & Tanque para aire comprimido & Si & Si \\ \hline
+	9. & Polipasto eléctrico & Si & Si \\ \hline
+	10. & Bombo batidor/mezclador para cofitería & Si & Si \\ \hline
+	11. & Compresor horizontal oil-free & Si & Si \\ \hline
+	12. & Secador de aire tipo refrigerado & Si & Si \\ \hline
+	13. & Compresor tipo tornillo & Si & Si \\ \hline
+\end{tabular}
+
+\section{ENFOQUE DE COSTOS.} % (((
+Para la estimación de costos se  obtuvo información  respecto a cotizaciones de equipos nuevos con las mismas características además de páginas especializadas con activos del mismo tipo. Una vez obtenida  dicha información se consideraron las especificaciones proporcionadas por el solicitante.
+Posteriormente se aplicaron los factores de la vida útil, fletes y aranceles para obtener el VNR.
+% )))
+
+\section{ENFOQUE DE MERCADO.} % (((
+
+Para los activos mencionados, se realizó un modelo de regresión lineal considerando 
+las características específicas de cada activo. \\ 
+El análisis estadístico se realiza en todas las pruebas con el mismo nivel de 
+significancia: \(1- \alpha\).
+La comprobación de que el modelo de regresión lineal es significativo
+requiere de las siguientes pruebas estadísticas:
+\begin{enumerate}
+	\item \textbf{Matriz de Dispersión:} Se observan gráficamente las tendencias 
+		entre los datos y las correlaciones lineales individuales entre las 
+		variables utilizadas.
+	\item \textbf{Supuestos del Modelo de Regresión.}
+		\begin{enumerate}
+			\item \textbf{Homocedasticidad:} Se realiza el test Breusch-Pagan para 
+				comprobar la si la varianza de los residuales (\(Y_i\) estimada
+				\( - Y_i\) real) es constante.
+			\item \textbf{Independencia:} Se realiza el test de Durbin-Watson para
+				verificar que los residuales (y por consecuencia los datos de la 
+				muestra seleccionada) son independientes estadísticamente.
+			\item \textbf{Normalidad:} Se realiza el test de Shapiro-Wilk
+				para comprobar que los residuos posean una distribución normal.
+				(\(Y_i\) estimada \(- Y_i\) real \(\sim N(0, \sigma ^2)\), donde 
+				\(\sigma ^ 2\) es la varianza de los datos \(Y_i\)).
+		\end{enumerate}
+	\item \textbf{Tabla ANOVA:} Se calcula la tabla ANOVA para la obtención del 
+		estadístico \(F\) que se usa en la prueba de significancia.
+	\item \textbf{Prueba de Significancia del Modelo:} Se usa el estadístico \(F\) 
+		para obtener el percentil (valor \(p\))
+		y observar si cae dentro de la región de rechazo.
+		En caso de que el valor \(p\) caiga en la región de rechazo \((0, \alpha)\)
+		se considera que el modelo es significativo.
+\end{enumerate}
+Se escoge un nivel de confianza del \(90\%\). Entonces \(1- \alpha =0.9\), y 
+\(\alpha = 0.1\).
+% )))
+
+% )))
