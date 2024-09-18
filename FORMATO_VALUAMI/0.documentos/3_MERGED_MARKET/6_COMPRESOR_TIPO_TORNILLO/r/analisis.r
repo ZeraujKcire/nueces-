@@ -69,6 +69,7 @@ ks.test(residuales,"pnorm",0, sqrt(anova(regresion)[3,3]))
 # === MODELO DE REGREION LINEAL === (((
 sprintf("--- 4 ESTIMACION DE BETA_i ---")
 regresion
+regresion$coefficients/19.75
 # )))
 
 # === DATOS ATIPICOS === (((
@@ -149,5 +150,5 @@ summary(regresion)$r.squared
 
 # === SUSTITUCION === (((
 sprintf(" --- SUSTITUCION --- ")
-predict(regresion,data.frame(X1=c(2),X2=c(75) ))*1.03*0.9
+predict(regresion,data.frame(X1=c(2),X2=c(75) ))*1.03*0.9/19.75
 # )))

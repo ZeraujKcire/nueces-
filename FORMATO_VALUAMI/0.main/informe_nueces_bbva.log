@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2024.5.8)  13 SEP 2024 19:06
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2024.5.8)  17 SEP 2024 20:29
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1788,17 +1788,17 @@ Cap\'itulo IV.
 File: ../0.imagenes/GENERAL/LOGOS/logo_cp2.pdf Graphic file (type pdf)
 <use ../0.imagenes/GENERAL/LOGOS/logo_cp2.pdf>
 Package pdftex.def Info: ../0.imagenes/GENERAL/LOGOS/logo_cp2.pdf  used on inpu
-t line 40.
+t line 46.
 (pdftex.def)             Requested size: 168.6645pt x 42.67912pt.
 File: ../0.imagenes/GENERAL/LOGOS/isotipo_valuami.pdf Graphic file (type pdf)
 <use ../0.imagenes/GENERAL/LOGOS/isotipo_valuami.pdf>
 Package pdftex.def Info: ../0.imagenes/GENERAL/LOGOS/isotipo_valuami.pdf  used 
-on input line 40.
+on input line 46.
 (pdftex.def)             Requested size: 69.33932pt x 42.67912pt.
 File: ../0.imagenes/GENERAL/LOGOS/qr.jpg Graphic file (type jpg)
 <use ../0.imagenes/GENERAL/LOGOS/qr.jpg>
 Package pdftex.def Info: ../0.imagenes/GENERAL/LOGOS/qr.jpg  used on input line
- 40.
+ 46.
 (pdftex.def)             Requested size: 42.67912pt x 41.95564pt.
 [8
 
@@ -1806,17 +1806,17 @@ Package pdftex.def Info: ../0.imagenes/GENERAL/LOGOS/qr.jpg  used on input line
 File: ../0.imagenes/GENERAL/LOGOS/logo_cp2.pdf Graphic file (type pdf)
 <use ../0.imagenes/GENERAL/LOGOS/logo_cp2.pdf>
 Package pdftex.def Info: ../0.imagenes/GENERAL/LOGOS/logo_cp2.pdf  used on inpu
-t line 68.
+t line 76.
 (pdftex.def)             Requested size: 168.6645pt x 42.67912pt.
 File: ../0.imagenes/GENERAL/LOGOS/isotipo_valuami.pdf Graphic file (type pdf)
 <use ../0.imagenes/GENERAL/LOGOS/isotipo_valuami.pdf>
 Package pdftex.def Info: ../0.imagenes/GENERAL/LOGOS/isotipo_valuami.pdf  used 
-on input line 68.
+on input line 76.
 (pdftex.def)             Requested size: 69.33932pt x 42.67912pt.
 File: ../0.imagenes/GENERAL/LOGOS/qr.jpg Graphic file (type jpg)
 <use ../0.imagenes/GENERAL/LOGOS/qr.jpg>
 Package pdftex.def Info: ../0.imagenes/GENERAL/LOGOS/qr.jpg  used on input line
- 68.
+ 76.
 (pdftex.def)             Requested size: 42.67912pt x 41.95564pt.
  [9]) (../capitulo_05/0.inventario.tex
 File: ../0.imagenes/GENERAL/LOGOS/logo_cp2.pdf Graphic file (type pdf)
@@ -1904,17 +1904,17 @@ Underfull \hbox (badness 10000) in paragraph at lines 9--9
 File: ../0.imagenes/GENERAL/LOGOS/logo_cp2.pdf Graphic file (type pdf)
 <use ../0.imagenes/GENERAL/LOGOS/logo_cp2.pdf>
 Package pdftex.def Info: ../0.imagenes/GENERAL/LOGOS/logo_cp2.pdf  used on inpu
-t line 50.
+t line 49.
 (pdftex.def)             Requested size: 168.6645pt x 42.67912pt.
 File: ../0.imagenes/GENERAL/LOGOS/isotipo_valuami.pdf Graphic file (type pdf)
 <use ../0.imagenes/GENERAL/LOGOS/isotipo_valuami.pdf>
 Package pdftex.def Info: ../0.imagenes/GENERAL/LOGOS/isotipo_valuami.pdf  used 
-on input line 50.
+on input line 49.
 (pdftex.def)             Requested size: 69.33932pt x 42.67912pt.
 File: ../0.imagenes/GENERAL/LOGOS/qr.jpg Graphic file (type jpg)
 <use ../0.imagenes/GENERAL/LOGOS/qr.jpg>
 Package pdftex.def Info: ../0.imagenes/GENERAL/LOGOS/qr.jpg  used on input line
- 50.
+ 49.
 (pdftex.def)             Requested size: 42.67912pt x 41.95564pt.
 [13
 
@@ -2090,641 +2090,622 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `\z@skip' on input line 18.
 
+<../0.imagenes/CAP_8/mercado_1_1.pdf, id=717, page=1, 614.295pt x 138.5175pt>
+File: ../0.imagenes/CAP_8/mercado_1_1.pdf Graphic file (type pdf)
+<use ../0.imagenes/CAP_8/mercado_1_1.pdf, page 1>
+Package pdftex.def Info: ../0.imagenes/CAP_8/mercado_1_1.pdf , page1 used on in
+put line 23.
+(pdftex.def)             Requested size: 500.484pt x 112.85588pt.
+<../0.imagenes/CAP_8/mercado_1_2.pdf, id=718, page=1, 614.295pt x 198.7425pt>
+File: ../0.imagenes/CAP_8/mercado_1_2.pdf Graphic file (type pdf)
+<use ../0.imagenes/CAP_8/mercado_1_2.pdf, page 1>
+Package pdftex.def Info: ../0.imagenes/CAP_8/mercado_1_2.pdf , page1 used on in
+put line 24.
+(pdftex.def)             Requested size: 500.484pt x 161.92366pt.
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\<let>-command' on input line 33.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\\' on input line 33.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\@centercr' on input line 33.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\rightskip' on input line 33.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\@flushglue' on input line 33.
+(hyperref)                removing `\<let>-command' on input line 38.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\leftskip' on input line 33.
+(hyperref)                removing `\\' on input line 38.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\@flushglue' on input line 33.
+(hyperref)                removing `\@centercr' on input line 38.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\parindent' on input line 33.
+(hyperref)                removing `\rightskip' on input line 38.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\z@' on input line 33.
+(hyperref)                removing `\@flushglue' on input line 38.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\parfillskip' on input line 33.
+(hyperref)                removing `\leftskip' on input line 38.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\z@skip' on input line 33.
+(hyperref)                removing `\@flushglue' on input line 38.
 
-<../0.documentos/3_MERGED_MARKET/1_TANQUE/r/Rplots.pdf, id=717, page=1, 505.89p
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\parindent' on input line 38.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\z@' on input line 38.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\parfillskip' on input line 38.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\z@skip' on input line 38.
+
+<../0.documentos/3_MERGED_MARKET/1_TANQUE/r/Rplots.pdf, id=719, page=1, 505.89p
 t x 505.89pt>
 File: ../0.documentos/3_MERGED_MARKET/1_TANQUE/r/Rplots.pdf Graphic file (type 
 pdf)
 <use ../0.documentos/3_MERGED_MARKET/1_TANQUE/r/Rplots.pdf, page 1>
 Package pdftex.def Info: ../0.documentos/3_MERGED_MARKET/1_TANQUE/r/Rplots.pdf 
-, page1 used on input line 39.
+, page1 used on input line 44.
 (pdftex.def)             Requested size: 250.24199pt x 250.24263pt.
 
-Overfull \hbox (187.5037pt too wide) in paragraph at lines 38--41
+Overfull \hbox (187.5037pt too wide) in paragraph at lines 43--46
 []|$[]$| 
  []
 
 File: ../0.imagenes/GENERAL/LOGOS/logo_cp2.pdf Graphic file (type pdf)
 <use ../0.imagenes/GENERAL/LOGOS/logo_cp2.pdf>
 Package pdftex.def Info: ../0.imagenes/GENERAL/LOGOS/logo_cp2.pdf  used on inpu
-t line 46.
+t line 51.
 (pdftex.def)             Requested size: 168.6645pt x 42.67912pt.
 File: ../0.imagenes/GENERAL/LOGOS/isotipo_valuami.pdf Graphic file (type pdf)
 <use ../0.imagenes/GENERAL/LOGOS/isotipo_valuami.pdf>
 Package pdftex.def Info: ../0.imagenes/GENERAL/LOGOS/isotipo_valuami.pdf  used 
-on input line 46.
+on input line 51.
 (pdftex.def)             Requested size: 69.33932pt x 42.67912pt.
 File: ../0.imagenes/GENERAL/LOGOS/qr.jpg Graphic file (type jpg)
 <use ../0.imagenes/GENERAL/LOGOS/qr.jpg>
 Package pdftex.def Info: ../0.imagenes/GENERAL/LOGOS/qr.jpg  used on input line
- 46.
+ 51.
 (pdftex.def)             Requested size: 42.67912pt x 41.95564pt.
 [17
 
-]
+ <../0.imagenes/CAP_8/mercado_1_1.pdf> <../0.imagenes/CAP_8/mercado_1_2.pdf>]
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\<let>-command' on input line 49.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\\' on input line 49.
+(hyperref)                removing `\<let>-command' on input line 54.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\@centercr' on input line 49.
+(hyperref)                removing `\\' on input line 54.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\rightskip' on input line 49.
+(hyperref)                removing `\@centercr' on input line 54.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\@flushglue' on input line 49.
+(hyperref)                removing `\rightskip' on input line 54.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\leftskip' on input line 49.
+(hyperref)                removing `\@flushglue' on input line 54.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\@flushglue' on input line 49.
+(hyperref)                removing `\leftskip' on input line 54.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\parindent' on input line 49.
+(hyperref)                removing `\@flushglue' on input line 54.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\z@' on input line 49.
+(hyperref)                removing `\parindent' on input line 54.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\parfillskip' on input line 49.
+(hyperref)                removing `\z@' on input line 54.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\z@skip' on input line 49.
+(hyperref)                removing `\parfillskip' on input line 54.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\z@skip' on input line 54.
 
 File: ../0.imagenes/GENERAL/LOGOS/logo_cp2.pdf Graphic file (type pdf)
 <use ../0.imagenes/GENERAL/LOGOS/logo_cp2.pdf>
 Package pdftex.def Info: ../0.imagenes/GENERAL/LOGOS/logo_cp2.pdf  used on inpu
-t line 85.
+t line 90.
 (pdftex.def)             Requested size: 168.6645pt x 42.67912pt.
 File: ../0.imagenes/GENERAL/LOGOS/isotipo_valuami.pdf Graphic file (type pdf)
 <use ../0.imagenes/GENERAL/LOGOS/isotipo_valuami.pdf>
 Package pdftex.def Info: ../0.imagenes/GENERAL/LOGOS/isotipo_valuami.pdf  used 
-on input line 85.
+on input line 90.
 (pdftex.def)             Requested size: 69.33932pt x 42.67912pt.
 File: ../0.imagenes/GENERAL/LOGOS/qr.jpg Graphic file (type jpg)
 <use ../0.imagenes/GENERAL/LOGOS/qr.jpg>
 Package pdftex.def Info: ../0.imagenes/GENERAL/LOGOS/qr.jpg  used on input line
- 85.
+ 90.
 (pdftex.def)             Requested size: 42.67912pt x 41.95564pt.
 [18 <../0.documentos/3_MERGED_MARKET/1_TANQUE/r/Rplots.pdf>]
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\<let>-command' on input line 107.
+(hyperref)                removing `\<let>-command' on input line 112.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\\' on input line 107.
+(hyperref)                removing `\\' on input line 112.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\@centercr' on input line 107.
+(hyperref)                removing `\@centercr' on input line 112.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\rightskip' on input line 107.
+(hyperref)                removing `\rightskip' on input line 112.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\@flushglue' on input line 107.
+(hyperref)                removing `\@flushglue' on input line 112.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\leftskip' on input line 107.
+(hyperref)                removing `\leftskip' on input line 112.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\@flushglue' on input line 107.
+(hyperref)                removing `\@flushglue' on input line 112.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\parindent' on input line 107.
+(hyperref)                removing `\parindent' on input line 112.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\z@' on input line 107.
+(hyperref)                removing `\z@' on input line 112.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\parfillskip' on input line 107.
+(hyperref)                removing `\parfillskip' on input line 112.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\z@skip' on input line 107.
+(hyperref)                removing `\z@skip' on input line 112.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\<let>-command' on input line 115.
+(hyperref)                removing `\<let>-command' on input line 120.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\\' on input line 115.
+(hyperref)                removing `\\' on input line 120.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\@centercr' on input line 115.
+(hyperref)                removing `\@centercr' on input line 120.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\rightskip' on input line 115.
+(hyperref)                removing `\rightskip' on input line 120.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\@flushglue' on input line 115.
+(hyperref)                removing `\@flushglue' on input line 120.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\leftskip' on input line 115.
+(hyperref)                removing `\leftskip' on input line 120.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\@flushglue' on input line 115.
+(hyperref)                removing `\@flushglue' on input line 120.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\parindent' on input line 115.
+(hyperref)                removing `\parindent' on input line 120.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\z@' on input line 115.
+(hyperref)                removing `\z@' on input line 120.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\parfillskip' on input line 115.
+(hyperref)                removing `\parfillskip' on input line 120.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\z@skip' on input line 115.
+(hyperref)                removing `\z@skip' on input line 120.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\<let>-command' on input line 127.
+(hyperref)                removing `\<let>-command' on input line 132.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\\' on input line 127.
+(hyperref)                removing `\\' on input line 132.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\@centercr' on input line 127.
+(hyperref)                removing `\@centercr' on input line 132.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\rightskip' on input line 127.
+(hyperref)                removing `\rightskip' on input line 132.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\@flushglue' on input line 127.
+(hyperref)                removing `\@flushglue' on input line 132.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\leftskip' on input line 127.
+(hyperref)                removing `\leftskip' on input line 132.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\@flushglue' on input line 127.
+(hyperref)                removing `\@flushglue' on input line 132.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\parindent' on input line 127.
+(hyperref)                removing `\parindent' on input line 132.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\z@' on input line 127.
+(hyperref)                removing `\z@' on input line 132.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\parfillskip' on input line 127.
+(hyperref)                removing `\parfillskip' on input line 132.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\z@skip' on input line 127.
+(hyperref)                removing `\z@skip' on input line 132.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\<let>-command' on input line 145.
+(hyperref)                removing `\<let>-command' on input line 150.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\\' on input line 145.
+(hyperref)                removing `\\' on input line 150.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\@centercr' on input line 145.
+(hyperref)                removing `\@centercr' on input line 150.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\rightskip' on input line 145.
+(hyperref)                removing `\rightskip' on input line 150.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\@flushglue' on input line 145.
+(hyperref)                removing `\@flushglue' on input line 150.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\leftskip' on input line 145.
+(hyperref)                removing `\leftskip' on input line 150.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\@flushglue' on input line 145.
+(hyperref)                removing `\@flushglue' on input line 150.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\parindent' on input line 145.
+(hyperref)                removing `\parindent' on input line 150.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\z@' on input line 145.
+(hyperref)                removing `\z@' on input line 150.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\parfillskip' on input line 145.
+(hyperref)                removing `\parfillskip' on input line 150.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\z@skip' on input line 145.
+(hyperref)                removing `\z@skip' on input line 150.
 
 File: ../0.imagenes/GENERAL/LOGOS/logo_cp2.pdf Graphic file (type pdf)
 <use ../0.imagenes/GENERAL/LOGOS/logo_cp2.pdf>
 Package pdftex.def Info: ../0.imagenes/GENERAL/LOGOS/logo_cp2.pdf  used on inpu
-t line 147.
+t line 152.
 (pdftex.def)             Requested size: 168.6645pt x 42.67912pt.
 File: ../0.imagenes/GENERAL/LOGOS/isotipo_valuami.pdf Graphic file (type pdf)
 <use ../0.imagenes/GENERAL/LOGOS/isotipo_valuami.pdf>
 Package pdftex.def Info: ../0.imagenes/GENERAL/LOGOS/isotipo_valuami.pdf  used 
-on input line 147.
+on input line 152.
 (pdftex.def)             Requested size: 69.33932pt x 42.67912pt.
 File: ../0.imagenes/GENERAL/LOGOS/qr.jpg Graphic file (type jpg)
 <use ../0.imagenes/GENERAL/LOGOS/qr.jpg>
 Package pdftex.def Info: ../0.imagenes/GENERAL/LOGOS/qr.jpg  used on input line
- 147.
+ 152.
 (pdftex.def)             Requested size: 42.67912pt x 41.95564pt.
 [19]
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\<let>-command' on input line 163.
+(hyperref)                removing `\<let>-command' on input line 170.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\\' on input line 163.
+(hyperref)                removing `\\' on input line 170.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\@centercr' on input line 163.
+(hyperref)                removing `\@centercr' on input line 170.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\rightskip' on input line 163.
+(hyperref)                removing `\rightskip' on input line 170.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\@flushglue' on input line 163.
+(hyperref)                removing `\@flushglue' on input line 170.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\leftskip' on input line 163.
+(hyperref)                removing `\leftskip' on input line 170.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\@flushglue' on input line 163.
+(hyperref)                removing `\@flushglue' on input line 170.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\parindent' on input line 163.
+(hyperref)                removing `\parindent' on input line 170.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\z@' on input line 163.
+(hyperref)                removing `\z@' on input line 170.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\parfillskip' on input line 163.
+(hyperref)                removing `\parfillskip' on input line 170.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\z@skip' on input line 163.
+(hyperref)                removing `\z@skip' on input line 170.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\<let>-command' on input line 175.
+(hyperref)                removing `\<let>-command' on input line 182.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\\' on input line 175.
+(hyperref)                removing `\\' on input line 182.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\@centercr' on input line 175.
+(hyperref)                removing `\@centercr' on input line 182.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\rightskip' on input line 175.
+(hyperref)                removing `\rightskip' on input line 182.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\@flushglue' on input line 175.
+(hyperref)                removing `\@flushglue' on input line 182.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\leftskip' on input line 175.
+(hyperref)                removing `\leftskip' on input line 182.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\@flushglue' on input line 175.
+(hyperref)                removing `\@flushglue' on input line 182.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\parindent' on input line 175.
+(hyperref)                removing `\parindent' on input line 182.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\z@' on input line 175.
+(hyperref)                removing `\z@' on input line 182.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\parfillskip' on input line 175.
+(hyperref)                removing `\parfillskip' on input line 182.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\z@skip' on input line 175.
+(hyperref)                removing `\z@skip' on input line 182.
+
+<../0.imagenes/CAP_8/mercado_2_1.pdf, id=768, page=1, 614.295pt x 134.5025pt>
+File: ../0.imagenes/CAP_8/mercado_2_1.pdf Graphic file (type pdf)
+<use ../0.imagenes/CAP_8/mercado_2_1.pdf, page 1>
+Package pdftex.def Info: ../0.imagenes/CAP_8/mercado_2_1.pdf , page1 used on in
+put line 187.
+(pdftex.def)             Requested size: 500.484pt x 109.58469pt.
+<../0.imagenes/CAP_8/mercado_2_2.pdf, id=769, page=1, 614.295pt x 178.6675pt>
+File: ../0.imagenes/CAP_8/mercado_2_2.pdf Graphic file (type pdf)
+<use ../0.imagenes/CAP_8/mercado_2_2.pdf, page 1>
+Package pdftex.def Info: ../0.imagenes/CAP_8/mercado_2_2.pdf , page1 used on in
+put line 188.
+(pdftex.def)             Requested size: 500.484pt x 145.56773pt.
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\<let>-command' on input line 202.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\<let>-command' on input line 190.
+(hyperref)                removing `\\' on input line 202.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\\' on input line 190.
+(hyperref)                removing `\@centercr' on input line 202.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\@centercr' on input line 190.
+(hyperref)                removing `\rightskip' on input line 202.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\rightskip' on input line 190.
+(hyperref)                removing `\@flushglue' on input line 202.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\@flushglue' on input line 190.
+(hyperref)                removing `\leftskip' on input line 202.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\leftskip' on input line 190.
+(hyperref)                removing `\@flushglue' on input line 202.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\@flushglue' on input line 190.
+(hyperref)                removing `\parindent' on input line 202.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\parindent' on input line 190.
+(hyperref)                removing `\z@' on input line 202.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\z@' on input line 190.
+(hyperref)                removing `\parfillskip' on input line 202.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\parfillskip' on input line 190.
+(hyperref)                removing `\z@skip' on input line 202.
 
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\z@skip' on input line 190.
-
-<../0.documentos/3_MERGED_MARKET/2_POLIPASTO/r/Rplots.pdf, id=742, page=1, 505.
+<../0.documentos/3_MERGED_MARKET/2_POLIPASTO/r/Rplots.pdf, id=770, page=1, 505.
 89pt x 505.89pt>
 File: ../0.documentos/3_MERGED_MARKET/2_POLIPASTO/r/Rplots.pdf Graphic file (ty
 pe pdf)
 <use ../0.documentos/3_MERGED_MARKET/2_POLIPASTO/r/Rplots.pdf, page 1>
 Package pdftex.def Info: ../0.documentos/3_MERGED_MARKET/2_POLIPASTO/r/Rplots.p
-df , page1 used on input line 196.
+df , page1 used on input line 208.
 (pdftex.def)             Requested size: 250.24199pt x 250.24263pt.
 
-Overfull \hbox (187.5037pt too wide) in paragraph at lines 195--198
+Overfull \hbox (187.5037pt too wide) in paragraph at lines 207--210
 []|$[]$| 
  []
 
 File: ../0.imagenes/GENERAL/LOGOS/logo_cp2.pdf Graphic file (type pdf)
 <use ../0.imagenes/GENERAL/LOGOS/logo_cp2.pdf>
 Package pdftex.def Info: ../0.imagenes/GENERAL/LOGOS/logo_cp2.pdf  used on inpu
-t line 203.
+t line 215.
 (pdftex.def)             Requested size: 168.6645pt x 42.67912pt.
 File: ../0.imagenes/GENERAL/LOGOS/isotipo_valuami.pdf Graphic file (type pdf)
 <use ../0.imagenes/GENERAL/LOGOS/isotipo_valuami.pdf>
 Package pdftex.def Info: ../0.imagenes/GENERAL/LOGOS/isotipo_valuami.pdf  used 
-on input line 203.
+on input line 215.
 (pdftex.def)             Requested size: 69.33932pt x 42.67912pt.
 File: ../0.imagenes/GENERAL/LOGOS/qr.jpg Graphic file (type jpg)
 <use ../0.imagenes/GENERAL/LOGOS/qr.jpg>
 Package pdftex.def Info: ../0.imagenes/GENERAL/LOGOS/qr.jpg  used on input line
- 203.
+ 215.
 (pdftex.def)             Requested size: 42.67912pt x 41.95564pt.
-[20]
+[20 <../0.imagenes/CAP_8/mercado_2_1.pdf> <../0.imagenes/CAP_8/mercado_2_2.pdf>
+]
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\<let>-command' on input line 206.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\\' on input line 206.
+(hyperref)                removing `\<let>-command' on input line 218.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\@centercr' on input line 206.
+(hyperref)                removing `\\' on input line 218.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\rightskip' on input line 206.
+(hyperref)                removing `\@centercr' on input line 218.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\@flushglue' on input line 206.
+(hyperref)                removing `\rightskip' on input line 218.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\leftskip' on input line 206.
+(hyperref)                removing `\@flushglue' on input line 218.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\@flushglue' on input line 206.
+(hyperref)                removing `\leftskip' on input line 218.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\parindent' on input line 206.
+(hyperref)                removing `\@flushglue' on input line 218.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\z@' on input line 206.
+(hyperref)                removing `\parindent' on input line 218.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\parfillskip' on input line 206.
+(hyperref)                removing `\z@' on input line 218.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\z@skip' on input line 206.
+(hyperref)                removing `\parfillskip' on input line 218.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\z@skip' on input line 218.
 
 File: ../0.imagenes/GENERAL/LOGOS/logo_cp2.pdf Graphic file (type pdf)
 <use ../0.imagenes/GENERAL/LOGOS/logo_cp2.pdf>
 Package pdftex.def Info: ../0.imagenes/GENERAL/LOGOS/logo_cp2.pdf  used on inpu
-t line 242.
+t line 254.
 (pdftex.def)             Requested size: 168.6645pt x 42.67912pt.
 File: ../0.imagenes/GENERAL/LOGOS/isotipo_valuami.pdf Graphic file (type pdf)
 <use ../0.imagenes/GENERAL/LOGOS/isotipo_valuami.pdf>
 Package pdftex.def Info: ../0.imagenes/GENERAL/LOGOS/isotipo_valuami.pdf  used 
-on input line 242.
+on input line 254.
 (pdftex.def)             Requested size: 69.33932pt x 42.67912pt.
 File: ../0.imagenes/GENERAL/LOGOS/qr.jpg Graphic file (type jpg)
 <use ../0.imagenes/GENERAL/LOGOS/qr.jpg>
 Package pdftex.def Info: ../0.imagenes/GENERAL/LOGOS/qr.jpg  used on input line
- 242.
+ 254.
 (pdftex.def)             Requested size: 42.67912pt x 41.95564pt.
 [21 <../0.documentos/3_MERGED_MARKET/2_POLIPASTO/r/Rplots.pdf>]
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\<let>-command' on input line 264.
+(hyperref)                removing `\<let>-command' on input line 276.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\\' on input line 264.
+(hyperref)                removing `\\' on input line 276.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\@centercr' on input line 264.
+(hyperref)                removing `\@centercr' on input line 276.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\rightskip' on input line 264.
+(hyperref)                removing `\rightskip' on input line 276.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\@flushglue' on input line 264.
+(hyperref)                removing `\@flushglue' on input line 276.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\leftskip' on input line 264.
+(hyperref)                removing `\leftskip' on input line 276.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\@flushglue' on input line 264.
+(hyperref)                removing `\@flushglue' on input line 276.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\parindent' on input line 264.
+(hyperref)                removing `\parindent' on input line 276.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\z@' on input line 264.
+(hyperref)                removing `\z@' on input line 276.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\parfillskip' on input line 264.
+(hyperref)                removing `\parfillskip' on input line 276.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\z@skip' on input line 264.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\<let>-command' on input line 272.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\\' on input line 272.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\@centercr' on input line 272.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\rightskip' on input line 272.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\@flushglue' on input line 272.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\leftskip' on input line 272.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\@flushglue' on input line 272.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\parindent' on input line 272.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\z@' on input line 272.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\parfillskip' on input line 272.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\z@skip' on input line 272.
+(hyperref)                removing `\z@skip' on input line 276.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
@@ -2772,1728 +2753,1831 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\<let>-command' on input line 302.
+(hyperref)                removing `\<let>-command' on input line 296.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\\' on input line 302.
+(hyperref)                removing `\\' on input line 296.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\@centercr' on input line 302.
+(hyperref)                removing `\@centercr' on input line 296.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\rightskip' on input line 302.
+(hyperref)                removing `\rightskip' on input line 296.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\@flushglue' on input line 302.
+(hyperref)                removing `\@flushglue' on input line 296.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\leftskip' on input line 302.
+(hyperref)                removing `\leftskip' on input line 296.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\@flushglue' on input line 302.
+(hyperref)                removing `\@flushglue' on input line 296.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\parindent' on input line 302.
+(hyperref)                removing `\parindent' on input line 296.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\z@' on input line 302.
+(hyperref)                removing `\z@' on input line 296.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\parfillskip' on input line 302.
+(hyperref)                removing `\parfillskip' on input line 296.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\z@skip' on input line 302.
+(hyperref)                removing `\z@skip' on input line 296.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\<let>-command' on input line 314.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\\' on input line 314.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\@centercr' on input line 314.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\rightskip' on input line 314.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\@flushglue' on input line 314.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\leftskip' on input line 314.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\@flushglue' on input line 314.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\parindent' on input line 314.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\z@' on input line 314.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\parfillskip' on input line 314.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\z@skip' on input line 314.
 
 File: ../0.imagenes/GENERAL/LOGOS/logo_cp2.pdf Graphic file (type pdf)
 <use ../0.imagenes/GENERAL/LOGOS/logo_cp2.pdf>
 Package pdftex.def Info: ../0.imagenes/GENERAL/LOGOS/logo_cp2.pdf  used on inpu
-t line 304.
+t line 316.
 (pdftex.def)             Requested size: 168.6645pt x 42.67912pt.
 File: ../0.imagenes/GENERAL/LOGOS/isotipo_valuami.pdf Graphic file (type pdf)
 <use ../0.imagenes/GENERAL/LOGOS/isotipo_valuami.pdf>
 Package pdftex.def Info: ../0.imagenes/GENERAL/LOGOS/isotipo_valuami.pdf  used 
-on input line 304.
+on input line 316.
 (pdftex.def)             Requested size: 69.33932pt x 42.67912pt.
 File: ../0.imagenes/GENERAL/LOGOS/qr.jpg Graphic file (type jpg)
 <use ../0.imagenes/GENERAL/LOGOS/qr.jpg>
 Package pdftex.def Info: ../0.imagenes/GENERAL/LOGOS/qr.jpg  used on input line
- 304.
+ 316.
 (pdftex.def)             Requested size: 42.67912pt x 41.95564pt.
 [22]
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\<let>-command' on input line 320.
+(hyperref)                removing `\<let>-command' on input line 334.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\\' on input line 320.
+(hyperref)                removing `\\' on input line 334.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\@centercr' on input line 320.
+(hyperref)                removing `\@centercr' on input line 334.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\rightskip' on input line 320.
+(hyperref)                removing `\rightskip' on input line 334.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\@flushglue' on input line 320.
+(hyperref)                removing `\@flushglue' on input line 334.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\leftskip' on input line 320.
+(hyperref)                removing `\leftskip' on input line 334.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\@flushglue' on input line 320.
+(hyperref)                removing `\@flushglue' on input line 334.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\parindent' on input line 320.
+(hyperref)                removing `\parindent' on input line 334.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\z@' on input line 320.
+(hyperref)                removing `\z@' on input line 334.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\parfillskip' on input line 320.
+(hyperref)                removing `\parfillskip' on input line 334.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\z@skip' on input line 320.
+(hyperref)                removing `\z@skip' on input line 334.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\<let>-command' on input line 332.
+(hyperref)                removing `\<let>-command' on input line 346.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\\' on input line 332.
+(hyperref)                removing `\\' on input line 346.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\@centercr' on input line 332.
+(hyperref)                removing `\@centercr' on input line 346.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\rightskip' on input line 332.
+(hyperref)                removing `\rightskip' on input line 346.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\@flushglue' on input line 332.
+(hyperref)                removing `\@flushglue' on input line 346.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\leftskip' on input line 332.
+(hyperref)                removing `\leftskip' on input line 346.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\@flushglue' on input line 332.
+(hyperref)                removing `\@flushglue' on input line 346.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\parindent' on input line 332.
+(hyperref)                removing `\parindent' on input line 346.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\z@' on input line 332.
+(hyperref)                removing `\z@' on input line 346.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\parfillskip' on input line 332.
+(hyperref)                removing `\parfillskip' on input line 346.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\z@skip' on input line 332.
+(hyperref)                removing `\z@skip' on input line 346.
+
+<../0.imagenes/CAP_8/mercado_3_1.pdf, id=819, page=1, 614.295pt x 134.5025pt>
+File: ../0.imagenes/CAP_8/mercado_3_1.pdf Graphic file (type pdf)
+<use ../0.imagenes/CAP_8/mercado_3_1.pdf, page 1>
+Package pdftex.def Info: ../0.imagenes/CAP_8/mercado_3_1.pdf , page1 used on in
+put line 351.
+(pdftex.def)             Requested size: 500.484pt x 109.58469pt.
+<../0.imagenes/CAP_8/mercado_3_2.pdf, id=820, page=1, 614.295pt x 196.735pt>
+File: ../0.imagenes/CAP_8/mercado_3_2.pdf Graphic file (type pdf)
+<use ../0.imagenes/CAP_8/mercado_3_2.pdf, page 1>
+Package pdftex.def Info: ../0.imagenes/CAP_8/mercado_3_2.pdf , page1 used on in
+put line 352.
+(pdftex.def)             Requested size: 500.484pt x 160.28806pt.
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\<let>-command' on input line 366.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\<let>-command' on input line 347.
+(hyperref)                removing `\\' on input line 366.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\\' on input line 347.
+(hyperref)                removing `\@centercr' on input line 366.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\@centercr' on input line 347.
+(hyperref)                removing `\rightskip' on input line 366.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\rightskip' on input line 347.
+(hyperref)                removing `\@flushglue' on input line 366.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\@flushglue' on input line 347.
+(hyperref)                removing `\leftskip' on input line 366.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\leftskip' on input line 347.
+(hyperref)                removing `\@flushglue' on input line 366.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\@flushglue' on input line 347.
+(hyperref)                removing `\parindent' on input line 366.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\parindent' on input line 347.
+(hyperref)                removing `\z@' on input line 366.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\z@' on input line 347.
+(hyperref)                removing `\parfillskip' on input line 366.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\parfillskip' on input line 347.
+(hyperref)                removing `\z@skip' on input line 366.
 
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\z@skip' on input line 347.
-
-<../0.documentos/3_MERGED_MARKET/3_BOMBO_BATIDOR/r/Rplots.pdf, id=767, page=1, 
+<../0.documentos/3_MERGED_MARKET/3_BOMBO_BATIDOR/r/Rplots.pdf, id=821, page=1, 
 505.89pt x 505.89pt>
 File: ../0.documentos/3_MERGED_MARKET/3_BOMBO_BATIDOR/r/Rplots.pdf Graphic file
  (type pdf)
 <use ../0.documentos/3_MERGED_MARKET/3_BOMBO_BATIDOR/r/Rplots.pdf, page 1>
 Package pdftex.def Info: ../0.documentos/3_MERGED_MARKET/3_BOMBO_BATIDOR/r/Rplo
-ts.pdf , page1 used on input line 353.
+ts.pdf , page1 used on input line 372.
 (pdftex.def)             Requested size: 250.24199pt x 250.24263pt.
 
-Overfull \hbox (187.5037pt too wide) in paragraph at lines 352--355
+Overfull \hbox (187.5037pt too wide) in paragraph at lines 371--374
 []|$[]$| 
  []
 
 File: ../0.imagenes/GENERAL/LOGOS/logo_cp2.pdf Graphic file (type pdf)
 <use ../0.imagenes/GENERAL/LOGOS/logo_cp2.pdf>
 Package pdftex.def Info: ../0.imagenes/GENERAL/LOGOS/logo_cp2.pdf  used on inpu
-t line 360.
+t line 379.
 (pdftex.def)             Requested size: 168.6645pt x 42.67912pt.
 File: ../0.imagenes/GENERAL/LOGOS/isotipo_valuami.pdf Graphic file (type pdf)
 <use ../0.imagenes/GENERAL/LOGOS/isotipo_valuami.pdf>
 Package pdftex.def Info: ../0.imagenes/GENERAL/LOGOS/isotipo_valuami.pdf  used 
-on input line 360.
+on input line 379.
 (pdftex.def)             Requested size: 69.33932pt x 42.67912pt.
 File: ../0.imagenes/GENERAL/LOGOS/qr.jpg Graphic file (type jpg)
 <use ../0.imagenes/GENERAL/LOGOS/qr.jpg>
 Package pdftex.def Info: ../0.imagenes/GENERAL/LOGOS/qr.jpg  used on input line
- 360.
+ 379.
 (pdftex.def)             Requested size: 42.67912pt x 41.95564pt.
-[23]
+[23 <../0.imagenes/CAP_8/mercado_3_1.pdf> <../0.imagenes/CAP_8/mercado_3_2.pdf>
+]
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\<let>-command' on input line 363.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\\' on input line 363.
+(hyperref)                removing `\<let>-command' on input line 382.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\@centercr' on input line 363.
+(hyperref)                removing `\\' on input line 382.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\rightskip' on input line 363.
+(hyperref)                removing `\@centercr' on input line 382.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\@flushglue' on input line 363.
+(hyperref)                removing `\rightskip' on input line 382.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\leftskip' on input line 363.
+(hyperref)                removing `\@flushglue' on input line 382.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\@flushglue' on input line 363.
+(hyperref)                removing `\leftskip' on input line 382.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\parindent' on input line 363.
+(hyperref)                removing `\@flushglue' on input line 382.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\z@' on input line 363.
+(hyperref)                removing `\parindent' on input line 382.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\parfillskip' on input line 363.
+(hyperref)                removing `\z@' on input line 382.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\z@skip' on input line 363.
+(hyperref)                removing `\parfillskip' on input line 382.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\z@skip' on input line 382.
 
 File: ../0.imagenes/GENERAL/LOGOS/logo_cp2.pdf Graphic file (type pdf)
 <use ../0.imagenes/GENERAL/LOGOS/logo_cp2.pdf>
 Package pdftex.def Info: ../0.imagenes/GENERAL/LOGOS/logo_cp2.pdf  used on inpu
-t line 399.
+t line 418.
 (pdftex.def)             Requested size: 168.6645pt x 42.67912pt.
 File: ../0.imagenes/GENERAL/LOGOS/isotipo_valuami.pdf Graphic file (type pdf)
 <use ../0.imagenes/GENERAL/LOGOS/isotipo_valuami.pdf>
 Package pdftex.def Info: ../0.imagenes/GENERAL/LOGOS/isotipo_valuami.pdf  used 
-on input line 399.
+on input line 418.
 (pdftex.def)             Requested size: 69.33932pt x 42.67912pt.
 File: ../0.imagenes/GENERAL/LOGOS/qr.jpg Graphic file (type jpg)
 <use ../0.imagenes/GENERAL/LOGOS/qr.jpg>
 Package pdftex.def Info: ../0.imagenes/GENERAL/LOGOS/qr.jpg  used on input line
- 399.
+ 418.
 (pdftex.def)             Requested size: 42.67912pt x 41.95564pt.
 [24 <../0.documentos/3_MERGED_MARKET/3_BOMBO_BATIDOR/r/Rplots.pdf>]
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\<let>-command' on input line 421.
+(hyperref)                removing `\<let>-command' on input line 440.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\\' on input line 421.
+(hyperref)                removing `\\' on input line 440.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\@centercr' on input line 421.
+(hyperref)                removing `\@centercr' on input line 440.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\rightskip' on input line 421.
+(hyperref)                removing `\rightskip' on input line 440.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\@flushglue' on input line 421.
+(hyperref)                removing `\@flushglue' on input line 440.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\leftskip' on input line 421.
+(hyperref)                removing `\leftskip' on input line 440.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\@flushglue' on input line 421.
+(hyperref)                removing `\@flushglue' on input line 440.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\parindent' on input line 421.
+(hyperref)                removing `\parindent' on input line 440.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\z@' on input line 421.
+(hyperref)                removing `\z@' on input line 440.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\parfillskip' on input line 421.
+(hyperref)                removing `\parfillskip' on input line 440.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\z@skip' on input line 421.
+(hyperref)                removing `\z@skip' on input line 440.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\<let>-command' on input line 429.
+(hyperref)                removing `\<let>-command' on input line 448.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\\' on input line 429.
+(hyperref)                removing `\\' on input line 448.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\@centercr' on input line 429.
+(hyperref)                removing `\@centercr' on input line 448.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\rightskip' on input line 429.
+(hyperref)                removing `\rightskip' on input line 448.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\@flushglue' on input line 429.
+(hyperref)                removing `\@flushglue' on input line 448.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\leftskip' on input line 429.
+(hyperref)                removing `\leftskip' on input line 448.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\@flushglue' on input line 429.
+(hyperref)                removing `\@flushglue' on input line 448.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\parindent' on input line 429.
+(hyperref)                removing `\parindent' on input line 448.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\z@' on input line 429.
+(hyperref)                removing `\z@' on input line 448.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\parfillskip' on input line 429.
+(hyperref)                removing `\parfillskip' on input line 448.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\z@skip' on input line 429.
+(hyperref)                removing `\z@skip' on input line 448.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\<let>-command' on input line 441.
+(hyperref)                removing `\<let>-command' on input line 460.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\\' on input line 441.
+(hyperref)                removing `\\' on input line 460.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\@centercr' on input line 441.
+(hyperref)                removing `\@centercr' on input line 460.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\rightskip' on input line 441.
+(hyperref)                removing `\rightskip' on input line 460.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\@flushglue' on input line 441.
+(hyperref)                removing `\@flushglue' on input line 460.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\leftskip' on input line 441.
+(hyperref)                removing `\leftskip' on input line 460.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\@flushglue' on input line 441.
+(hyperref)                removing `\@flushglue' on input line 460.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\parindent' on input line 441.
+(hyperref)                removing `\parindent' on input line 460.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\z@' on input line 441.
+(hyperref)                removing `\z@' on input line 460.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\parfillskip' on input line 441.
+(hyperref)                removing `\parfillskip' on input line 460.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\z@skip' on input line 441.
+(hyperref)                removing `\z@skip' on input line 460.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\<let>-command' on input line 459.
+(hyperref)                removing `\<let>-command' on input line 478.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\\' on input line 459.
+(hyperref)                removing `\\' on input line 478.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\@centercr' on input line 459.
+(hyperref)                removing `\@centercr' on input line 478.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\rightskip' on input line 459.
+(hyperref)                removing `\rightskip' on input line 478.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\@flushglue' on input line 459.
+(hyperref)                removing `\@flushglue' on input line 478.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\leftskip' on input line 459.
+(hyperref)                removing `\leftskip' on input line 478.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\@flushglue' on input line 459.
+(hyperref)                removing `\@flushglue' on input line 478.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\parindent' on input line 459.
+(hyperref)                removing `\parindent' on input line 478.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\z@' on input line 459.
+(hyperref)                removing `\z@' on input line 478.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\parfillskip' on input line 459.
+(hyperref)                removing `\parfillskip' on input line 478.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\z@skip' on input line 459.
+(hyperref)                removing `\z@skip' on input line 478.
 
 File: ../0.imagenes/GENERAL/LOGOS/logo_cp2.pdf Graphic file (type pdf)
 <use ../0.imagenes/GENERAL/LOGOS/logo_cp2.pdf>
 Package pdftex.def Info: ../0.imagenes/GENERAL/LOGOS/logo_cp2.pdf  used on inpu
-t line 461.
+t line 480.
 (pdftex.def)             Requested size: 168.6645pt x 42.67912pt.
 File: ../0.imagenes/GENERAL/LOGOS/isotipo_valuami.pdf Graphic file (type pdf)
 <use ../0.imagenes/GENERAL/LOGOS/isotipo_valuami.pdf>
 Package pdftex.def Info: ../0.imagenes/GENERAL/LOGOS/isotipo_valuami.pdf  used 
-on input line 461.
+on input line 480.
 (pdftex.def)             Requested size: 69.33932pt x 42.67912pt.
 File: ../0.imagenes/GENERAL/LOGOS/qr.jpg Graphic file (type jpg)
 <use ../0.imagenes/GENERAL/LOGOS/qr.jpg>
 Package pdftex.def Info: ../0.imagenes/GENERAL/LOGOS/qr.jpg  used on input line
- 461.
+ 480.
 (pdftex.def)             Requested size: 42.67912pt x 41.95564pt.
 [25]
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\<let>-command' on input line 477.
+(hyperref)                removing `\<let>-command' on input line 498.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\\' on input line 477.
+(hyperref)                removing `\\' on input line 498.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\@centercr' on input line 477.
+(hyperref)                removing `\@centercr' on input line 498.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\rightskip' on input line 477.
+(hyperref)                removing `\rightskip' on input line 498.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\@flushglue' on input line 477.
+(hyperref)                removing `\@flushglue' on input line 498.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\leftskip' on input line 477.
+(hyperref)                removing `\leftskip' on input line 498.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\@flushglue' on input line 477.
+(hyperref)                removing `\@flushglue' on input line 498.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\parindent' on input line 477.
+(hyperref)                removing `\parindent' on input line 498.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\z@' on input line 477.
+(hyperref)                removing `\z@' on input line 498.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\parfillskip' on input line 477.
+(hyperref)                removing `\parfillskip' on input line 498.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\z@skip' on input line 477.
+(hyperref)                removing `\z@skip' on input line 498.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\<let>-command' on input line 489.
+(hyperref)                removing `\<let>-command' on input line 510.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\\' on input line 489.
+(hyperref)                removing `\\' on input line 510.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\@centercr' on input line 489.
+(hyperref)                removing `\@centercr' on input line 510.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\rightskip' on input line 489.
+(hyperref)                removing `\rightskip' on input line 510.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\@flushglue' on input line 489.
+(hyperref)                removing `\@flushglue' on input line 510.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\leftskip' on input line 489.
+(hyperref)                removing `\leftskip' on input line 510.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\@flushglue' on input line 489.
+(hyperref)                removing `\@flushglue' on input line 510.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\parindent' on input line 489.
+(hyperref)                removing `\parindent' on input line 510.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\z@' on input line 489.
+(hyperref)                removing `\z@' on input line 510.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\parfillskip' on input line 489.
+(hyperref)                removing `\parfillskip' on input line 510.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\z@skip' on input line 489.
+(hyperref)                removing `\z@skip' on input line 510.
+
+<../0.imagenes/CAP_8/mercado_4_1.pdf, id=870, page=1, 614.295pt x 126.4725pt>
+File: ../0.imagenes/CAP_8/mercado_4_1.pdf Graphic file (type pdf)
+<use ../0.imagenes/CAP_8/mercado_4_1.pdf, page 1>
+Package pdftex.def Info: ../0.imagenes/CAP_8/mercado_4_1.pdf , page1 used on in
+put line 515.
+(pdftex.def)             Requested size: 500.484pt x 103.04233pt.
+<../0.imagenes/CAP_8/mercado_4_2.pdf, id=871, page=1, 614.295pt x 291.0875pt>
+File: ../0.imagenes/CAP_8/mercado_4_2.pdf Graphic file (type pdf)
+<use ../0.imagenes/CAP_8/mercado_4_2.pdf, page 1>
+Package pdftex.def Info: ../0.imagenes/CAP_8/mercado_4_2.pdf , page1 used on in
+put line 516.
+(pdftex.def)             Requested size: 500.484pt x 237.16092pt.
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\<let>-command' on input line 532.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\<let>-command' on input line 506.
+(hyperref)                removing `\\' on input line 532.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\\' on input line 506.
+(hyperref)                removing `\@centercr' on input line 532.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\@centercr' on input line 506.
+(hyperref)                removing `\rightskip' on input line 532.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\rightskip' on input line 506.
+(hyperref)                removing `\@flushglue' on input line 532.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\@flushglue' on input line 506.
+(hyperref)                removing `\leftskip' on input line 532.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\leftskip' on input line 506.
+(hyperref)                removing `\@flushglue' on input line 532.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\@flushglue' on input line 506.
+(hyperref)                removing `\parindent' on input line 532.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\parindent' on input line 506.
+(hyperref)                removing `\z@' on input line 532.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\z@' on input line 506.
+(hyperref)                removing `\parfillskip' on input line 532.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\parfillskip' on input line 506.
+(hyperref)                removing `\z@skip' on input line 532.
 
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\z@skip' on input line 506.
-
-<../0.documentos/3_MERGED_MARKET/4_COMPRESOR_AIRE_OIL_FREE/r/Rplots.pdf, id=792
+<../0.documentos/3_MERGED_MARKET/4_COMPRESOR_AIRE_OIL_FREE/r/Rplots.pdf, id=872
 , page=1, 505.89pt x 505.89pt>
 File: ../0.documentos/3_MERGED_MARKET/4_COMPRESOR_AIRE_OIL_FREE/r/Rplots.pdf Gr
 aphic file (type pdf)
 <use ../0.documentos/3_MERGED_MARKET/4_COMPRESOR_AIRE_OIL_FREE/r/Rplots.pdf, pa
 ge 1>
 Package pdftex.def Info: ../0.documentos/3_MERGED_MARKET/4_COMPRESOR_AIRE_OIL_F
-REE/r/Rplots.pdf , page1 used on input line 512.
+REE/r/Rplots.pdf , page1 used on input line 538.
 (pdftex.def)             Requested size: 250.24199pt x 250.24263pt.
 
-Overfull \hbox (187.5037pt too wide) in paragraph at lines 511--514
+Overfull \hbox (187.5037pt too wide) in paragraph at lines 537--540
 []|$[]$| 
  []
 
 File: ../0.imagenes/GENERAL/LOGOS/logo_cp2.pdf Graphic file (type pdf)
 <use ../0.imagenes/GENERAL/LOGOS/logo_cp2.pdf>
 Package pdftex.def Info: ../0.imagenes/GENERAL/LOGOS/logo_cp2.pdf  used on inpu
-t line 519.
+t line 548.
 (pdftex.def)             Requested size: 168.6645pt x 42.67912pt.
 File: ../0.imagenes/GENERAL/LOGOS/isotipo_valuami.pdf Graphic file (type pdf)
 <use ../0.imagenes/GENERAL/LOGOS/isotipo_valuami.pdf>
 Package pdftex.def Info: ../0.imagenes/GENERAL/LOGOS/isotipo_valuami.pdf  used 
-on input line 519.
+on input line 548.
 (pdftex.def)             Requested size: 69.33932pt x 42.67912pt.
 File: ../0.imagenes/GENERAL/LOGOS/qr.jpg Graphic file (type jpg)
 <use ../0.imagenes/GENERAL/LOGOS/qr.jpg>
 Package pdftex.def Info: ../0.imagenes/GENERAL/LOGOS/qr.jpg  used on input line
- 519.
+ 548.
 (pdftex.def)             Requested size: 42.67912pt x 41.95564pt.
-[26]
+[26 <../0.documentos/3_MERGED_MARKET/4_COMPRESOR_AIRE_OIL_FREE/r/Rplots.pdf>]
+File: ../0.imagenes/GENERAL/LOGOS/logo_cp2.pdf Graphic file (type pdf)
+<use ../0.imagenes/GENERAL/LOGOS/logo_cp2.pdf>
+Package pdftex.def Info: ../0.imagenes/GENERAL/LOGOS/logo_cp2.pdf  used on inpu
+t line 548.
+(pdftex.def)             Requested size: 168.6645pt x 42.67912pt.
+File: ../0.imagenes/GENERAL/LOGOS/isotipo_valuami.pdf Graphic file (type pdf)
+<use ../0.imagenes/GENERAL/LOGOS/isotipo_valuami.pdf>
+Package pdftex.def Info: ../0.imagenes/GENERAL/LOGOS/isotipo_valuami.pdf  used 
+on input line 548.
+(pdftex.def)             Requested size: 69.33932pt x 42.67912pt.
+File: ../0.imagenes/GENERAL/LOGOS/qr.jpg Graphic file (type jpg)
+<use ../0.imagenes/GENERAL/LOGOS/qr.jpg>
+Package pdftex.def Info: ../0.imagenes/GENERAL/LOGOS/qr.jpg  used on input line
+ 548.
+(pdftex.def)             Requested size: 42.67912pt x 41.95564pt.
+
+[27 <../0.imagenes/CAP_8/mercado_4_1.pdf> <../0.imagenes/CAP_8/mercado_4_2.pdf>
+]
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\<let>-command' on input line 522.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\\' on input line 522.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\@centercr' on input line 522.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\rightskip' on input line 522.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\@flushglue' on input line 522.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\leftskip' on input line 522.
+(hyperref)                removing `\<let>-command' on input line 548.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\@flushglue' on input line 522.
+(hyperref)                removing `\\' on input line 548.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\parindent' on input line 522.
+(hyperref)                removing `\@centercr' on input line 548.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\z@' on input line 522.
+(hyperref)                removing `\rightskip' on input line 548.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\parfillskip' on input line 522.
+(hyperref)                removing `\@flushglue' on input line 548.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\z@skip' on input line 522.
+(hyperref)                removing `\leftskip' on input line 548.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\@flushglue' on input line 548.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\parindent' on input line 548.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\z@' on input line 548.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\parfillskip' on input line 548.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\z@skip' on input line 548.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\<let>-command' on input line 606.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\\' on input line 606.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\@centercr' on input line 606.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\rightskip' on input line 606.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\@flushglue' on input line 606.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\leftskip' on input line 606.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\@flushglue' on input line 606.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\parindent' on input line 606.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\z@' on input line 606.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\parfillskip' on input line 606.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\z@skip' on input line 606.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\<let>-command' on input line 614.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\\' on input line 614.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\@centercr' on input line 614.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\rightskip' on input line 614.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\@flushglue' on input line 614.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\leftskip' on input line 614.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\@flushglue' on input line 614.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\parindent' on input line 614.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\z@' on input line 614.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\parfillskip' on input line 614.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\z@skip' on input line 614.
 
 File: ../0.imagenes/GENERAL/LOGOS/logo_cp2.pdf Graphic file (type pdf)
 <use ../0.imagenes/GENERAL/LOGOS/logo_cp2.pdf>
 Package pdftex.def Info: ../0.imagenes/GENERAL/LOGOS/logo_cp2.pdf  used on inpu
-t line 558.
+t line 623.
 (pdftex.def)             Requested size: 168.6645pt x 42.67912pt.
 File: ../0.imagenes/GENERAL/LOGOS/isotipo_valuami.pdf Graphic file (type pdf)
 <use ../0.imagenes/GENERAL/LOGOS/isotipo_valuami.pdf>
 Package pdftex.def Info: ../0.imagenes/GENERAL/LOGOS/isotipo_valuami.pdf  used 
-on input line 558.
+on input line 623.
 (pdftex.def)             Requested size: 69.33932pt x 42.67912pt.
 File: ../0.imagenes/GENERAL/LOGOS/qr.jpg Graphic file (type jpg)
 <use ../0.imagenes/GENERAL/LOGOS/qr.jpg>
 Package pdftex.def Info: ../0.imagenes/GENERAL/LOGOS/qr.jpg  used on input line
- 558.
-(pdftex.def)             Requested size: 42.67912pt x 41.95564pt.
-[27 <../0.documentos/3_MERGED_MARKET/4_COMPRESOR_AIRE_OIL_FREE/r/Rplots.pdf>]
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\<let>-command' on input line 580.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\\' on input line 580.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\@centercr' on input line 580.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\rightskip' on input line 580.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\@flushglue' on input line 580.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\leftskip' on input line 580.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\@flushglue' on input line 580.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\parindent' on input line 580.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\z@' on input line 580.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\parfillskip' on input line 580.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\z@skip' on input line 580.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\<let>-command' on input line 588.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\\' on input line 588.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\@centercr' on input line 588.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\rightskip' on input line 588.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\@flushglue' on input line 588.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\leftskip' on input line 588.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\@flushglue' on input line 588.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\parindent' on input line 588.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\z@' on input line 588.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\parfillskip' on input line 588.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\z@skip' on input line 588.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\<let>-command' on input line 600.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\\' on input line 600.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\@centercr' on input line 600.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\rightskip' on input line 600.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\@flushglue' on input line 600.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\leftskip' on input line 600.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\@flushglue' on input line 600.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\parindent' on input line 600.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\z@' on input line 600.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\parfillskip' on input line 600.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\z@skip' on input line 600.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\<let>-command' on input line 618.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\\' on input line 618.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\@centercr' on input line 618.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\rightskip' on input line 618.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\@flushglue' on input line 618.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\leftskip' on input line 618.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\@flushglue' on input line 618.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\parindent' on input line 618.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\z@' on input line 618.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\parfillskip' on input line 618.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\z@skip' on input line 618.
-
-File: ../0.imagenes/GENERAL/LOGOS/logo_cp2.pdf Graphic file (type pdf)
-<use ../0.imagenes/GENERAL/LOGOS/logo_cp2.pdf>
-Package pdftex.def Info: ../0.imagenes/GENERAL/LOGOS/logo_cp2.pdf  used on inpu
-t line 620.
-(pdftex.def)             Requested size: 168.6645pt x 42.67912pt.
-File: ../0.imagenes/GENERAL/LOGOS/isotipo_valuami.pdf Graphic file (type pdf)
-<use ../0.imagenes/GENERAL/LOGOS/isotipo_valuami.pdf>
-Package pdftex.def Info: ../0.imagenes/GENERAL/LOGOS/isotipo_valuami.pdf  used 
-on input line 620.
-(pdftex.def)             Requested size: 69.33932pt x 42.67912pt.
-File: ../0.imagenes/GENERAL/LOGOS/qr.jpg Graphic file (type jpg)
-<use ../0.imagenes/GENERAL/LOGOS/qr.jpg>
-Package pdftex.def Info: ../0.imagenes/GENERAL/LOGOS/qr.jpg  used on input line
- 620.
+ 623.
 (pdftex.def)             Requested size: 42.67912pt x 41.95564pt.
 [28]
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\<let>-command' on input line 636.
+(hyperref)                removing `\<let>-command' on input line 626.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\\' on input line 636.
+(hyperref)                removing `\\' on input line 626.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\@centercr' on input line 636.
+(hyperref)                removing `\@centercr' on input line 626.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\rightskip' on input line 636.
+(hyperref)                removing `\rightskip' on input line 626.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\@flushglue' on input line 636.
+(hyperref)                removing `\@flushglue' on input line 626.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\leftskip' on input line 636.
+(hyperref)                removing `\leftskip' on input line 626.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\@flushglue' on input line 636.
+(hyperref)                removing `\@flushglue' on input line 626.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\parindent' on input line 636.
+(hyperref)                removing `\parindent' on input line 626.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\z@' on input line 636.
+(hyperref)                removing `\z@' on input line 626.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\parfillskip' on input line 636.
+(hyperref)                removing `\parfillskip' on input line 626.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\z@skip' on input line 636.
+(hyperref)                removing `\z@skip' on input line 626.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\<let>-command' on input line 648.
+(hyperref)                removing `\<let>-command' on input line 644.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\\' on input line 648.
+(hyperref)                removing `\\' on input line 644.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\@centercr' on input line 648.
+(hyperref)                removing `\@centercr' on input line 644.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\rightskip' on input line 648.
+(hyperref)                removing `\rightskip' on input line 644.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\@flushglue' on input line 648.
+(hyperref)                removing `\@flushglue' on input line 644.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\leftskip' on input line 648.
+(hyperref)                removing `\leftskip' on input line 644.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\@flushglue' on input line 648.
+(hyperref)                removing `\@flushglue' on input line 644.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\parindent' on input line 648.
+(hyperref)                removing `\parindent' on input line 644.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\z@' on input line 648.
+(hyperref)                removing `\z@' on input line 644.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\parfillskip' on input line 648.
+(hyperref)                removing `\parfillskip' on input line 644.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\z@skip' on input line 648.
+(hyperref)                removing `\z@skip' on input line 644.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\<let>-command' on input line 667.
+(hyperref)                removing `\<let>-command' on input line 664.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\\' on input line 667.
+(hyperref)                removing `\\' on input line 664.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\@centercr' on input line 667.
+(hyperref)                removing `\@centercr' on input line 664.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\rightskip' on input line 667.
+(hyperref)                removing `\rightskip' on input line 664.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\@flushglue' on input line 667.
+(hyperref)                removing `\@flushglue' on input line 664.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\leftskip' on input line 667.
+(hyperref)                removing `\leftskip' on input line 664.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\@flushglue' on input line 667.
+(hyperref)                removing `\@flushglue' on input line 664.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\parindent' on input line 667.
+(hyperref)                removing `\parindent' on input line 664.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\z@' on input line 667.
+(hyperref)                removing `\z@' on input line 664.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\parfillskip' on input line 667.
+(hyperref)                removing `\parfillskip' on input line 664.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\z@skip' on input line 667.
+(hyperref)                removing `\z@skip' on input line 664.
 
-<../0.documentos/3_MERGED_MARKET/5_SECADOR_AIRE/r/Rplots.pdf, id=816, page=1, 5
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\<let>-command' on input line 676.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\\' on input line 676.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\@centercr' on input line 676.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\rightskip' on input line 676.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\@flushglue' on input line 676.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\leftskip' on input line 676.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\@flushglue' on input line 676.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\parindent' on input line 676.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\z@' on input line 676.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\parfillskip' on input line 676.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\z@skip' on input line 676.
+
+<../0.imagenes/CAP_8/mercado_5_1.pdf, id=923, page=1, 614.295pt x 82.3075pt>
+File: ../0.imagenes/CAP_8/mercado_5_1.pdf Graphic file (type pdf)
+<use ../0.imagenes/CAP_8/mercado_5_1.pdf, page 1>
+Package pdftex.def Info: ../0.imagenes/CAP_8/mercado_5_1.pdf , page1 used on in
+put line 681.
+(pdftex.def)             Requested size: 500.484pt x 67.05928pt.
+<../0.imagenes/CAP_8/mercado_5_2.pdf, id=924, page=1, 614.295pt x 361.35pt>
+File: ../0.imagenes/CAP_8/mercado_5_2.pdf Graphic file (type pdf)
+<use ../0.imagenes/CAP_8/mercado_5_2.pdf, page 1>
+Package pdftex.def Info: ../0.imagenes/CAP_8/mercado_5_2.pdf , page1 used on in
+put line 682.
+(pdftex.def)             Requested size: 500.484pt x 294.40668pt.
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\<let>-command' on input line 700.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\\' on input line 700.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\@centercr' on input line 700.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\rightskip' on input line 700.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\@flushglue' on input line 700.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\leftskip' on input line 700.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\@flushglue' on input line 700.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\parindent' on input line 700.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\z@' on input line 700.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\parfillskip' on input line 700.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\z@skip' on input line 700.
+
+<../0.documentos/3_MERGED_MARKET/5_SECADOR_AIRE/r/Rplots.pdf, id=925, page=1, 5
 05.89pt x 505.89pt>
 File: ../0.documentos/3_MERGED_MARKET/5_SECADOR_AIRE/r/Rplots.pdf Graphic file 
 (type pdf)
 <use ../0.documentos/3_MERGED_MARKET/5_SECADOR_AIRE/r/Rplots.pdf, page 1>
 Package pdftex.def Info: ../0.documentos/3_MERGED_MARKET/5_SECADOR_AIRE/r/Rplot
-s.pdf , page1 used on input line 673.
+s.pdf , page1 used on input line 706.
 (pdftex.def)             Requested size: 250.24199pt x 250.24263pt.
 
-Overfull \hbox (187.5037pt too wide) in paragraph at lines 672--675
+Overfull \hbox (187.5037pt too wide) in paragraph at lines 705--708
 []|$[]$| 
  []
 
 File: ../0.imagenes/GENERAL/LOGOS/logo_cp2.pdf Graphic file (type pdf)
 <use ../0.imagenes/GENERAL/LOGOS/logo_cp2.pdf>
 Package pdftex.def Info: ../0.imagenes/GENERAL/LOGOS/logo_cp2.pdf  used on inpu
-t line 680.
+t line 713.
 (pdftex.def)             Requested size: 168.6645pt x 42.67912pt.
 File: ../0.imagenes/GENERAL/LOGOS/isotipo_valuami.pdf Graphic file (type pdf)
 <use ../0.imagenes/GENERAL/LOGOS/isotipo_valuami.pdf>
 Package pdftex.def Info: ../0.imagenes/GENERAL/LOGOS/isotipo_valuami.pdf  used 
-on input line 680.
+on input line 713.
 (pdftex.def)             Requested size: 69.33932pt x 42.67912pt.
 File: ../0.imagenes/GENERAL/LOGOS/qr.jpg Graphic file (type jpg)
 <use ../0.imagenes/GENERAL/LOGOS/qr.jpg>
 Package pdftex.def Info: ../0.imagenes/GENERAL/LOGOS/qr.jpg  used on input line
- 680.
+ 713.
 (pdftex.def)             Requested size: 42.67912pt x 41.95564pt.
 [29]
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\<let>-command' on input line 683.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\\' on input line 683.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\@centercr' on input line 683.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\rightskip' on input line 683.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\@flushglue' on input line 683.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\leftskip' on input line 683.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\@flushglue' on input line 683.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\parindent' on input line 683.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\z@' on input line 683.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\parfillskip' on input line 683.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\z@skip' on input line 683.
-
 File: ../0.imagenes/GENERAL/LOGOS/logo_cp2.pdf Graphic file (type pdf)
 <use ../0.imagenes/GENERAL/LOGOS/logo_cp2.pdf>
 Package pdftex.def Info: ../0.imagenes/GENERAL/LOGOS/logo_cp2.pdf  used on inpu
-t line 719.
+t line 713.
 (pdftex.def)             Requested size: 168.6645pt x 42.67912pt.
 File: ../0.imagenes/GENERAL/LOGOS/isotipo_valuami.pdf Graphic file (type pdf)
 <use ../0.imagenes/GENERAL/LOGOS/isotipo_valuami.pdf>
 Package pdftex.def Info: ../0.imagenes/GENERAL/LOGOS/isotipo_valuami.pdf  used 
-on input line 719.
+on input line 713.
 (pdftex.def)             Requested size: 69.33932pt x 42.67912pt.
 File: ../0.imagenes/GENERAL/LOGOS/qr.jpg Graphic file (type jpg)
 <use ../0.imagenes/GENERAL/LOGOS/qr.jpg>
 Package pdftex.def Info: ../0.imagenes/GENERAL/LOGOS/qr.jpg  used on input line
- 719.
+ 713.
 (pdftex.def)             Requested size: 42.67912pt x 41.95564pt.
-[30 <../0.documentos/3_MERGED_MARKET/5_SECADOR_AIRE/r/Rplots.pdf>]
+ [30 <../0.imagenes/CAP_8/mercado_5_1.pdf> <../0.imagenes/CAP_8/mercado_5_2.pdf
+>]
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\<let>-command' on input line 741.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\\' on input line 741.
+(hyperref)                removing `\<let>-command' on input line 716.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\@centercr' on input line 741.
+(hyperref)                removing `\\' on input line 716.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\rightskip' on input line 741.
+(hyperref)                removing `\@centercr' on input line 716.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\@flushglue' on input line 741.
+(hyperref)                removing `\rightskip' on input line 716.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\leftskip' on input line 741.
+(hyperref)                removing `\@flushglue' on input line 716.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\@flushglue' on input line 741.
+(hyperref)                removing `\leftskip' on input line 716.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\parindent' on input line 741.
+(hyperref)                removing `\@flushglue' on input line 716.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\z@' on input line 741.
+(hyperref)                removing `\parindent' on input line 716.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\parfillskip' on input line 741.
+(hyperref)                removing `\z@' on input line 716.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\z@skip' on input line 741.
+(hyperref)                removing `\parfillskip' on input line 716.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\<let>-command' on input line 749.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\\' on input line 749.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\@centercr' on input line 749.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\rightskip' on input line 749.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\@flushglue' on input line 749.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\leftskip' on input line 749.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\@flushglue' on input line 749.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\parindent' on input line 749.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\z@' on input line 749.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\parfillskip' on input line 749.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\z@skip' on input line 749.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\<let>-command' on input line 761.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\\' on input line 761.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\@centercr' on input line 761.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\rightskip' on input line 761.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\@flushglue' on input line 761.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\leftskip' on input line 761.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\@flushglue' on input line 761.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\parindent' on input line 761.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\z@' on input line 761.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\parfillskip' on input line 761.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\z@skip' on input line 761.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\<let>-command' on input line 779.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\\' on input line 779.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\@centercr' on input line 779.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\rightskip' on input line 779.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\@flushglue' on input line 779.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\leftskip' on input line 779.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\@flushglue' on input line 779.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\parindent' on input line 779.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\z@' on input line 779.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\parfillskip' on input line 779.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\z@skip' on input line 779.
+(hyperref)                removing `\z@skip' on input line 716.
 
 File: ../0.imagenes/GENERAL/LOGOS/logo_cp2.pdf Graphic file (type pdf)
 <use ../0.imagenes/GENERAL/LOGOS/logo_cp2.pdf>
 Package pdftex.def Info: ../0.imagenes/GENERAL/LOGOS/logo_cp2.pdf  used on inpu
-t line 781.
+t line 752.
 (pdftex.def)             Requested size: 168.6645pt x 42.67912pt.
 File: ../0.imagenes/GENERAL/LOGOS/isotipo_valuami.pdf Graphic file (type pdf)
 <use ../0.imagenes/GENERAL/LOGOS/isotipo_valuami.pdf>
 Package pdftex.def Info: ../0.imagenes/GENERAL/LOGOS/isotipo_valuami.pdf  used 
-on input line 781.
+on input line 752.
 (pdftex.def)             Requested size: 69.33932pt x 42.67912pt.
 File: ../0.imagenes/GENERAL/LOGOS/qr.jpg Graphic file (type jpg)
 <use ../0.imagenes/GENERAL/LOGOS/qr.jpg>
 Package pdftex.def Info: ../0.imagenes/GENERAL/LOGOS/qr.jpg  used on input line
- 781.
+ 752.
 (pdftex.def)             Requested size: 42.67912pt x 41.95564pt.
-[31]
+[31 <../0.documentos/3_MERGED_MARKET/5_SECADOR_AIRE/r/Rplots.pdf>]
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\<let>-command' on input line 796.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\\' on input line 796.
+(hyperref)                removing `\<let>-command' on input line 774.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\@centercr' on input line 796.
+(hyperref)                removing `\\' on input line 774.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\rightskip' on input line 796.
+(hyperref)                removing `\@centercr' on input line 774.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\@flushglue' on input line 796.
+(hyperref)                removing `\rightskip' on input line 774.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\leftskip' on input line 796.
+(hyperref)                removing `\@flushglue' on input line 774.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\@flushglue' on input line 796.
+(hyperref)                removing `\leftskip' on input line 774.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\parindent' on input line 796.
+(hyperref)                removing `\@flushglue' on input line 774.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\z@' on input line 796.
+(hyperref)                removing `\parindent' on input line 774.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\parfillskip' on input line 796.
+(hyperref)                removing `\z@' on input line 774.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\z@skip' on input line 796.
+(hyperref)                removing `\parfillskip' on input line 774.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\<let>-command' on input line 808.
+(hyperref)                removing `\z@skip' on input line 774.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\\' on input line 808.
+(hyperref)                removing `\<let>-command' on input line 782.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\@centercr' on input line 808.
+(hyperref)                removing `\\' on input line 782.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\rightskip' on input line 808.
+(hyperref)                removing `\@centercr' on input line 782.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\@flushglue' on input line 808.
+(hyperref)                removing `\rightskip' on input line 782.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\leftskip' on input line 808.
+(hyperref)                removing `\@flushglue' on input line 782.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\@flushglue' on input line 808.
+(hyperref)                removing `\leftskip' on input line 782.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\parindent' on input line 808.
+(hyperref)                removing `\@flushglue' on input line 782.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\z@' on input line 808.
+(hyperref)                removing `\parindent' on input line 782.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\parfillskip' on input line 808.
+(hyperref)                removing `\z@' on input line 782.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\z@skip' on input line 808.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 816--816
-[]|\OT1/cmr/m/n/10 Ingresoll
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 817--817
-[]|\OT1/cmr/m/n/10 Ingresoll
- []
+(hyperref)                removing `\parfillskip' on input line 782.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\<let>-command' on input line 823.
+(hyperref)                removing `\z@skip' on input line 782.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\\' on input line 823.
+(hyperref)                removing `\<let>-command' on input line 794.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\@centercr' on input line 823.
+(hyperref)                removing `\\' on input line 794.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\rightskip' on input line 823.
+(hyperref)                removing `\@centercr' on input line 794.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\@flushglue' on input line 823.
+(hyperref)                removing `\rightskip' on input line 794.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\leftskip' on input line 823.
+(hyperref)                removing `\@flushglue' on input line 794.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\@flushglue' on input line 823.
+(hyperref)                removing `\leftskip' on input line 794.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\parindent' on input line 823.
+(hyperref)                removing `\@flushglue' on input line 794.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\z@' on input line 823.
+(hyperref)                removing `\parindent' on input line 794.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\parfillskip' on input line 823.
+(hyperref)                removing `\z@' on input line 794.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\z@skip' on input line 823.
+(hyperref)                removing `\parfillskip' on input line 794.
 
-<../0.documentos/3_MERGED_MARKET/6_COMPRESOR_TIPO_TORNILLO/r/Rplots.pdf, id=842
-, page=1, 505.89pt x 505.89pt>
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\z@skip' on input line 794.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\<let>-command' on input line 812.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\\' on input line 812.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\@centercr' on input line 812.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\rightskip' on input line 812.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\@flushglue' on input line 812.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\leftskip' on input line 812.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\@flushglue' on input line 812.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\parindent' on input line 812.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\z@' on input line 812.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\parfillskip' on input line 812.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\z@skip' on input line 812.
+
+File: ../0.imagenes/GENERAL/LOGOS/logo_cp2.pdf Graphic file (type pdf)
+<use ../0.imagenes/GENERAL/LOGOS/logo_cp2.pdf>
+Package pdftex.def Info: ../0.imagenes/GENERAL/LOGOS/logo_cp2.pdf  used on inpu
+t line 814.
+(pdftex.def)             Requested size: 168.6645pt x 42.67912pt.
+File: ../0.imagenes/GENERAL/LOGOS/isotipo_valuami.pdf Graphic file (type pdf)
+<use ../0.imagenes/GENERAL/LOGOS/isotipo_valuami.pdf>
+Package pdftex.def Info: ../0.imagenes/GENERAL/LOGOS/isotipo_valuami.pdf  used 
+on input line 814.
+(pdftex.def)             Requested size: 69.33932pt x 42.67912pt.
+File: ../0.imagenes/GENERAL/LOGOS/qr.jpg Graphic file (type jpg)
+<use ../0.imagenes/GENERAL/LOGOS/qr.jpg>
+Package pdftex.def Info: ../0.imagenes/GENERAL/LOGOS/qr.jpg  used on input line
+ 814.
+(pdftex.def)             Requested size: 42.67912pt x 41.95564pt.
+[32]
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\<let>-command' on input line 832.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\\' on input line 832.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\@centercr' on input line 832.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\rightskip' on input line 832.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\@flushglue' on input line 832.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\leftskip' on input line 832.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\@flushglue' on input line 832.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\parindent' on input line 832.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\z@' on input line 832.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\parfillskip' on input line 832.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\z@skip' on input line 832.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\<let>-command' on input line 844.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\\' on input line 844.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\@centercr' on input line 844.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\rightskip' on input line 844.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\@flushglue' on input line 844.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\leftskip' on input line 844.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\@flushglue' on input line 844.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\parindent' on input line 844.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\z@' on input line 844.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\parfillskip' on input line 844.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\z@skip' on input line 844.
+
+<../0.imagenes/CAP_8/mercado_6_1.pdf, id=983, page=1, 614.295pt x 150.5625pt>
+File: ../0.imagenes/CAP_8/mercado_6_1.pdf Graphic file (type pdf)
+<use ../0.imagenes/CAP_8/mercado_6_1.pdf, page 1>
+Package pdftex.def Info: ../0.imagenes/CAP_8/mercado_6_1.pdf , page1 used on in
+put line 849.
+(pdftex.def)             Requested size: 500.484pt x 122.66943pt.
+<../0.imagenes/CAP_8/mercado_6_2.pdf, id=984, page=1, 614.295pt x 196.735pt>
+File: ../0.imagenes/CAP_8/mercado_6_2.pdf Graphic file (type pdf)
+<use ../0.imagenes/CAP_8/mercado_6_2.pdf, page 1>
+Package pdftex.def Info: ../0.imagenes/CAP_8/mercado_6_2.pdf , page1 used on in
+put line 850.
+(pdftex.def)             Requested size: 500.484pt x 160.28806pt.
+File: ../0.imagenes/GENERAL/LOGOS/logo_cp2.pdf Graphic file (type pdf)
+<use ../0.imagenes/GENERAL/LOGOS/logo_cp2.pdf>
+Package pdftex.def Info: ../0.imagenes/GENERAL/LOGOS/logo_cp2.pdf  used on inpu
+t line 864.
+(pdftex.def)             Requested size: 168.6645pt x 42.67912pt.
+File: ../0.imagenes/GENERAL/LOGOS/isotipo_valuami.pdf Graphic file (type pdf)
+<use ../0.imagenes/GENERAL/LOGOS/isotipo_valuami.pdf>
+Package pdftex.def Info: ../0.imagenes/GENERAL/LOGOS/isotipo_valuami.pdf  used 
+on input line 864.
+(pdftex.def)             Requested size: 69.33932pt x 42.67912pt.
+File: ../0.imagenes/GENERAL/LOGOS/qr.jpg Graphic file (type jpg)
+<use ../0.imagenes/GENERAL/LOGOS/qr.jpg>
+Package pdftex.def Info: ../0.imagenes/GENERAL/LOGOS/qr.jpg  used on input line
+ 864.
+(pdftex.def)             Requested size: 42.67912pt x 41.95564pt.
+[33 <../0.imagenes/CAP_8/mercado_6_1.pdf> <../0.imagenes/CAP_8/mercado_6_2.pdf>
+]
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\<let>-command' on input line 864.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\\' on input line 864.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\@centercr' on input line 864.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\rightskip' on input line 864.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\@flushglue' on input line 864.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\leftskip' on input line 864.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\@flushglue' on input line 864.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\parindent' on input line 864.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\z@' on input line 864.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\parfillskip' on input line 864.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\z@skip' on input line 864.
+
+<../0.documentos/3_MERGED_MARKET/6_COMPRESOR_TIPO_TORNILLO/r/Rplots.pdf, id=101
+4, page=1, 505.89pt x 505.89pt>
 File: ../0.documentos/3_MERGED_MARKET/6_COMPRESOR_TIPO_TORNILLO/r/Rplots.pdf Gr
 aphic file (type pdf)
 <use ../0.documentos/3_MERGED_MARKET/6_COMPRESOR_TIPO_TORNILLO/r/Rplots.pdf, pa
 ge 1>
 Package pdftex.def Info: ../0.documentos/3_MERGED_MARKET/6_COMPRESOR_TIPO_TORNI
-LLO/r/Rplots.pdf , page1 used on input line 829.
+LLO/r/Rplots.pdf , page1 used on input line 870.
 (pdftex.def)             Requested size: 250.24199pt x 250.24263pt.
 
-Overfull \hbox (187.5037pt too wide) in paragraph at lines 828--831
+Overfull \hbox (187.5037pt too wide) in paragraph at lines 869--872
 []|$[]$| 
  []
 
-File: ../0.imagenes/GENERAL/LOGOS/logo_cp2.pdf Graphic file (type pdf)
-<use ../0.imagenes/GENERAL/LOGOS/logo_cp2.pdf>
-Package pdftex.def Info: ../0.imagenes/GENERAL/LOGOS/logo_cp2.pdf  used on inpu
-t line 836.
-(pdftex.def)             Requested size: 168.6645pt x 42.67912pt.
-File: ../0.imagenes/GENERAL/LOGOS/isotipo_valuami.pdf Graphic file (type pdf)
-<use ../0.imagenes/GENERAL/LOGOS/isotipo_valuami.pdf>
-Package pdftex.def Info: ../0.imagenes/GENERAL/LOGOS/isotipo_valuami.pdf  used 
-on input line 836.
-(pdftex.def)             Requested size: 69.33932pt x 42.67912pt.
-File: ../0.imagenes/GENERAL/LOGOS/qr.jpg Graphic file (type jpg)
-<use ../0.imagenes/GENERAL/LOGOS/qr.jpg>
-Package pdftex.def Info: ../0.imagenes/GENERAL/LOGOS/qr.jpg  used on input line
- 836.
-(pdftex.def)             Requested size: 42.67912pt x 41.95564pt.
-[32]
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\<let>-command' on input line 839.
+(hyperref)                removing `\<let>-command' on input line 880.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\\' on input line 839.
+(hyperref)                removing `\\' on input line 880.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\@centercr' on input line 839.
+(hyperref)                removing `\@centercr' on input line 880.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\rightskip' on input line 839.
+(hyperref)                removing `\rightskip' on input line 880.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\@flushglue' on input line 839.
+(hyperref)                removing `\@flushglue' on input line 880.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\leftskip' on input line 839.
+(hyperref)                removing `\leftskip' on input line 880.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\@flushglue' on input line 839.
+(hyperref)                removing `\@flushglue' on input line 880.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\parindent' on input line 839.
+(hyperref)                removing `\parindent' on input line 880.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\z@' on input line 839.
+(hyperref)                removing `\z@' on input line 880.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\parfillskip' on input line 839.
+(hyperref)                removing `\parfillskip' on input line 880.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\z@skip' on input line 839.
+(hyperref)                removing `\z@skip' on input line 880.
 
 File: ../0.imagenes/GENERAL/LOGOS/logo_cp2.pdf Graphic file (type pdf)
 <use ../0.imagenes/GENERAL/LOGOS/logo_cp2.pdf>
 Package pdftex.def Info: ../0.imagenes/GENERAL/LOGOS/logo_cp2.pdf  used on inpu
-t line 875.
+t line 916.
 (pdftex.def)             Requested size: 168.6645pt x 42.67912pt.
 File: ../0.imagenes/GENERAL/LOGOS/isotipo_valuami.pdf Graphic file (type pdf)
 <use ../0.imagenes/GENERAL/LOGOS/isotipo_valuami.pdf>
 Package pdftex.def Info: ../0.imagenes/GENERAL/LOGOS/isotipo_valuami.pdf  used 
-on input line 875.
+on input line 916.
 (pdftex.def)             Requested size: 69.33932pt x 42.67912pt.
 File: ../0.imagenes/GENERAL/LOGOS/qr.jpg Graphic file (type jpg)
 <use ../0.imagenes/GENERAL/LOGOS/qr.jpg>
 Package pdftex.def Info: ../0.imagenes/GENERAL/LOGOS/qr.jpg  used on input line
- 875.
+ 916.
 (pdftex.def)             Requested size: 42.67912pt x 41.95564pt.
-[33 <../0.documentos/3_MERGED_MARKET/6_COMPRESOR_TIPO_TORNILLO/r/Rplots.pdf>]
+[34 <../0.documentos/3_MERGED_MARKET/6_COMPRESOR_TIPO_TORNILLO/r/Rplots.pdf>]
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\<let>-command' on input line 897.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\\' on input line 897.
+(hyperref)                removing `\<let>-command' on input line 938.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\@centercr' on input line 897.
+(hyperref)                removing `\\' on input line 938.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\rightskip' on input line 897.
+(hyperref)                removing `\@centercr' on input line 938.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\@flushglue' on input line 897.
+(hyperref)                removing `\rightskip' on input line 938.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\leftskip' on input line 897.
+(hyperref)                removing `\@flushglue' on input line 938.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\@flushglue' on input line 897.
+(hyperref)                removing `\leftskip' on input line 938.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\parindent' on input line 897.
+(hyperref)                removing `\@flushglue' on input line 938.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\z@' on input line 897.
+(hyperref)                removing `\parindent' on input line 938.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\parfillskip' on input line 897.
+(hyperref)                removing `\z@' on input line 938.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\z@skip' on input line 897.
+(hyperref)                removing `\parfillskip' on input line 938.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\<let>-command' on input line 905.
+(hyperref)                removing `\z@skip' on input line 938.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\\' on input line 905.
+(hyperref)                removing `\<let>-command' on input line 946.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\@centercr' on input line 905.
+(hyperref)                removing `\\' on input line 946.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\rightskip' on input line 905.
+(hyperref)                removing `\@centercr' on input line 946.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\@flushglue' on input line 905.
+(hyperref)                removing `\rightskip' on input line 946.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\leftskip' on input line 905.
+(hyperref)                removing `\@flushglue' on input line 946.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\@flushglue' on input line 905.
+(hyperref)                removing `\leftskip' on input line 946.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\parindent' on input line 905.
+(hyperref)                removing `\@flushglue' on input line 946.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\z@' on input line 905.
+(hyperref)                removing `\parindent' on input line 946.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\parfillskip' on input line 905.
+(hyperref)                removing `\z@' on input line 946.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\z@skip' on input line 905.
+(hyperref)                removing `\parfillskip' on input line 946.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\<let>-command' on input line 917.
+(hyperref)                removing `\z@skip' on input line 946.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\\' on input line 917.
+(hyperref)                removing `\<let>-command' on input line 958.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\@centercr' on input line 917.
+(hyperref)                removing `\\' on input line 958.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\rightskip' on input line 917.
+(hyperref)                removing `\@centercr' on input line 958.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\@flushglue' on input line 917.
+(hyperref)                removing `\rightskip' on input line 958.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\leftskip' on input line 917.
+(hyperref)                removing `\@flushglue' on input line 958.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\@flushglue' on input line 917.
+(hyperref)                removing `\leftskip' on input line 958.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\parindent' on input line 917.
+(hyperref)                removing `\@flushglue' on input line 958.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\z@' on input line 917.
+(hyperref)                removing `\parindent' on input line 958.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\parfillskip' on input line 917.
+(hyperref)                removing `\z@' on input line 958.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\z@skip' on input line 917.
+(hyperref)                removing `\parfillskip' on input line 958.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\<let>-command' on input line 935.
+(hyperref)                removing `\z@skip' on input line 958.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\\' on input line 935.
+(hyperref)                removing `\<let>-command' on input line 976.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\@centercr' on input line 935.
+(hyperref)                removing `\\' on input line 976.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\rightskip' on input line 935.
+(hyperref)                removing `\@centercr' on input line 976.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\@flushglue' on input line 935.
+(hyperref)                removing `\rightskip' on input line 976.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\leftskip' on input line 935.
+(hyperref)                removing `\@flushglue' on input line 976.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\@flushglue' on input line 935.
+(hyperref)                removing `\leftskip' on input line 976.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\parindent' on input line 935.
+(hyperref)                removing `\@flushglue' on input line 976.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\z@' on input line 935.
+(hyperref)                removing `\parindent' on input line 976.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\parfillskip' on input line 935.
+(hyperref)                removing `\z@' on input line 976.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\z@skip' on input line 935.
+(hyperref)                removing `\parfillskip' on input line 976.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\z@skip' on input line 976.
 
 File: ../0.imagenes/GENERAL/LOGOS/logo_cp2.pdf Graphic file (type pdf)
 <use ../0.imagenes/GENERAL/LOGOS/logo_cp2.pdf>
 Package pdftex.def Info: ../0.imagenes/GENERAL/LOGOS/logo_cp2.pdf  used on inpu
-t line 937.
+t line 978.
 (pdftex.def)             Requested size: 168.6645pt x 42.67912pt.
 File: ../0.imagenes/GENERAL/LOGOS/isotipo_valuami.pdf Graphic file (type pdf)
 <use ../0.imagenes/GENERAL/LOGOS/isotipo_valuami.pdf>
 Package pdftex.def Info: ../0.imagenes/GENERAL/LOGOS/isotipo_valuami.pdf  used 
-on input line 937.
+on input line 978.
 (pdftex.def)             Requested size: 69.33932pt x 42.67912pt.
 File: ../0.imagenes/GENERAL/LOGOS/qr.jpg Graphic file (type jpg)
 <use ../0.imagenes/GENERAL/LOGOS/qr.jpg>
 Package pdftex.def Info: ../0.imagenes/GENERAL/LOGOS/qr.jpg  used on input line
- 937.
+ 978.
 (pdftex.def)             Requested size: 42.67912pt x 41.95564pt.
-[34]) (../capitulo_09/0.consideraciones_previas_a_conclusion.tex
+[35]) (../capitulo_09/0.consideraciones_previas_a_conclusion.tex
 File: ../0.imagenes/GENERAL/LOGOS/logo_cp2.pdf Graphic file (type pdf)
 <use ../0.imagenes/GENERAL/LOGOS/logo_cp2.pdf>
 Package pdftex.def Info: ../0.imagenes/GENERAL/LOGOS/logo_cp2.pdf  used on inpu
@@ -4509,7 +4593,7 @@ File: ../0.imagenes/GENERAL/LOGOS/qr.jpg Graphic file (type jpg)
 Package pdftex.def Info: ../0.imagenes/GENERAL/LOGOS/qr.jpg  used on input line
  2.
 (pdftex.def)             Requested size: 42.67912pt x 41.95564pt.
- [35]
+ [36]
 Cap\'itulo IX.
 ) (../capitulo_10/0.conclusion.tex
 File: ../0.imagenes/GENERAL/LOGOS/logo_cp2.pdf Graphic file (type pdf)
@@ -4527,7 +4611,7 @@ File: ../0.imagenes/GENERAL/LOGOS/qr.jpg Graphic file (type jpg)
 Package pdftex.def Info: ../0.imagenes/GENERAL/LOGOS/qr.jpg  used on input line
  1.
 (pdftex.def)             Requested size: 42.67912pt x 41.95564pt.
- [36
+ [37
 
 ]
 Cap\'itulo X.
@@ -4558,7 +4642,7 @@ File: ../0.imagenes/GENERAL/LOGOS/qr.jpg Graphic file (type jpg)
 Package pdftex.def Info: ../0.imagenes/GENERAL/LOGOS/qr.jpg  used on input line
  30.
 (pdftex.def)             Requested size: 42.67912pt x 41.95564pt.
-[37
+[38
 
 ]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 30.
@@ -4567,13 +4651,13 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 30.
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 30.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 30.
 Package rerunfilecheck Info: File `informe_nueces_bbva.out' has not changed.
-(rerunfilecheck)             Checksum: EF34B21641479735F44138BD8D05CDBA;7505.
+(rerunfilecheck)             Checksum: 0D0FE477562E5B00DD79C9EF35F8E0D9;7535.
  ) 
 Here is how much of TeX's memory you used:
- 33302 strings out of 483107
- 617114 string characters out of 5964631
+ 33390 strings out of 483107
+ 620460 string characters out of 5964631
  1215836 words of memory out of 5000000
- 47298 multiletter control sequences out of 15000+600000
+ 47372 multiletter control sequences out of 15000+600000
  540698 words of font info for 59 fonts, out of 8000000 for 9000
  59 hyphenation exceptions out of 8191
  63i,24n,71p,3286b,913s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -4594,10 +4678,10 @@ ts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cm
 ss17.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.p
 fb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></us
 r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti7.pfb>
-Output written on informe_nueces_bbva.pdf (37 pages, 7122134 bytes).
+Output written on informe_nueces_bbva.pdf (38 pages, 7775096 bytes).
 PDF statistics:
- 976 PDF objects out of 1000 (max. 8388607)
- 846 compressed objects within 9 object streams
- 161 named destinations out of 1000 (max. 500000)
- 836 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1144 PDF objects out of 1200 (max. 8388607)
+ 922 compressed objects within 10 object streams
+ 162 named destinations out of 1000 (max. 500000)
+ 896 words of extra memory for PDF output out of 10000 (max. 10000000)
 

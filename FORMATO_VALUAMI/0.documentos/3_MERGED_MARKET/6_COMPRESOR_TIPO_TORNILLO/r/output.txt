@@ -37,6 +37,8 @@ Coefficients:
 (Intercept)           X1           X2  
      586304       -23590         -238  
 
+(Intercept)          X1          X2 
+29686.27868 -1194.42830   -12.04984 
 [1] "--- 6 TABLA ANOVA ---"
 Analysis of Variance Table
 
@@ -86,4 +88,4 @@ X1          -23675.36   1508.223 -15.69752 0.004033702
 [1] 0.9919489
 [1] " --- SUSTITUCION --- "
        1 
-482536.1 
+24432.21 

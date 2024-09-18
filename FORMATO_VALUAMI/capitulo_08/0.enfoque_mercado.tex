@@ -8,7 +8,7 @@ Se realizó el enfoque de mercado que involucra a los siguientes activos.
   \begin{tabular}{|l|l|l|}
     \hline 
     Variable & Descripción   & Unidades\\ \hline 
-    Y:  & Precio del activo  & MXN \\ \hline 
+    Y:  & Precio del activo  & USD \\ \hline 
     X1: & Edad del activo    & Años \\ \hline 
 		X2: & Volumen del activo & \(m ^ 3\) \\ \hline 
   \end{tabular}
@@ -18,16 +18,21 @@ Se realizó el enfoque de mercado que involucra a los siguientes activos.
 \subsection{\centering --- Mercado Usado ---} % (((
 Se toma la siguiente muestra estadísticamente significativa. \\ 
 La comprobación de este hecho se realiza a lo largo de las siguientes secciones.
-\begin{center}
-	\begin{tabular}{*{4}{|p{2cm}}|}
-		\hline 
-		MARCA     & EDAD &  VOL   & PRECIO \\ \hline 
-		Tankidara & 0    &  1000  & \$61,416.20 \\ \hline 
-		Sin Dato  & 39   &  875   & \$19,515.00 \\ \hline 
-		Sin Dato  & 11   &  1000  & \$37,729.00 \\ \hline 
-		Sin Dato  & 11   &  1000  & \$36,297.90 \\ \hline
-	\end{tabular}
-\end{center}
+\begin{figure}[hbtp!]
+	\centering
+\includegraphics[width=  \linewidth, page = 1]{../0.imagenes/CAP_8/mercado_1_1}
+\includegraphics[width=  \linewidth, page = 1]{../0.imagenes/CAP_8/mercado_1_2}
+\end{figure}
+% \begin{center}
+	% \begin{tabular}{*{4}{|p{2cm}}|}
+		% \hline 
+		% MARCA     & EDAD &  VOL   & PRECIO \\ \hline 
+		% Tankidara & 0    &  1000  & \$61,416.20 \\ \hline 
+		% Sin Dato  & 39   &  875   & \$19,515.00 \\ \hline 
+		% Sin Dato  & 11   &  1000  & \$37,729.00 \\ \hline 
+		% Sin Dato  & 11   &  1000  & \$36,297.90 \\ \hline
+	% \end{tabular}
+% \end{center}
 % )))
 
 \subsection{\centering --- Matriz de Dispersion ---} % (((
@@ -104,10 +109,10 @@ Es decir, \(1- \alpha = 0.9\).
 
 % )))
 
-\subsection{\centering Modelo de Regresión Estimado ---} % (((
+\subsection{\centering --- Modelo de Regresión Estimado ---} % (((
 \begin{align}
-	Y & = &  418357.3  & -2218.4 \cdot X_1     & -356.9 \cdot X_2   \\[2mm]
-	\mbox{Precio} & = &  418,357.3 & - 2,218.4 \cdot (\mbox{Edad}) & - 358.9 \cdot (\mbox{Volumen})
+	Y & = &  21,182.64  & -112.32 \cdot X_1     & -18.07 \cdot X_2   \\[2mm]
+	\mbox{Precio} & = &  21,182.64 & - 112.32 \cdot (\mbox{Edad}) & - 18.07 \cdot (\mbox{Volumen})
 	\label{eq:1}
 \end{align}
 % )))
@@ -150,9 +155,11 @@ Se obtiene el valor de mercado por medio de las características del activo y el
 		Descripción   & Unidades  & Activo \\ \hline 
     Edad del activo    & Años      & 2      \\ \hline 
 		Volumen del activo & \(m ^ 3\) & 1000   \\ \hline 
-		Precio del activo   & MXN       & \$53,845.47 \\ \hline 
+		Precio del activo   & USD       & \$2,726.353  \\ \hline 
   \end{tabular}
 \end{center} 
+Se concluye que el Tanque para Aire Comprimido, tiene un valor de mercado de 
+\$2,726.353 USD.
 % )))
 
 % )))
@@ -165,7 +172,7 @@ Se realizó el enfoque de mercado que involucra a los siguientes activos.
   \begin{tabular}{|l|l|l|}
     \hline 
     Variable & Descripción   & Unidades\\ \hline 
-    Y:  & Precio del activo  & MXN \\ \hline 
+    Y:  & Precio del activo  & USD \\ \hline 
     X1: & Edad del activo    & Años \\ \hline 
 		X2: & Toneladas de cap.  & \(1000kg\) \\ \hline 
   \end{tabular}
@@ -175,16 +182,21 @@ Se realizó el enfoque de mercado que involucra a los siguientes activos.
 \subsection{\centering --- Mercado Usado ---} % (((
 Se toma la siguiente muestra estadísticamente significativa. \\ 
 La comprobación de este hecho se realiza a lo largo de las siguientes secciones.
-\begin{center}
-	\begin{tabular}{*{4}{|p{2cm}}|}
-		\hline 
-MARCA &     EDAD&   TON & PRECIO \\ \hline 
-P\&GM &    0  &  3   & \$62,287.50 \\ \hline
-2    &    7  &  1.6  & \$33,836.50 \\ \hline
-3    &    25 &  1    & \$48,026.00 \\ \hline
-5    &    11 &  1.6  & \$40,385.50 \\ \hline
-	\end{tabular}
-\end{center}
+\begin{figure}[hbtp!]
+	\centering
+\includegraphics[width=  \linewidth, page = 1]{../0.imagenes/CAP_8/mercado_2_1}
+\includegraphics[width=  \linewidth, page = 1]{../0.imagenes/CAP_8/mercado_2_2}
+\end{figure}
+% \begin{center}
+	% \begin{tabular}{*{4}{|p{2cm}}|}
+		% \hline 
+% MARCA &     EDAD&   TON & PRECIO \\ \hline 
+% P\&GM &    0  &  3   & \$62,287.50 \\ \hline
+% 2    &    7  &  1.6  & \$33,836.50 \\ \hline
+% 3    &    25 &  1    & \$48,026.00 \\ \hline
+% 5    &    11 &  1.6  & \$40,385.50 \\ \hline
+	% \end{tabular}
+% \end{center}
 % )))
 
 \subsection{\centering --- Matriz de Dispersion ---} % (((
@@ -261,10 +273,10 @@ Es decir, \(1- \alpha = 0.9\).
 
 % )))
 
-\subsection{\centering Modelo de Regresión Estimado ---} % (((
+\subsection{\centering --- Modelo de Regresión Estimado ---} % (((
 \begin{align}
-	Y & = &              -25,647 & + 1,771 \cdot X_1           & + 29,299   \cdot X_2   \\[2mm]
-	\mbox{Precio} & = &  -25,647 & + 1,771 \cdot (\mbox{Edad}) & + 29,299   \cdot (\mbox{Ton})
+	Y & = &              -1,298.56 & + 89.69 \cdot X_1           & + 1,483.48   \cdot X_2   \\[2mm]
+	\mbox{Precio} & = &  -1,298.56 & + 89.69 \cdot (\mbox{Edad}) & + 1,483.48   \cdot (\mbox{Ton})
 	\label{eq:2}
 \end{align}
 % )))
@@ -307,9 +319,11 @@ Se obtiene el valor de mercado por medio de las características del activo y el
 		Descripción   & Unidades  & Activo \\ \hline 
     Edad del activo    & Años      & 2      \\ \hline 
 		Toneladas de cap.  & \(1000kg\) & 2   \\ \hline 
-		Precio del activo   & MXN       & \$30,070.81  \\ \hline 
+		Precio del activo   & USD       & \$1,522.573  \\ \hline 
   \end{tabular}
 \end{center} 
+Se concluye que el Tanque para Aire Comprimido, tiene un valor de mercado de 
+\$1,522.57 USD.
 % )))
 
 % )))
@@ -322,7 +336,7 @@ Se realizó el enfoque de mercado que involucra a los siguientes activos.
   \begin{tabular}{|l|l|l|}
     \hline 
     Variable & Descripción   & Unidades\\ \hline 
-    Y:  & Precio del activo  & MXN \\ \hline 
+    Y:  & Precio del activo  & USD \\ \hline 
     X1: & Edad del activo    & Años \\ \hline 
 		X2: & Volumen  & \(m ^ 3\) \\ \hline 
   \end{tabular}
@@ -332,16 +346,21 @@ Se realizó el enfoque de mercado que involucra a los siguientes activos.
 \subsection{\centering --- Mercado Usado ---} % (((
 Se toma la siguiente muestra estadísticamente significativa. \\ 
 La comprobación de este hecho se realiza a lo largo de las siguientes secciones.
-\begin{center}
-	\begin{tabular}{*{4}{|p{2cm}}|}
-		\hline 
-MARCA    & EDAD  & VOL  & PRECIO \\ \hline
-COMFIT   & 0     & 2.7  & \$38,9971.12 \\ \hline
-Sin Dato & 0     & 2.7  & \$36,6545.35 \\ \hline
-CBA4     & 50    & 2.7  & \$14,0803.50 \\ \hline
-CP4      & 34    & 3.2  & \$21,8300.00 \\ \hline
-	\end{tabular}
-\end{center}
+\begin{figure}[hbtp!]
+	\centering
+\includegraphics[width=  \linewidth, page = 1]{../0.imagenes/CAP_8/mercado_3_1}
+\includegraphics[width=  \linewidth, page = 1]{../0.imagenes/CAP_8/mercado_3_2}
+\end{figure}
+% \begin{center}
+	% \begin{tabular}{*{4}{|p{2cm}}|}
+		% \hline 
+% MARCA    & EDAD  & VOL  & PRECIO \\ \hline
+% COMFIT   & 0     & 2.7  & \$38,9971.12 \\ \hline
+% Sin Dato & 0     & 2.7  & \$36,6545.35 \\ \hline
+% CBA4     & 50    & 2.7  & \$14,0803.50 \\ \hline
+% CP4      & 34    & 3.2  & \$21,8300.00 \\ \hline
+	% \end{tabular}
+% \end{center}
 % )))
 
 \subsection{\centering --- Matriz de Dispersion ---} % (((
@@ -418,10 +437,10 @@ Es decir, \(1- \alpha = 0.9\).
 
 % )))
 
-\subsection{\centering Modelo de Regresión Estimado ---} % (((
+\subsection{\centering --- Modelo de Regresión Estimado ---} % (((
 \begin{align}
-	Y & = &              370,099 & - 4,749 \cdot X_1           & + 3,022     \cdot X_2   \\[2mm]
-	\mbox{Precio} & = &  370,099 & - 4,749 \cdot (\mbox{Edad}) & + 3,022     \cdot (\mbox{Volumen})
+	Y & = &              18,739.18 & - 240.46 \cdot X_1           & + 153.01     \cdot X_2   \\[2mm]
+	\mbox{Precio} & = &  18,739.18 & - 240.46 \cdot (\mbox{Edad}) & + 153.01     \cdot (\mbox{Volumen})
 	\label{eq:3}
 \end{align}
 % )))
@@ -464,9 +483,11 @@ Se obtiene el valor de mercado por medio de las características del activo y el
 		Descripción   & Unidades  & Activo \\ \hline 
     Edad del activo    & Años      & 5      \\ \hline 
 		Volumen  & \(m ^ 3\) & 2.5   \\ \hline 
-		Precio del activo   & MXN       & \$292,292.9   \\ \hline 
+		Precio del activo   & USD       & \$ 14,799.64 \\ \hline 
   \end{tabular}
 \end{center} 
+Se concluye que el Tanque para Aire Comprimido, tiene un valor de mercado de 
+\$14,799.64 USD.
 % )))
 
 % )))
@@ -479,7 +500,7 @@ Se realizó el enfoque de mercado que involucra a los siguientes activos.
   \begin{tabular}{|l|l|l|}
     \hline 
     Variable & Descripción   & Unidades\\ \hline 
-    Y:  & Precio del activo  & MXN \\ \hline 
+    Y:  & Precio del activo  & USD \\ \hline 
     X1: & Edad del activo    & Años \\ \hline 
 		X2: & Capacidad  & \(hp\) \\ \hline 
   \end{tabular}
@@ -489,18 +510,23 @@ Se realizó el enfoque de mercado que involucra a los siguientes activos.
 \subsection{\centering --- Mercado Usado ---} % (((
 Se toma la siguiente muestra estadísticamente significativa. \\ 
 La comprobación de este hecho se realiza a lo largo de las siguientes secciones.
-\begin{center}
-	\begin{tabular}{*{4}{|p{3cm}}|}
-		\hline 
-MARCA          & EDAD  & POT  & PRECIO\\ \hline
-Ingresoll Rand & 0     & 10   & \$105,913.72\\ \hline
-Carrollair     & 0     & 10   & \$126,021.06\\ \hline
-GK-660-2/16    & 32    & 7    & \$26,196.00\\ \hline
-MH11           & 21    & 15   & \$32,172.75\\ \hline
-CV             & 51    & 5    & \$10,862.50\\ \hline
-1WD74          & 18    & 10   & \$43,450.00\\ \hline
-	\end{tabular}
-\end{center}
+\begin{figure}[hbtp!]
+	\centering
+\includegraphics[width=  \linewidth, page = 1]{../0.imagenes/CAP_8/mercado_4_1}
+\includegraphics[width=  \linewidth, page = 1]{../0.imagenes/CAP_8/mercado_4_2}
+\end{figure}
+% \begin{center}
+	% \begin{tabular}{*{4}{|p{3cm}}|}
+		% \hline 
+% MARCA          & EDAD  & POT  & PRECIO\\ \hline
+% Ingresoll Rand & 0     & 10   & \$105,913.72\\ \hline
+% Carrollair     & 0     & 10   & \$126,021.06\\ \hline
+% GK-660-2/16    & 32    & 7    & \$26,196.00\\ \hline
+% MH11           & 21    & 15   & \$32,172.75\\ \hline
+% CV             & 51    & 5    & \$10,862.50\\ \hline
+% 1WD74          & 18    & 10   & \$43,450.00\\ \hline
+	% \end{tabular}
+% \end{center}
 % )))
 
 \subsection{\centering --- Matriz de Dispersion ---} % (((
@@ -577,10 +603,10 @@ Es decir, \(1- \alpha = 0.9\).
 
 % )))
 
-\subsection{\centering Modelo de Regresión Estimado ---} % (((
+\subsection{\centering --- Modelo de Regresión Estimado ---} % (((
 \begin{align}
-	Y & = &              160,408 & - 2,673 \cdot X_1           & - 5,118     \cdot X_2   \\[2mm]
-	\mbox{Precio} & = &  160,408 & - 2,673 \cdot (\mbox{Edad}) & - 5,118     \cdot (\mbox{hp})
+	Y & = &              8,121.93 & - 135.35 \cdot X_1           & - 259.12     \cdot X_2   \\[2mm]
+	\mbox{Precio} & = &  8,121.93 & - 135.35 \cdot (\mbox{Edad}) & - 259.12     \cdot (\mbox{hp})
 	\label{eq:4}
 \end{align}
 % )))
@@ -623,9 +649,11 @@ Se obtiene el valor de mercado por medio de las características del activo y el
 		Descripción   & Unidades  & Activo \\ \hline 
     Edad del activo    & Años      & 5      \\ \hline 
 		Toneladas de cap.  & \(hp\) & 10   \\ \hline 
-		Precio del activo   & MXN       & \$74,836.82   \\ \hline 
+		Precio del activo   & USD       & \$ 3,789.21    \\ \hline 
   \end{tabular}
 \end{center} 
+Se concluye que el Tanque para Aire Comprimido, tiene un valor de mercado de 
+\$3,789.21 USD.
 % )))
 
 % )))
@@ -638,7 +666,7 @@ Se realizó el enfoque de mercado que involucra a los siguientes activos.
   \begin{tabular}{|l|l|l|}
     \hline 
     Variable & Descripción   & Unidades\\ \hline 
-    Y:  & Precio del activo  & MXN \\ \hline 
+    Y:  & Precio del activo  & USD \\ \hline 
     X1: & Edad del activo    & Años \\ \hline 
 		X2: & Capacidad & \(hp\) \\ \hline 
   \end{tabular}
@@ -648,20 +676,25 @@ Se realizó el enfoque de mercado que involucra a los siguientes activos.
 \subsection{\centering --- Mercado Usado ---} % (((
 Se toma la siguiente muestra estadísticamente significativa. \\ 
 La comprobación de este hecho se realiza a lo largo de las siguientes secciones.
-\begin{center}
-	\begin{tabular}{*{4}{|p{3cm}}|}
-		\hline 
-MARCA          & EDAD  & CAP  & PRECIO\\ \hline
-Speedaire      & 0     & 35   & 104750.90\\ \hline
-Hankison       & 0     & 25   & 54461.60\\ \hline
-Ingersoll Rand & 0     & 15   & 151014.60\\ \hline
-Atlas Copco    & 11    & 14   & 31224.75\\ \hline
-Beko           & 4     & 50   & 27650.00\\ \hline
-Kaeser         & 11    & 20   & 18555.50\\ \hline
-Atlas Copco    & 3     & 63   & 28379.00\\ \hline
-Atlas Copco    & 18    & 32   & 15701.25\\ \hline
-	\end{tabular}
-\end{center}
+\begin{figure}[hbtp!]
+	\centering
+\includegraphics[width=  \linewidth, page = 1]{../0.imagenes/CAP_8/mercado_5_1}
+\includegraphics[width=  \linewidth, page = 1]{../0.imagenes/CAP_8/mercado_5_2}
+\end{figure}
+% \begin{center}
+	% \begin{tabular}{*{4}{|p{3cm}}|}
+		% \hline 
+% MARCA          & EDAD  & CAP  & PRECIO\\ \hline
+% Speedaire      & 0     & 35   & 104750.90\\ \hline
+% Hankison       & 0     & 25   & 54461.60\\ \hline
+% Ingersoll Rand & 0     & 15   & 151014.60\\ \hline
+% Atlas Copco    & 11    & 14   & 31224.75\\ \hline
+% Beko           & 4     & 50   & 27650.00\\ \hline
+% Kaeser         & 11    & 20   & 18555.50\\ \hline
+% Atlas Copco    & 3     & 63   & 28379.00\\ \hline
+% Atlas Copco    & 18    & 32   & 15701.25\\ \hline
+	% \end{tabular}
+% \end{center}
 % )))
 
 \subsection{\centering --- Matriz de Dispersion ---} % (((
@@ -738,10 +771,10 @@ Es decir, \(1- \alpha = 0.9\).
 
 % )))
 
-\subsection{\centering Modelo de Regresión Estimado ---} % (((
+\subsection{\centering --- Modelo de Regresión Estimado ---} % (((
 \begin{align}
-	Y & = &              127,764 & - 5,439 \cdot X_1           & - 1,318     \cdot X_2   \\[2mm]
-	\mbox{Precio} & = &  127,764 & - 5,439 \cdot (\mbox{Edad}) & - 1,318     \cdot (\mbox{hp})
+	Y & = &              6,469.06 & - 275.37 \cdot X_1           & - 66.73     \cdot X_2   \\[2mm]
+	\mbox{Precio} & = &  6,469.06 & - 275.37 \cdot (\mbox{Edad}) & - 66.73     \cdot (\mbox{hp})
 	\label{eq:5}
 \end{align}
 % )))
@@ -784,10 +817,13 @@ Se obtiene el valor de mercado por medio de las características del activo y el
 		Descripción   & Unidades  & Activo \\ \hline 
     Edad del activo    & Años      & 2      \\ \hline 
 		Capacidad  & \(hp\) & 35   \\ \hline 
-		Precio del activo   & MXN       & \$59,786.41   \\ \hline 
+		Precio del activo   & USD       & \$ 3,027.16 \\ \hline 
   \end{tabular}
 \end{center} 
+Se concluye que el Tanque para Aire Comprimido, tiene un valor de mercado de 
+\$3,027.16 USD.
 % )))
+
 % )))
 
 \section{Compresor Tipo Tornillo.} % (((
@@ -798,7 +834,7 @@ Se realizó el enfoque de mercado que involucra a los siguientes activos.
   \begin{tabular}{|l|l|l|}
     \hline 
     Variable & Descripción   & Unidades\\ \hline 
-    Y:  & Precio del activo  & MXN \\ \hline 
+    Y:  & Precio del activo  & USD \\ \hline 
     X1: & Edad del activo    & Años \\ \hline 
 		X2: & Potencia  & \(hp\) \\ \hline 
   \end{tabular}
@@ -808,16 +844,21 @@ Se realizó el enfoque de mercado que involucra a los siguientes activos.
 \subsection{\centering --- Mercado Usado ---} % (((
 Se toma la siguiente muestra estadísticamente significativa. \\ 
 La comprobación de este hecho se realiza a lo largo de las siguientes secciones.
-\begin{center}
-	\begin{tabular}{*{4}{|p{2cm}}|}
-		\hline 
-MARCA          &  EDAD  & POT  & PRECIO\\ \hline
-EVANS          &  0     & 75   & 570862.00\\ \hline
-Ingresoll Rand &  13    & 100  & 237785.00\\ \hline
-Ingresoll Rand &  15    & 50   & 219352.00\\ \hline
-ALMIG          &  15    & 100  & 225503.90\\ \hline
-	\end{tabular}
-\end{center}
+\begin{figure}[hbtp!]
+	\centering
+\includegraphics[width=  \linewidth, page = 1]{../0.imagenes/CAP_8/mercado_6_1}
+\includegraphics[width=  \linewidth, page = 1]{../0.imagenes/CAP_8/mercado_6_2}
+\end{figure}
+% \begin{center}
+	% \begin{tabular}{*{4}{|p{2cm}}|}
+		% \hline 
+% MARCA          &  EDAD  & POT  & PRECIO\\ \hline
+% EVANS          &  0     & 75   & 570862.00\\ \hline
+% Ingresoll Rand &  13    & 100  & 237785.00\\ \hline
+% Ingresoll Rand &  15    & 50   & 219352.00\\ \hline
+% ALMIG          &  15    & 100  & 225503.90\\ \hline
+	% \end{tabular}
+% \end{center}
 % )))
 
 \subsection{\centering --- Matriz de Dispersion ---} % (((
@@ -894,10 +935,10 @@ Es decir, \(1- \alpha = 0.9\).
 
 % )))
 
-\subsection{\centering Modelo de Regresión Estimado ---} % (((
+\subsection{\centering --- Modelo de Regresión Estimado ---} % (((
 \begin{align}
-	Y & = &              586,304 & - 23,590 \cdot X_1           & - 238     \cdot X_2   \\[2mm]
-	\mbox{Precio} & = &  586,304 & - 23,590 \cdot (\mbox{Edad}) & - 238     \cdot (\mbox{hp})
+	Y & = &              29,686.27 & - 1,194.42 \cdot X_1           & - 12.04     \cdot X_2   \\[2mm]
+	\mbox{Precio} & = &  29,686.27 & - 1,194.42 \cdot (\mbox{Edad}) & - 12.04     \cdot (\mbox{hp})
 	\label{eq:6}
 \end{align}
 % )))
@@ -940,9 +981,11 @@ Se obtiene el valor de mercado por medio de las características del activo y el
 		Descripción   & Unidades  & Activo \\ \hline 
     Edad del activo    & Años      & 2      \\ \hline 
 		Capacidad  & \(hp\) & 75   \\ \hline 
-		Precio del activo   & MXN       & \$482,536.1   \\ \hline 
+		Precio del activo   & USD       & \$24,432.21    \\ \hline 
   \end{tabular}
 \end{center} 
+Se concluye que el Tanque para Aire Comprimido, tiene un valor de mercado de 
+\$24,432.21 USD.
 % )))
 
 % )))
