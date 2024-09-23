@@ -1,38 +1,40 @@
-\chapter{ENFOQUE DE MERCADO.} %(((
+\chapter{DESARROLLO DEL ENFOQUE DE MERCADO.} %(((
+
+% === DESARROLLO DE ENFOQUES === (((
+Se llevó a cabo el enfoque de mercado de acuerdo a lo mencionado en el capítulo VI.
+Para cada uno de los activos para los que se llevó a cabo este método, se realizó
+un modelo de regresión lineal múltiple y se corroboró que la muestra de mercado
+cumpliera con los supuestos del modelo para ser estadísticamente significativa.
+Esto es, que represente de manera confiable las características del mercado
+utilizado. \\[2mm]
+A continuación se muestra el desarrollo del enfoque de mercado.
+% )))
 
 \section{Tanque para Aire Comprimido.} % (((
-Se realizó el enfoque de mercado que involucra a los siguientes activos.
+
+\subsection{\centering --- Mercado Utilizado ---} % (((
+Se toma la siguiente muestra estadísticamente significativa, y se 
+comprueba que lo es, en las siguientes secciones.
+\begin{figure}[hbtp!]
+	\centering
+\includegraphics[width= 0.6 \linewidth, page = 1]{../0.imagenes/CAP_8/mercado_1_1}
+\end{figure}
+\begin{figure}[hbtp!]
+	\centering
+\includegraphics[width= 0.9 \linewidth, page = 1]{../0.imagenes/CAP_8/mercado_1_2}
+\end{figure}
+% )))
 
 \subsection{\centering --- Variables ---} % (((
 \begin{center}
   \begin{tabular}{|l|l|l|}
     \hline 
     Variable & Descripción   & Unidades\\ \hline 
-    Y:  & Precio del activo  & USD \\ \hline 
+    Y:  & Precio Final del activo  & USD \\ \hline 
     X1: & Edad del activo    & Años \\ \hline 
 		X2: & Volumen del activo & \(m ^ 3\) \\ \hline 
   \end{tabular}
 \end{center} 
-% )))
-
-\subsection{\centering --- Mercado Usado ---} % (((
-Se toma la siguiente muestra estadísticamente significativa. \\ 
-La comprobación de este hecho se realiza a lo largo de las siguientes secciones.
-\begin{figure}[hbtp!]
-	\centering
-\includegraphics[width=  \linewidth, page = 1]{../0.imagenes/CAP_8/mercado_1_1}
-\includegraphics[width=  \linewidth, page = 1]{../0.imagenes/CAP_8/mercado_1_2}
-\end{figure}
-% \begin{center}
-	% \begin{tabular}{*{4}{|p{2cm}}|}
-		% \hline 
-		% MARCA     & EDAD &  VOL   & PRECIO \\ \hline 
-		% Tankidara & 0    &  1000  & \$61,416.20 \\ \hline 
-		% Sin Dato  & 39   &  875   & \$19,515.00 \\ \hline 
-		% Sin Dato  & 11   &  1000  & \$37,729.00 \\ \hline 
-		% Sin Dato  & 11   &  1000  & \$36,297.90 \\ \hline
-	% \end{tabular}
-% \end{center}
 % )))
 
 \subsection{\centering --- Matriz de Dispersion ---} % (((
@@ -111,8 +113,8 @@ Es decir, \(1- \alpha = 0.9\).
 
 \subsection{\centering --- Modelo de Regresión Estimado ---} % (((
 \begin{align}
-	Y & = &  21,182.64  & -112.32 \cdot X_1     & -18.07 \cdot X_2   \\[2mm]
-	\mbox{Precio} & = &  21,182.64 & - 112.32 \cdot (\mbox{Edad}) & - 18.07 \cdot (\mbox{Volumen})
+	Y & = &              19,557.88  & -103.76 \cdot X_1           & - 16.68 \cdot X_2   \\[2mm]
+	\mbox{Precio} & = &  19,557.88 &  -103.76 \cdot (\mbox{Edad}) & - 16.68 \cdot (\mbox{Volumen})
 	\label{eq:1}
 \end{align}
 % )))
@@ -122,9 +124,9 @@ Es decir, \(1- \alpha = 0.9\).
   \begin{tabular}{|l|l|l|l|l|}
     \hline 
     Fuentes de Variación  & Suma de Cuadrados & Grados de Libertad & Cuadrados Medios & F\\ \hline 
-    Regresión           & 889772620 &           \(2\) & 444886310 & \(434.4493\) \\ \hline 
-    Error               &   1024024 &          \(1\)  &   1024024 &   \\ \hline 
-    Totales             & 890796644 &          \(3\)  & 445910334 &   \\ \hline 
+		Regresión & 1,949,094.884 & 2 & 974,547.442 & 433.4169 \\ \hline
+		Error     &     2,248.522 & 1 &   2,248.522 &   0 \\ \hline
+		Totales   & 1,951,343.406 & 3 & 976,795.964 &   0 \\ \hline
   \end{tabular}
 \end{center} 
 % )))
@@ -137,9 +139,9 @@ Se comprueba la significancia del modelo con el estadístico \(F\) de la Tabla A
     \multicolumn{2}{|c|}{Hipótesis}\\ \cline{1-2}
     \multicolumn{2}{|l|}{\(H_0:\) El modelo no es significativo.} \\ 
     \multicolumn{2}{|l|}{\(H_a:\) El modelo es significativo.} \\ \cline{1-2}
-    Estadístico de Prueba & \(434.4493\).\\ \cline{1-2} 
+    Estadístico de Prueba & \(433.4\).\\ \cline{1-2} 
 		Región de Rechazo de \(H_0\) & \((0, \alpha )\).\\ \cline{1-2} 
-    Valor \(p\) & \(0.03391\).\\ \cline{1-2} 
+    Valor \(p\) & \(0.03395\).\\ \cline{1-2} 
     Conclusión & Se tiene que \(p<\alpha\). \newline 
 		Por tanto se rechaza \(H_0\). \newline 
 		Es decir, el modelo es significativo.\\ \cline{1-2} 
@@ -155,48 +157,40 @@ Se obtiene el valor de mercado por medio de las características del activo y el
 		Descripción   & Unidades  & Activo \\ \hline 
     Edad del activo    & Años      & 2      \\ \hline 
 		Volumen del activo & \(m ^ 3\) & 1000   \\ \hline 
-		Precio del activo   & USD       & \$2,726.353  \\ \hline 
+		Precio del activo   & USD       & \$ 2,668.175   \\ \hline 
   \end{tabular}
 \end{center} 
 Se concluye que el Tanque para Aire Comprimido, tiene un valor de mercado de 
-\$2,726.353 USD.
+\$ 2,668.175  USD.
 % )))
 
 % )))
 
 \section{Polipasto Eléctrico.} % (((
-Se realizó el enfoque de mercado que involucra a los siguientes activos.
+
+\subsection{\centering --- Mercado Utilizado ---} % (((
+Se toma la siguiente muestra estadísticamente significativa, y se 
+comprueba que lo es, en las siguientes secciones.
+\begin{figure}[hbtp!]
+	\centering
+\includegraphics[width=  0.7\linewidth, page = 1]{../0.imagenes/CAP_8/mercado_2_1}
+\end{figure}
+\begin{figure}[hbtp!]
+	\centering
+\includegraphics[width=  \linewidth, page = 1]{../0.imagenes/CAP_8/mercado_2_2}
+\end{figure}
+% )))
 
 \subsection{\centering --- Variables ---} % (((
 \begin{center}
   \begin{tabular}{|l|l|l|}
     \hline 
     Variable & Descripción   & Unidades\\ \hline 
-    Y:  & Precio del activo  & USD \\ \hline 
+    Y:  & Precio Final del activo  & USD \\ \hline 
     X1: & Edad del activo    & Años \\ \hline 
 		X2: & Toneladas de cap.  & \(1000kg\) \\ \hline 
   \end{tabular}
 \end{center} 
-% )))
-
-\subsection{\centering --- Mercado Usado ---} % (((
-Se toma la siguiente muestra estadísticamente significativa. \\ 
-La comprobación de este hecho se realiza a lo largo de las siguientes secciones.
-\begin{figure}[hbtp!]
-	\centering
-\includegraphics[width=  \linewidth, page = 1]{../0.imagenes/CAP_8/mercado_2_1}
-\includegraphics[width=  \linewidth, page = 1]{../0.imagenes/CAP_8/mercado_2_2}
-\end{figure}
-% \begin{center}
-	% \begin{tabular}{*{4}{|p{2cm}}|}
-		% \hline 
-% MARCA &     EDAD&   TON & PRECIO \\ \hline 
-% P\&GM &    0  &  3   & \$62,287.50 \\ \hline
-% 2    &    7  &  1.6  & \$33,836.50 \\ \hline
-% 3    &    25 &  1    & \$48,026.00 \\ \hline
-% 5    &    11 &  1.6  & \$40,385.50 \\ \hline
-	% \end{tabular}
-% \end{center}
 % )))
 
 \subsection{\centering --- Matriz de Dispersion ---} % (((
@@ -275,8 +269,8 @@ Es decir, \(1- \alpha = 0.9\).
 
 \subsection{\centering --- Modelo de Regresión Estimado ---} % (((
 \begin{align}
-	Y & = &              -1,298.56 & + 89.69 \cdot X_1           & + 1,483.48   \cdot X_2   \\[2mm]
-	\mbox{Precio} & = &  -1,298.56 & + 89.69 \cdot (\mbox{Edad}) & + 1,483.48   \cdot (\mbox{Ton})
+	Y & = &              -1,054.27 & + 73.69 \cdot X_1           & + 1,215.07   \cdot X_2   \\[2mm]
+	\mbox{Precio} & = &  -1,054.27 & + 73.69 \cdot (\mbox{Edad}) & + 1,215.07   \cdot (\mbox{Ton})
 	\label{eq:2}
 \end{align}
 % )))
@@ -286,9 +280,9 @@ Es decir, \(1- \alpha = 0.9\).
   \begin{tabular}{|l|l|l|l|l|}
     \hline 
     Fuentes de Variación  & Suma de Cuadrados & Grados de Libertad & Cuadrados Medios & F\\ \hline 
-Regresión  &  448627750.2         &  2     & 224313875.1 &1391.228 \\ \hline
-Error      &     161234.5         &  1     &    161234.5 &  \\ \hline
-Totales    &  448788984.7         &  3     & 224475109.6 &  \\ \hline
+		Regresión & 769,648.8568  & 2 & 384,824.4284 & 1,536.308 \\ \hline
+		Error     &     250.4865  & 1 &     250.4865 &    0 \\ \hline
+		Totales   & 769,899.3433  & 3 & 385,074.9149 &    0 \\ \hline
   \end{tabular}
 \end{center} 
 % )))
@@ -301,9 +295,9 @@ Se comprueba la significancia del modelo con el estadístico \(F\) de la Tabla A
     \multicolumn{2}{|c|}{Hipótesis}\\ \cline{1-2}
     \multicolumn{2}{|l|}{\(H_0:\) El modelo no es significativo.} \\ 
     \multicolumn{2}{|l|}{\(H_a:\) El modelo es significativo.} \\ \cline{1-2}
-    Estadístico de Prueba & \(1391.228\).\\ \cline{1-2} 
+    Estadístico de Prueba & \(1536\).\\ \cline{1-2} 
 		Región de Rechazo de \(H_0\) & \((0, \alpha )\).\\ \cline{1-2} 
-    Valor \(p\) & \(0.01895\).\\ \cline{1-2} 
+    Valor \(p\) & \(0.01804\).\\ \cline{1-2} 
     Conclusión & Se tiene que \(p<\alpha\). \newline 
 		Por tanto se rechaza \(H_0\). \newline 
 		Es decir, el modelo es significativo.\\ \cline{1-2} 
@@ -319,37 +313,27 @@ Se obtiene el valor de mercado por medio de las características del activo y el
 		Descripción   & Unidades  & Activo \\ \hline 
     Edad del activo    & Años      & 2      \\ \hline 
 		Toneladas de cap.  & \(1000kg\) & 2   \\ \hline 
-		Precio del activo   & USD       & \$1,522.573  \\ \hline 
+		Precio del activo   & USD       & \$ 1,523.26   \\ \hline 
   \end{tabular}
 \end{center} 
-Se concluye que el Tanque para Aire Comprimido, tiene un valor de mercado de 
-\$1,522.57 USD.
+Se concluye que el Polipasto Eléctrico, tiene un valor de mercado de 
+\$ 1,523.26  USD.
 % )))
 
 % )))
 
 \section{Bombo Batidor/Mezclador para Cofitería.} % (((
-Se realizó el enfoque de mercado que involucra a los siguientes activos.
 
-\subsection{\centering --- Variables ---} % (((
-\begin{center}
-  \begin{tabular}{|l|l|l|}
-    \hline 
-    Variable & Descripción   & Unidades\\ \hline 
-    Y:  & Precio del activo  & USD \\ \hline 
-    X1: & Edad del activo    & Años \\ \hline 
-		X2: & Volumen  & \(m ^ 3\) \\ \hline 
-  \end{tabular}
-\end{center} 
-% )))
-
-\subsection{\centering --- Mercado Usado ---} % (((
-Se toma la siguiente muestra estadísticamente significativa. \\ 
-La comprobación de este hecho se realiza a lo largo de las siguientes secciones.
+\subsection{\centering --- Mercado Utilizado ---} % (((
+Se toma la siguiente muestra estadísticamente significativa, y se 
+comprueba que lo es, en las siguientes secciones.
 \begin{figure}[hbtp!]
 	\centering
-\includegraphics[width=  \linewidth, page = 1]{../0.imagenes/CAP_8/mercado_3_1}
-\includegraphics[width=  \linewidth, page = 1]{../0.imagenes/CAP_8/mercado_3_2}
+\includegraphics[width=  0.6\linewidth, page = 1]{../0.imagenes/CAP_8/mercado_3_1}
+\end{figure}
+\begin{figure}[hbtp!]
+	\centering
+\includegraphics[width=  0.8\linewidth, page = 1]{../0.imagenes/CAP_8/mercado_3_2}
 \end{figure}
 % \begin{center}
 	% \begin{tabular}{*{4}{|p{2cm}}|}
@@ -361,6 +345,18 @@ La comprobación de este hecho se realiza a lo largo de las siguientes secciones
 % CP4      & 34    & 3.2  & \$21,8300.00 \\ \hline
 	% \end{tabular}
 % \end{center}
+% )))
+
+\subsection{\centering --- Variables ---} % (((
+\begin{center}
+  \begin{tabular}{|l|l|l|}
+    \hline 
+    Variable & Descripción   & Unidades\\ \hline 
+    Y:  & Precio Final del activo  & USD \\ \hline 
+    X1: & Edad del activo    & Años \\ \hline 
+		X2: & Volumen  & \(m ^ 3\) \\ \hline 
+  \end{tabular}
+\end{center} 
 % )))
 
 \subsection{\centering --- Matriz de Dispersion ---} % (((
@@ -439,8 +435,8 @@ Es decir, \(1- \alpha = 0.9\).
 
 \subsection{\centering --- Modelo de Regresión Estimado ---} % (((
 \begin{align}
-	Y & = &              18,739.18 & - 240.46 \cdot X_1           & + 153.01     \cdot X_2   \\[2mm]
-	\mbox{Precio} & = &  18,739.18 & - 240.46 \cdot (\mbox{Edad}) & + 153.01     \cdot (\mbox{Volumen})
+	Y & = &               15,463.91 & - 198.43 \cdot X_1           & + 126.27     \cdot X_2   \\[2mm]
+	\mbox{Precio} & = &   15,463.91 & - 198.43 \cdot (\mbox{Edad}) & + 126.27     \cdot (\mbox{Volumen})
 	\label{eq:3}
 \end{align}
 % )))
@@ -449,10 +445,10 @@ Es decir, \(1- \alpha = 0.9\).
 \begin{center}
   \begin{tabular}{|l|l|l|l|l|}
     \hline 
-Fuentes de Variación  & Suma de Cuadrados & Grados de Libertad & Cuadrados Medios & F\\ \hline 
-Regresión  &  42487120937          &  2     &  21243560469 & 77.42292 \\ \hline
-Error      &    274383350          &  1     &    274383350 &  0.00000 \\ \hline
-Totales    &  42761504287          &  3     &  21517943819 &  0.00000 \\ \hline
+		Fuentes de Variación  & Suma de Cuadrados & Grados de Libertad & Cuadrados Medios & F\\ \hline 
+		Regresión & 74,175,484.6 & 2 & 37,087,742.3 & 77.42186 \\ \hline
+		Error     &    479,034.5 & 1 &    479,034.5 &  0 \\ \hline
+		Totales   & 74,654,519.1 & 3 & 37,566,776.8 &  0 \\ \hline
   \end{tabular}
 \end{center} 
 % )))
@@ -465,7 +461,7 @@ Se comprueba la significancia del modelo con el estadístico \(F\) de la Tabla A
     \multicolumn{2}{|c|}{Hipótesis}\\ \cline{1-2}
     \multicolumn{2}{|l|}{\(H_0:\) El modelo no es significativo.} \\ 
     \multicolumn{2}{|l|}{\(H_a:\) El modelo es significativo.} \\ \cline{1-2}
-    Estadístico de Prueba & \(77.42292\).\\ \cline{1-2} 
+    Estadístico de Prueba & \(77.42\).\\ \cline{1-2} 
 		Región de Rechazo de \(H_0\) & \((0, \alpha )\).\\ \cline{1-2} 
     Valor \(p\) & \(0.0801\).\\ \cline{1-2} 
     Conclusión & Se tiene que \(p<\alpha\). \newline 
@@ -483,50 +479,39 @@ Se obtiene el valor de mercado por medio de las características del activo y el
 		Descripción   & Unidades  & Activo \\ \hline 
     Edad del activo    & Años      & 5      \\ \hline 
 		Volumen  & \(m ^ 3\) & 2.5   \\ \hline 
-		Precio del activo   & USD       & \$ 14,799.64 \\ \hline 
+		Precio del activo   & USD       & \$ 14,821.52  \\ \hline 
   \end{tabular}
 \end{center} 
-Se concluye que el Tanque para Aire Comprimido, tiene un valor de mercado de 
-\$14,799.64 USD.
+Se concluye que el Bombo Batidor/Mezclador para Confitería, tiene un valor de mercado de 
+\$ 14,821.52  USD.
 % )))
 
 % )))
 
 \section{Compresor Horizontal Oil-Free.} % (((
-Se realizó el enfoque de mercado que involucra a los siguientes activos.
+
+\subsection{\centering --- Mercado Utilizado ---} % (((
+Se toma la siguiente muestra estadísticamente significativa, y se 
+comprueba que lo es, en las siguientes secciones.
+% \begin{figure}[hbtp!]
+	% \centering
+% \end{figure}
+\begin{center}
+\includegraphics[width=  0.7 \linewidth, page = 1]{../0.imagenes/CAP_8/mercado_4_1}
+\includegraphics[width=  0.8\linewidth, page = 1]{../0.imagenes/CAP_8/mercado_4_2}
+\end{center}
+% )))
 
 \subsection{\centering --- Variables ---} % (((
 \begin{center}
   \begin{tabular}{|l|l|l|}
     \hline 
     Variable & Descripción   & Unidades\\ \hline 
-    Y:  & Precio del activo  & USD \\ \hline 
+    Y:  & Precio Final del activo  & USD \\ \hline 
     X1: & Edad del activo    & Años \\ \hline 
 		X2: & Capacidad  & \(hp\) \\ \hline 
   \end{tabular}
 \end{center} 
-% )))
-
-\subsection{\centering --- Mercado Usado ---} % (((
-Se toma la siguiente muestra estadísticamente significativa. \\ 
-La comprobación de este hecho se realiza a lo largo de las siguientes secciones.
-\begin{figure}[hbtp!]
-	\centering
-\includegraphics[width=  \linewidth, page = 1]{../0.imagenes/CAP_8/mercado_4_1}
-\includegraphics[width=  \linewidth, page = 1]{../0.imagenes/CAP_8/mercado_4_2}
-\end{figure}
-% \begin{center}
-	% \begin{tabular}{*{4}{|p{3cm}}|}
-		% \hline 
-% MARCA          & EDAD  & POT  & PRECIO\\ \hline
-% Ingresoll Rand & 0     & 10   & \$105,913.72\\ \hline
-% Carrollair     & 0     & 10   & \$126,021.06\\ \hline
-% GK-660-2/16    & 32    & 7    & \$26,196.00\\ \hline
-% MH11           & 21    & 15   & \$32,172.75\\ \hline
-% CV             & 51    & 5    & \$10,862.50\\ \hline
-% 1WD74          & 18    & 10   & \$43,450.00\\ \hline
-	% \end{tabular}
-% \end{center}
 % )))
 
 \subsection{\centering --- Matriz de Dispersion ---} % (((
@@ -557,9 +542,9 @@ Es decir, \(1- \alpha = 0.9\).
     \multicolumn{2}{|c|}{Hipótesis}\\ \cline{1-2}
     \multicolumn{2}{|l|}{\(H_0:\) La varianza de los residuales es constante.} \\ 
     \multicolumn{2}{|l|}{\(H_a:\) La varianza de los residuales no es constante.} \\ \cline{1-2}
-    Estadístico de Prueba & \(BP = 0.89468\).\\ \cline{1-2} 
+    Estadístico de Prueba & \(BP = 0.88125\).\\ \cline{1-2} 
 		Región de Rechazo de \(H_0\) & \((0, \alpha )\).\\ \cline{1-2} 
-    Valor \(p\) & \(0.6393\).\\ \cline{1-2} 
+    Valor \(p\) & \(0.6436\).\\ \cline{1-2} 
     Conclusión & Se tiene que \(p> \alpha\). \newline 
 		Por tanto no se rechaza \(H_0\). \newline 
 		Es decir, la varianza no es constante. \\ \cline{1-2} 
@@ -574,9 +559,9 @@ Es decir, \(1- \alpha = 0.9\).
     \multicolumn{2}{|c|}{Hipótesis}\\ \cline{1-2}
     \multicolumn{2}{|l|}{\(H_0:\) Los residuos son independientes.} \\ 
     \multicolumn{2}{|l|}{\(H_a:\) Los residuos no son indpendientes.} \\ \cline{1-2}
-    Estadístico de Prueba & \(DW = 2.6999\).\\ \cline{1-2} 
+    Estadístico de Prueba & \(DW = 2.6952\).\\ \cline{1-2} 
 		Región de Rechazo de \(H_0\) & \((0, \alpha )\).\\ \cline{1-2} 
-    Valor \(p\) & \(0.8643\).\\ \cline{1-2} 
+    Valor \(p\) & \(0.8627\).\\ \cline{1-2} 
     Conclusión & Se tiene que \(p> \alpha\). \newline 
 		Por tanto no se rechaza \(H_0\). \newline 
 		Es decir, los residuos son independientes.\\ \cline{1-2} 
@@ -591,9 +576,9 @@ Es decir, \(1- \alpha = 0.9\).
     \multicolumn{2}{|c|}{Hipótesis}\\ \cline{1-2}
     \multicolumn{2}{|l|}{\(H_0:\) Los residuos siguen una distribución normal} \\ 
     \multicolumn{2}{|l|}{\(H_a:\) Los residuos no siguen una distribución normal.} \\ \cline{1-2}
-    Estadístico de Prueba & \(W = 0.94854\).\\ \cline{1-2} 
+    Estadístico de Prueba & \(W = 0.948\).\\ \cline{1-2} 
 		Región de Rechazo de \(H_0\) & \((0, \alpha )\).\\ \cline{1-2} 
-    Valor \(p\) & \(0.7285\).\\ \cline{1-2} 
+    Valor \(p\) & \(0.7241\).\\ \cline{1-2} 
     Conclusión & Se tiene que \(p> \alpha\). \newline 
 		Por tanto no se rechaza \(H_0\). \newline 
 		Es decir, los residuos siguen una distribución normal.\\ \cline{1-2} 
@@ -605,8 +590,8 @@ Es decir, \(1- \alpha = 0.9\).
 
 \subsection{\centering --- Modelo de Regresión Estimado ---} % (((
 \begin{align}
-	Y & = &              8,121.93 & - 135.35 \cdot X_1           & - 259.12     \cdot X_2   \\[2mm]
-	\mbox{Precio} & = &  8,121.93 & - 135.35 \cdot (\mbox{Edad}) & - 259.12     \cdot (\mbox{hp})
+	Y & = &              6,682.49 & - 111.34 \cdot X_1           & - 213.06     \cdot X_2   \\[2mm]
+	\mbox{Precio} & = &  6,682.49 & - 111.34 \cdot (\mbox{Edad}) & - 213.06     \cdot (\mbox{hp})
 	\label{eq:4}
 \end{align}
 % )))
@@ -616,9 +601,9 @@ Es decir, \(1- \alpha = 0.9\).
   \begin{tabular}{|l|l|l|l|l|}
     \hline 
     Fuentes de Variación  & Suma de Cuadrados & Grados de Libertad & Cuadrados Medios & F\\ \hline 
-Regresión  &  10087994715          &  2       & 5043997358 & 16.01483\\ \hline
-Error      &    944873575          &  3       &  314957858 &  0.00000\\ \hline
-Totales    &  11032868290          &  5       & 5358955216 &  0.00000\\ \hline
+		Regresión & 17,501,850 & 2 & 8,750,925.1 & 16.15226 \\ \hline
+		Error     &  1,625,332 & 3 &   541,777.3 &  0 \\ \hline
+		Totales   & 19,127,182 & 5 & 9,292,702.4 &  0 \\ \hline
   \end{tabular}
 \end{center} 
 % )))
@@ -631,9 +616,9 @@ Se comprueba la significancia del modelo con el estadístico \(F\) de la Tabla A
     \multicolumn{2}{|c|}{Hipótesis}\\ \cline{1-2}
     \multicolumn{2}{|l|}{\(H_0:\) El modelo no es significativo.} \\ 
     \multicolumn{2}{|l|}{\(H_a:\) El modelo es significativo.} \\ \cline{1-2}
-    Estadístico de Prueba & \(16.01\).\\ \cline{1-2} 
+    Estadístico de Prueba & \(16.15\).\\ \cline{1-2} 
 		Región de Rechazo de \(H_0\) & \((0, \alpha )\).\\ \cline{1-2} 
-    Valor \(p\) & \(0.02506\).\\ \cline{1-2} 
+    Valor \(p\) & \(0.02477\).\\ \cline{1-2} 
     Conclusión & Se tiene que \(p<\alpha\). \newline 
 		Por tanto se rechaza \(H_0\). \newline 
 		Es decir, el modelo es significativo.\\ \cline{1-2} 
@@ -649,52 +634,36 @@ Se obtiene el valor de mercado por medio de las características del activo y el
 		Descripción   & Unidades  & Activo \\ \hline 
     Edad del activo    & Años      & 5      \\ \hline 
 		Toneladas de cap.  & \(hp\) & 10   \\ \hline 
-		Precio del activo   & USD       & \$ 3,789.21    \\ \hline 
+		Precio del activo   & USD       & \$ 3,785.15     \\ \hline 
   \end{tabular}
 \end{center} 
-Se concluye que el Tanque para Aire Comprimido, tiene un valor de mercado de 
-\$3,789.21 USD.
+Se concluye que el Compresor Horizontal Oil-Free, tiene un valor de mercado de 
+\$ 3,785.15  USD.
 % )))
 
 % )))
 
 \section{Secador de Aire, Tipo Refrigerado.} % (((
-Se realizó el enfoque de mercado que involucra a los siguientes activos.
+
+\subsection{\centering --- Mercado Utilizado ---} % (((
+Se toma la siguiente muestra estadísticamente significativa, y se 
+comprueba que lo es, en las siguientes secciones.
+\begin{center}
+\includegraphics[width=  0.9 \linewidth, page = 1]{../0.imagenes/CAP_8/mercado_5_1}
+\includegraphics[width=  0.9\linewidth, page = 1]{../0.imagenes/CAP_8/mercado_5_2}
+\end{center}
+% )))
 
 \subsection{\centering --- Variables ---} % (((
 \begin{center}
   \begin{tabular}{|l|l|l|}
     \hline 
     Variable & Descripción   & Unidades\\ \hline 
-    Y:  & Precio del activo  & USD \\ \hline 
+    Y:  & Precio Final del activo  & USD \\ \hline 
     X1: & Edad del activo    & Años \\ \hline 
 		X2: & Capacidad & \(hp\) \\ \hline 
   \end{tabular}
 \end{center} 
-% )))
-
-\subsection{\centering --- Mercado Usado ---} % (((
-Se toma la siguiente muestra estadísticamente significativa. \\ 
-La comprobación de este hecho se realiza a lo largo de las siguientes secciones.
-\begin{figure}[hbtp!]
-	\centering
-\includegraphics[width=  \linewidth, page = 1]{../0.imagenes/CAP_8/mercado_5_1}
-\includegraphics[width=  \linewidth, page = 1]{../0.imagenes/CAP_8/mercado_5_2}
-\end{figure}
-% \begin{center}
-	% \begin{tabular}{*{4}{|p{3cm}}|}
-		% \hline 
-% MARCA          & EDAD  & CAP  & PRECIO\\ \hline
-% Speedaire      & 0     & 35   & 104750.90\\ \hline
-% Hankison       & 0     & 25   & 54461.60\\ \hline
-% Ingersoll Rand & 0     & 15   & 151014.60\\ \hline
-% Atlas Copco    & 11    & 14   & 31224.75\\ \hline
-% Beko           & 4     & 50   & 27650.00\\ \hline
-% Kaeser         & 11    & 20   & 18555.50\\ \hline
-% Atlas Copco    & 3     & 63   & 28379.00\\ \hline
-% Atlas Copco    & 18    & 32   & 15701.25\\ \hline
-	% \end{tabular}
-% \end{center}
 % )))
 
 \subsection{\centering --- Matriz de Dispersion ---} % (((
@@ -725,9 +694,9 @@ Es decir, \(1- \alpha = 0.9\).
     \multicolumn{2}{|c|}{Hipótesis}\\ \cline{1-2}
     \multicolumn{2}{|l|}{\(H_0:\) La varianza de los residuales es constante.} \\ 
     \multicolumn{2}{|l|}{\(H_a:\) La varianza de los residuales no es constante.} \\ \cline{1-2}
-    Estadístico de Prueba & \(BP = 4.4606\).\\ \cline{1-2} 
+    Estadístico de Prueba & \(BP = 4.3428\).\\ \cline{1-2} 
 		Región de Rechazo de \(H_0\) & \((0, \alpha )\).\\ \cline{1-2} 
-    Valor \(p\) & \(0.1075\).\\ \cline{1-2} 
+    Valor \(p\) & \(0.114\).\\ \cline{1-2} 
     Conclusión & Se tiene que \(p> \alpha\). \newline 
 		Por tanto no se rechaza \(H_0\). \newline 
 		Es decir, la varianza no es constante. \\ \cline{1-2} 
@@ -742,9 +711,9 @@ Es decir, \(1- \alpha = 0.9\).
     \multicolumn{2}{|c|}{Hipótesis}\\ \cline{1-2}
     \multicolumn{2}{|l|}{\(H_0:\) Los residuos son independientes.} \\ 
     \multicolumn{2}{|l|}{\(H_a:\) Los residuos no son indpendientes.} \\ \cline{1-2}
-    Estadístico de Prueba & \(DW = 2.7842\).\\ \cline{1-2} 
+    Estadístico de Prueba & \(DW = 2.7053\).\\ \cline{1-2} 
 		Región de Rechazo de \(H_0\) & \((0, \alpha )\).\\ \cline{1-2} 
-    Valor \(p\) & \(0.9005\).\\ \cline{1-2} 
+    Valor \(p\) & \(0.8712\).\\ \cline{1-2} 
     Conclusión & Se tiene que \(p> \alpha\). \newline 
 		Por tanto no se rechaza \(H_0\). \newline 
 		Es decir, los residuos son independientes.\\ \cline{1-2} 
@@ -759,9 +728,9 @@ Es decir, \(1- \alpha = 0.9\).
     \multicolumn{2}{|c|}{Hipótesis}\\ \cline{1-2}
     \multicolumn{2}{|l|}{\(H_0:\) Los residuos siguen una distribución normal} \\ 
     \multicolumn{2}{|l|}{\(H_a:\) Los residuos no siguen una distribución normal.} \\ \cline{1-2}
-    Estadístico de Prueba & \(W = 0.95507\).\\ \cline{1-2} 
+    Estadístico de Prueba & \(W = 0.94385\).\\ \cline{1-2} 
 		Región de Rechazo de \(H_0\) & \((0, \alpha )\).\\ \cline{1-2} 
-    Valor \(p\) & \(0.7621\).\\ \cline{1-2} 
+    Valor \(p\) & \(0.6493\).\\ \cline{1-2} 
     Conclusión & Se tiene que \(p> \alpha\). \newline 
 		Por tanto no se rechaza \(H_0\). \newline 
 		Es decir, los residuos siguen una distribución normal.\\ \cline{1-2} 
@@ -773,8 +742,8 @@ Es decir, \(1- \alpha = 0.9\).
 
 \subsection{\centering --- Modelo de Regresión Estimado ---} % (((
 \begin{align}
-	Y & = &              6,469.06 & - 275.37 \cdot X_1           & - 66.73     \cdot X_2   \\[2mm]
-	\mbox{Precio} & = &  6,469.06 & - 275.37 \cdot (\mbox{Edad}) & - 66.73     \cdot (\mbox{hp})
+	Y & = &              5,399.82 & - 230.59 \cdot X_1           & - 55.78  \cdot X_2   \\[2mm]
+	\mbox{Precio} & = &  5,399.82 & - 230.59 \cdot (\mbox{Edad}) & - 55.78  \cdot (\mbox{hp})
 	\label{eq:5}
 \end{align}
 % )))
@@ -784,9 +753,9 @@ Es decir, \(1- \alpha = 0.9\).
   \begin{tabular}{|l|l|l|l|l|}
     \hline 
     Fuentes de Variación  & Suma de Cuadrados & Grados de Libertad & Cuadrados Medios & F\\ \hline 
-Regresión  & 10763470574          &  2       & 5381735287 & 4.62603\\ \hline
-Error      &  5816797343          &  5       & 1163359469 & 0.00000\\ \hline
-Totales    & 16580267917          &  7       & 6545094756 & 0.00000\\ \hline
+		Regresión & 19,332,765 & 2 &  9,666,383 & 5.142665 \\ \hline
+		Error     &  9,398,223 & 5 &  1,879,645 & 0 \\ \hline
+		Totales   & 28,730,989 & 7 & 11,546,027 & 0 \\ \hline
   \end{tabular}
 \end{center} 
 % )))
@@ -799,9 +768,9 @@ Se comprueba la significancia del modelo con el estadístico \(F\) de la Tabla A
     \multicolumn{2}{|c|}{Hipótesis}\\ \cline{1-2}
     \multicolumn{2}{|l|}{\(H_0:\) El modelo no es significativo.} \\ 
     \multicolumn{2}{|l|}{\(H_a:\) El modelo es significativo.} \\ \cline{1-2}
-    Estadístico de Prueba & \(4.626\).\\ \cline{1-2} 
+    Estadístico de Prueba & \(5.143\).\\ \cline{1-2} 
 		Región de Rechazo de \(H_0\) & \((0, \alpha )\).\\ \cline{1-2} 
-    Valor \(p\) & \(0.0729\).\\ \cline{1-2} 
+    Valor \(p\) & \(0.0612\).\\ \cline{1-2} 
     Conclusión & Se tiene que \(p<\alpha\). \newline 
 		Por tanto se rechaza \(H_0\). \newline 
 		Es decir, el modelo es significativo.\\ \cline{1-2} 
@@ -817,48 +786,37 @@ Se obtiene el valor de mercado por medio de las características del activo y el
 		Descripción   & Unidades  & Activo \\ \hline 
     Edad del activo    & Años      & 2      \\ \hline 
 		Capacidad  & \(hp\) & 35   \\ \hline 
-		Precio del activo   & USD       & \$ 3,027.16 \\ \hline 
+		Precio del activo   & USD       & \$ 3,062.378  \\ \hline 
   \end{tabular}
 \end{center} 
-Se concluye que el Tanque para Aire Comprimido, tiene un valor de mercado de 
-\$3,027.16 USD.
+Se concluye que el Secador de Aire tipo Refrigerado, tiene un valor de mercado de 
+\$ 3,062.378  USD.
 % )))
 
 % )))
 
 \section{Compresor Tipo Tornillo.} % (((
-Se realizó el enfoque de mercado que involucra a los siguientes activos.
+
+\subsection{\centering --- Mercado Utilizado ---} % (((
+Se toma la siguiente muestra estadísticamente significativa, y se 
+comprueba que lo es, en las siguientes secciones.
+\begin{figure}[hbtp!]
+	\centering
+\includegraphics[width=  0.7\linewidth, page = 1]{../0.imagenes/CAP_8/mercado_6_1}
+\includegraphics[width=  0.9\linewidth, page = 1]{../0.imagenes/CAP_8/mercado_6_2}
+\end{figure}
+% )))
 
 \subsection{\centering --- Variables ---} % (((
 \begin{center}
   \begin{tabular}{|l|l|l|}
     \hline 
     Variable & Descripción   & Unidades\\ \hline 
-    Y:  & Precio del activo  & USD \\ \hline 
+    Y:  & Precio Final del activo  & USD \\ \hline 
     X1: & Edad del activo    & Años \\ \hline 
 		X2: & Potencia  & \(hp\) \\ \hline 
   \end{tabular}
 \end{center} 
-% )))
-
-\subsection{\centering --- Mercado Usado ---} % (((
-Se toma la siguiente muestra estadísticamente significativa. \\ 
-La comprobación de este hecho se realiza a lo largo de las siguientes secciones.
-\begin{figure}[hbtp!]
-	\centering
-\includegraphics[width=  \linewidth, page = 1]{../0.imagenes/CAP_8/mercado_6_1}
-\includegraphics[width=  \linewidth, page = 1]{../0.imagenes/CAP_8/mercado_6_2}
-\end{figure}
-% \begin{center}
-	% \begin{tabular}{*{4}{|p{2cm}}|}
-		% \hline 
-% MARCA          &  EDAD  & POT  & PRECIO\\ \hline
-% EVANS          &  0     & 75   & 570862.00\\ \hline
-% Ingresoll Rand &  13    & 100  & 237785.00\\ \hline
-% Ingresoll Rand &  15    & 50   & 219352.00\\ \hline
-% ALMIG          &  15    & 100  & 225503.90\\ \hline
-	% \end{tabular}
-% \end{center}
 % )))
 
 \subsection{\centering --- Matriz de Dispersion ---} % (((
@@ -937,8 +895,8 @@ Es decir, \(1- \alpha = 0.9\).
 
 \subsection{\centering --- Modelo de Regresión Estimado ---} % (((
 \begin{align}
-	Y & = &              29,686.27 & - 1,194.42 \cdot X_1           & - 12.04     \cdot X_2   \\[2mm]
-	\mbox{Precio} & = &  29,686.27 & - 1,194.42 \cdot (\mbox{Edad}) & - 12.04     \cdot (\mbox{hp})
+	Y & = &              24,606.27 & - 995.51 \cdot X_1           & - 9.834  \cdot X_2   \\[2mm]
+	\mbox{Precio} & = &  24,606.27 & - 995.51 \cdot (\mbox{Edad}) & - 9.834  \cdot (\mbox{hp})
 	\label{eq:6}
 \end{align}
 % )))
@@ -948,9 +906,9 @@ Es decir, \(1- \alpha = 0.9\).
   \begin{tabular}{|l|l|l|l|l|}
     \hline 
     Fuentes de Variación  & Suma de Cuadrados & Grados de Libertad & Cuadrados Medios & F\\ \hline 
-Regresión  &  87958129225          &  2      & 43979064612 & 71.2871\\ \hline
-Error      &    616928786          &  1      &   616928786 &  0.0000\\ \hline
-Totales    &  88575058011          &  3      & 44595993399 &  0.0000\\ \hline
+		Regresión & 156,615,716 & 2 & 78,307,858 & 67.21184 \\ \hline
+		Error     &   1,165,090 & 1 &  1,165,090 &  0 \\ \hline
+		Totales   & 157,780,806 & 3 & 79,472,948 &  0 \\ \hline
   \end{tabular}
 \end{center} 
 % )))
@@ -963,9 +921,9 @@ Se comprueba la significancia del modelo con el estadístico \(F\) de la Tabla A
     \multicolumn{2}{|c|}{Hipótesis}\\ \cline{1-2}
     \multicolumn{2}{|l|}{\(H_0:\) El modelo no es significativo.} \\ 
     \multicolumn{2}{|l|}{\(H_a:\) El modelo es significativo.} \\ \cline{1-2}
-    Estadístico de Prueba & \(71.29\).\\ \cline{1-2} 
+    Estadístico de Prueba & \(67.21\).\\ \cline{1-2} 
 		Región de Rechazo de \(H_0\) & \((0, \alpha )\).\\ \cline{1-2} 
-    Valor \(p\) & \(0.08346\).\\ \cline{1-2} 
+    Valor \(p\) & \(0.08593\).\\ \cline{1-2} 
     Conclusión & Se tiene que \(p<\alpha\). \newline 
 		Por tanto se rechaza \(H_0\). \newline 
 		Es decir, el modelo es significativo.\\ \cline{1-2} 
@@ -981,13 +939,15 @@ Se obtiene el valor de mercado por medio de las características del activo y el
 		Descripción   & Unidades  & Activo \\ \hline 
     Edad del activo    & Años      & 2      \\ \hline 
 		Capacidad  & \(hp\) & 75   \\ \hline 
-		Precio del activo   & USD       & \$24,432.21    \\ \hline 
+		Precio del activo   & USD       & \$ 21,847.12     \\ \hline 
   \end{tabular}
 \end{center} 
-Se concluye que el Tanque para Aire Comprimido, tiene un valor de mercado de 
-\$24,432.21 USD.
+Se concluye que el Compresor tipo Tornillo, tiene un valor de mercado de 
+\$ 21,847.12  USD.
 % )))
 
 % )))
+
+\espacio
 
 % )))

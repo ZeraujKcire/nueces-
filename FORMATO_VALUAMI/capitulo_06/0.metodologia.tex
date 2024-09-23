@@ -1,46 +1,49 @@
 
 \chapter{METODOLOGÍA CONDSIDERACIONES Y SUPUESTOS.} %(((
 
-Se usaron las siguientes metodologías de avalúo abarcando la totalidad de los
-activos.
+Para el desarrollo del presente avalúo, se llevaron a cabo el Enfoque de Costos
+a partir de datos obtenidos de proveedores y, en caso de equipos para los cuales
+se encontraron comparables, se llevó a cabo el Enfoque de Mercado, utilizando un
+modelo de regresión lineal múltiple.
 
-\begin{tabular}{|cp{7cm}|p{2cm}|p{2cm}|}
+\begin{tabular}{|cp{7cm}|m{2cm}|m{2cm}|}
 	\hline 
   	& Nombre & Enfoque de Mercado & Enfoque de Costos \\ \hline 
-	1. & Tanque para aire comprimido & Si & Si \\ \hline
-	2. & Secador de aire caliente & & Si \\ \hline
-	3. & Polipasto eléctrico & Si & Si \\ \hline
-	4. & Máquina embolsadora & & Si \\ \hline
-	5. & Máquina seleccionadora de granos y semillas por color & & Si \\ \hline
-	6. & Máquina seleccionadora de granos y semillas por color con plataforma & & Si \\ \hline
-	7. & Bombo batidor/mezclador para cofitería & Si & Si \\ \hline
-	8. & Compresor horizontal oil-free & Si & Si \\ \hline
-	9. & Máquina de aspersión de poliuretano & & Si \\ \hline
-	10. & Secador de aire tipo refrigerado & Si & Si \\ \hline
-	11. & Compresor tipo tornillo & Si & Si \\ \hline
-	12. & Línea embasadora de 24 cabezales & & Si \\ \hline
-	13. & Línea embasadora de 14 cabezales & & Si \\ \hline
+	1. & Tanque para aire comprimido & Sí & \\ \hline
+	2. & Secador de aire caliente & & Sí \\ \hline
+	3. & Polipasto eléctrico & Sí & \\ \hline
+	4. & Máquina embolsadora & & Sí \\ \hline
+	5. & Máquina seleccionadora de granos y semillas por color & & Sí \\ \hline
+	6. & Máquina seleccionadora de granos y semillas por color con plataforma & & Sí \\ \hline
+	7. & Bombo batidor/mezclador para cofitería & Sí & \\ \hline
+	8. & Compresor horizontal oil-free & Sí & \\ \hline
+	9. & Máquina de aspersión de poliuretano & & Sí \\ \hline
+	10. & Secador de aire tipo refrigerado & Sí & \\ \hline
+	11. & Compresor tipo tornillo & Sí & \\ \hline
+	12. & Línea embasadora de 24 cabezales & & Sí \\ \hline
+	13. & Línea embasadora de 14 cabezales & & Sí \\ \hline
 \end{tabular}
 
 \section{ENFOQUE DE COSTOS.} % (((
-Para la estimación de costos se  obtuvo información  respecto a cotizaciones de equipos nuevos con las mismas características además de páginas especializadas con activos del mismo tipo. Una vez obtenida  dicha información se consideraron las especificaciones proporcionadas por el solicitante.
+Para la estimación de costos se  obtuvo información  respecto a cotizaciones de equipos nuevos con las mismas características halladas en páginas especializadas con activos del mismo tipo. Una vez obtenida  dicha información se consideraron las especificaciones proporcionadas por el solicitante.
 Posteriormente se aplicaron los factores de la vida útil, fletes y aranceles para obtener el VNR.
 % )))
 
 \section{ENFOQUE DE MERCADO.} % (((
 
-Para los activos mencionados, se realizó un modelo de regresión lineal considerando 
+Para los activos enlos que se encontró mercado, se realizó su estimación en un modelo de regresión lineal múltiple considerando 
 las características específicas de cada activo. \\ 
 El análisis estadístico se realiza en todas las pruebas con el mismo nivel de 
-significancia: \(1- \alpha\).
-La comprobación de que el modelo de regresión lineal es significativo
+significancia: \(1- \alpha\). \\[2mm]
+La comprobación de que el modelo de regresión lineal múltiple es significativo
 requiere de las siguientes pruebas estadísticas:
 \begin{enumerate}
 	\item \textbf{Matriz de Dispersión:} Se observan gráficamente las tendencias 
 		entre los datos y las correlaciones lineales individuales entre las 
 		variables utilizadas.
+		\newpage
 	\item \textbf{Supuestos del Modelo de Regresión.}
-		\begin{enumerate}
+		\begin{enumerate}[i.]
 			\item \textbf{Homocedasticidad:} Se realiza el test Breusch-Pagan para 
 				comprobar si la varianza de los residuales (\(Y_i\) estimada
 				\( - Y_i\) real) es constante.
@@ -62,5 +65,7 @@ requiere de las siguientes pruebas estadísticas:
 Se escoge un nivel de confianza del \(90\%\). Entonces \(1- \alpha =0.9\), y 
 \(\alpha = 0.1\).
 % )))
+
+\espacio
 
 % )))

@@ -73,17 +73,22 @@
 
 \titleformat{\chapter}[display]{\normalfont\Large\filcenter\sffamily}
 {\titlerule[1pt]%
-\vspace{1pt}%
+\vspace{2pt}%
 \titlerule
-\vspace{1pc}%
+\vspace{5mm}
 \LARGE\MakeUppercase{\chaptertitlename} \thechapter
+\vspace{1mm}%
 }
-{1pc}
+{1mm}
 {
-\titlerule
+% \titlerule
 \vspace{1pc}%
 \Huge
 }
+[
+\vspace{1pc}%
+\titlerule
+]
 \titlespacing{\chapter}{0pt}{*-8}{*1.5}
 
 %------------------Profundidad del índice---------------------------

@@ -1,15 +1,15 @@
 
 # === LIBRARIES === (((
-suppressPackageStartupMessages(library(ggplot2))
-suppressPackageStartupMessages(library(gridExtra))
+# suppressPackageStartupMessages(library(ggplot2))
+# suppressPackageStartupMessages(library(gridExtra))
 suppressPackageStartupMessages(library(lmtest))
-suppressPackageStartupMessages(library(qqplotr))
+# suppressPackageStartupMessages(library(qqplotr))
 suppressPackageStartupMessages(library(GGally))
 # )))
 
 # === DATABASE === (((
 sprintf("--- DATABASE ---")
-datos = read.table('merged_market_bombo.txt',header=TRUE,na.string="NA")
+datos = read.table('merged_market_bombo_usd.txt',header=TRUE,na.string="NA")
 X1 = datos$EDAD
 X2 = datos$VOL
 Y = datos$PRECIO
@@ -69,7 +69,7 @@ ks.test(residuales,"pnorm",0, sqrt(anova(regresion)[3,3]))
 # === MODELO DE REGREION LINEAL === (((
 sprintf("--- 4 ESTIMACION DE BETA_i ---")
 regresion
-regresion$coefficients/19.75
+regresion$coefficients
 # )))
 
 # === DATOS ATIPICOS === (((
@@ -152,5 +152,5 @@ summary(regresion)$r.squared
 
 # === SUSTITUCION === (((
 sprintf(" --- SUSTITUCION --- ")
-predict(regresion,data.frame(X1=c(5),X2=c(2.5) ))*1.03*0.8/19.75
+predict(regresion,data.frame(X1=c(5),X2=c(2.5) ))
 # )))

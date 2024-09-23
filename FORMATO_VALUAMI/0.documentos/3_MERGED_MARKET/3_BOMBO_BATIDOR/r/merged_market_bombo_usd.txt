@@ -1,0 +1,5 @@
+MARCA     EDAD  VOL  PRECIO
+COMFIT    0     2.7  16294.24
+Sin_Dato  0     2.7  15315.43
+CBA4      50    2.7  5883.22
+CP4       34    3.2  9121.27

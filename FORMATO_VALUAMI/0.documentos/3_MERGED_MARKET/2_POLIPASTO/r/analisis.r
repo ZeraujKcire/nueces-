@@ -1,15 +1,15 @@
 
 # === LIBRARIES === (((
-suppressPackageStartupMessages(library(ggplot2))
-suppressPackageStartupMessages(library(gridExtra))
+# suppressPackageStartupMessages(library(ggplot2))
+# suppressPackageStartupMessages(library(gridExtra))
 suppressPackageStartupMessages(library(lmtest))
-suppressPackageStartupMessages(library(qqplotr))
+# suppressPackageStartupMessages(library(qqplotr))
 suppressPackageStartupMessages(library(GGally))
 # )))
 
 # === DATABASE === (((
 sprintf("--- DATABASE ---")
-datos = read.table('merged_market.txt',header=TRUE,na.string="NA")
+datos = read.table('merged_market_usd.txt',header=TRUE,na.string="NA")
 X1 = datos$EDAD
 X2 = datos$TON
 Y = datos$PRECIO
@@ -40,10 +40,10 @@ residuales = residuals(regresion)
 residu_estandar   = rstudent(regresion)
 
 # GRÁFICAS.
-graf_1 = ggplot(data = NULL, aes(x=Y,y=residuales)) + geom_point() + ggtitle("Y vs Resiuales.")      + labs(x="Y",y="Residuales")     + geom_hline(yintercept=0)
-graf_2 = ggplot(data = NULL, aes(x=Y,y=residu_estandar))   + geom_point() + ggtitle("Y vs Resid. Estand.")  + labs(x="Y",y="Resid. Estand.") + geom_hline(yintercept=0)
+# graf_1 = ggplot(data = NULL, aes(x=Y,y=residuales)) + geom_point() + ggtitle("Y vs Resiuales.")      + labs(x="Y",y="Residuales")     + geom_hline(yintercept=0)
+# graf_2 = ggplot(data = NULL, aes(x=Y,y=residu_estandar))   + geom_point() + ggtitle("Y vs Resid. Estand.")  + labs(x="Y",y="Resid. Estand.") + geom_hline(yintercept=0)
 
-grid.arrange(graf_1,graf_2,ncol=2,nrow=1) 
+# grid.arrange(graf_1,graf_2,ncol=2,nrow=1) 
 # )))
 
 # === INDEPENDENCIA === (((
@@ -52,14 +52,14 @@ sprintf("--- 3.2 INDEPENDIENCIA ---")
 dwtest(regresion)
 
 # GRAFICA
-graf_resid_estand = ggplot(data = NULL, aes(x=Y,y=residu_estandar)) + geom_point() + ggtitle("Y vs Residuales Estandarizados") + labs(x="Y",y="Residuales Estandarizados")  + geom_hline(yintercept=0,color="blue") + geom_line()
-graf_resid_estand
+# graf_resid_estand = ggplot(data = NULL, aes(x=Y,y=residu_estandar)) + geom_point() + ggtitle("Y vs Residuales Estandarizados") + labs(x="Y",y="Residuales Estandarizados")  + geom_hline(yintercept=0,color="blue") + geom_line()
+# graf_resid_estand
 # )))
 
 # === NORMALIDAD === (((
 sprintf("--- 3.3 NORMALIDAD ---")
-histo_resid = ggplot(data = NULL, aes(x=residuales)) + geom_histogram() + ggtitle("Histograma de Residuales")
-histo_resid
+# histo_resid = ggplot(data = NULL, aes(x=residuales)) + geom_histogram() + ggtitle("Histograma de Residuales")
+# histo_resid
 
 shapiro.test(residuales)
 ks.test(residuales,"pnorm",0, sqrt(anova(regresion)[3,3]))
@@ -71,7 +71,7 @@ ks.test(residuales,"pnorm",0, sqrt(anova(regresion)[3,3]))
 sprintf("--- 4 ESTIMACION DE BETA_i ---")
 regresion
 sprintf("USD")
-regresion$coefficients/19.75
+regresion$coefficients
 # )))
 
 # === DATOS ATIPICOS === (((
@@ -151,4 +151,4 @@ summary(regresion)$r.squared
 
 # === SUSTITUCION === (((
 sprintf(" --- SUSTITUCION --- ")
-predict(regresion,data.frame(X1=c(2),X2=c(2)))*1.03*0.8/19.75
+predict(regresion,data.frame(X1=c(2),X2=c(2)))

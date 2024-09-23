@@ -39,25 +39,25 @@ lm(formula = Y ~ X1 + X2, data = datos, na.action = "na.exclude")
 
 Coefficients:
 (Intercept)           X1           X2  
-     370099        -4749         3022  
+    15463.9       -198.4        126.3  
 
 (Intercept)          X1          X2 
- 18739.1857   -240.4605    153.0111 
+ 15463.9157   -198.4323    126.2664 
 [1] "--- 6 TABLA ANOVA ---"
 Analysis of Variance Table
 
 Response: Y
-          Df     Sum Sq    Mean Sq  F value  Pr(>F)  
-X1         1 4.2486e+10 4.2486e+10 154.8403 0.05105 .
-X2         1 1.5084e+06 1.5084e+06   0.0055 0.95288  
-Residuals  1 2.7438e+08 2.7438e+08                   
+          Df   Sum Sq  Mean Sq  F value  Pr(>F)  
+X1         1 74172851 74172851 154.8382 0.05105 .
+X2         1     2633     2633   0.0055 0.95289  
+Residuals  1   479035   479035                   
 ---
 Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
 [1] "TABLA ANOVA. NUEVA"
           Suma Cuadrados Grados Lib. Cuadrados Medios        F
-Regresión    42487120937           2      21243560469 77.42292
-Error          274383350           1        274383350  0.00000
-Totales      42761504287           3      21517943819  0.00000
+Regresión     74175484.6           2       37087742.3 77.42186
+Error           479034.5           1         479034.5  0.00000
+Totales       74654519.1           3       37566776.8  0.00000
 [1] "--- 7 SIGNIFICANCIA ---"
 
 Call:
@@ -65,31 +65,31 @@ lm(formula = Y ~ X1 + X2, data = datos, na.action = "na.exclude")
 
 Residuals:
          1          2          3          4 
- 1.171e+04 -1.171e+04  2.274e-12 -4.093e-12 
+ 4.894e+02 -4.894e+02  8.527e-14 -2.274e-13 
 
 Coefficients:
             Estimate Std. Error t value Pr(>|t|)  
-(Intercept) 370098.9   112790.4   3.281   0.1883  
-X1           -4749.1      405.7 -11.705   0.0543 .
-X2            3022.0    40758.1   0.074   0.9529  
+(Intercept) 15463.92    4712.77   3.281   0.1883  
+X1           -198.43      16.95 -11.705   0.0543 .
+X2            126.27    1703.02   0.074   0.9529  
 ---
 Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
 
-Residual standard error: 16560 on 1 degrees of freedom
-Multiple R-squared:  0.9936,	Adjusted R-squared:  0.9808 
+Residual standard error: 692.1 on 1 degrees of freedom
+Multiple R-squared:  0.9936,	Adjusted R-squared:  0.9807 
 F-statistic: 77.42 on 2 and 1 DF,  p-value: 0.0801
 
 [1] " --- PRUEBAS HP DE COEF. --- "
 [1] -6.313752  6.313752
-              Estimate  Std. Error      t value   Pr(>|t|)
-(Intercept) 370098.917 112790.3705   3.28129888 0.18832207
-X1           -4749.095    405.7462 -11.70459329 0.05425883
-X2            3021.970  40758.1471   0.07414394 0.95288471
+              Estimate Std. Error      t value  Pr(>|t|)
+(Intercept) 15463.9157 4712.77327   3.28127725 0.1883232
+X1           -198.4323   16.95349 -11.70451281 0.0542592
+X2            126.2664 1703.01689   0.07414278 0.9528854
               Estimate Std. Error   t value     Pr(>|t|)
-(Intercept) 378417.959  8163.3209  46.35588 0.0004650367
-X1           -4738.713   270.0187 -17.54957 0.0032311559
+(Intercept) 15811.5087  341.09186  46.35557 0.0004650429
+X1           -197.9985   11.28232 -17.54946 0.0032311994
 [1] " --- 11 COEFICIENTE DE DETERMINACIÓN --- "
-[1] 0.9935481
+[1] 0.993548
 [1] " --- SUSTITUCION --- "
        1 
-14799.64 
+14821.52 

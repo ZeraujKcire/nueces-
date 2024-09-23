@@ -1,23 +1,21 @@
 \contentsline {chapter}{\numberline {I}ANTECEDENTES.}{5}{chapter.1}%
 \contentsline {section}{\numberline {A}DATOS GENERALES.}{5}{section.1.1}%
 \contentsline {section}{\numberline {B}UBICACI\IeC {\'O}N DE LOS BIENES A VALUAR.}{5}{section.1.2}%
-\contentsline {section}{\numberline {C}CROQUIS DE UBICACI\IeC {\'O}N DE LOS BIENES.}{5}{section.1.3}%
 \contentsline {chapter}{\numberline {II}CONSIDERACIONES.}{6}{chapter.2}%
 \contentsline {section}{\numberline {A}ENTORNO DE LOS BIENES VALUADOS.}{6}{section.2.1}%
 \contentsline {section}{\numberline {B}CONDICI\IeC {\'O}N GENERAL DE LOS BIENES.}{6}{section.2.2}%
 \contentsline {chapter}{\numberline {III}CONDICIONES GENERALES Y CONDICIONES LIMITANTES.}{7}{chapter.3}%
 \contentsline {section}{\numberline {A}NOTAS IMPORTANTES.}{7}{section.3.1}%
 \contentsline {chapter}{\numberline {IV}DEFINICIONES.}{8}{chapter.4}%
-\contentsline {section}{\numberline {A}CONCEPTOS VALUATORIOS.}{8}{section.4.1}%
 \contentsline {chapter}{\numberline {V}INVENTARIO.}{11}{chapter.5}%
 \contentsline {chapter}{\numberline {VI}METODOLOG\IeC {\'I}A CONDSIDERACIONES Y SUPUESTOS.}{13}{chapter.6}%
 \contentsline {section}{\numberline {A}ENFOQUE DE COSTOS.}{13}{section.6.1}%
 \contentsline {section}{\numberline {B}ENFOQUE DE MERCADO.}{13}{section.6.2}%
-\contentsline {chapter}{\numberline {VII}ENFOQUE DE COSTOS.}{15}{chapter.7}%
-\contentsline {chapter}{\numberline {VIII}ENFOQUE DE MERCADO.}{17}{chapter.8}%
+\contentsline {chapter}{\numberline {VII}DESARROLLO DEL ENFOQUE DE COSTOS.}{15}{chapter.7}%
+\contentsline {chapter}{\numberline {VIII}DESARROLLO DEL ENFOQUE DE MERCADO.}{17}{chapter.8}%
 \contentsline {section}{\numberline {A}Tanque para Aire Comprimido.}{17}{section.8.1}%
-\contentsline {subsection}{\numberline {A.1}\centering --- Variables ---}{17}{subsection.8.1.1}%
-\contentsline {subsection}{\numberline {A.2}\centering --- Mercado Usado ---}{17}{subsection.8.1.2}%
+\contentsline {subsection}{\numberline {A.1}\centering --- Mercado Utilizado ---}{17}{subsection.8.1.1}%
+\contentsline {subsection}{\numberline {A.2}\centering --- Variables ---}{18}{subsection.8.1.2}%
 \contentsline {subsection}{\numberline {A.3}\centering --- Matriz de Dispersion ---}{18}{subsection.8.1.3}%
 \contentsline {subsection}{\numberline {A.4}\centering --- Supuestos del Modelo de Regresi\IeC {\'o}n ---}{18}{subsection.8.1.4}%
 \contentsline {subsubsection}{\numberline {A.4.1}--- Homocedasticidad ---}{18}{subsubsection.8.1.4.1}%
@@ -28,8 +26,8 @@
 \contentsline {subsection}{\numberline {A.7}\centering --- Prueba de Significancia del Modelo ---}{19}{subsection.8.1.7}%
 \contentsline {subsection}{\numberline {A.8}\centering Estimaci\IeC {\'o}n del Valor de Mercado aplicado al Activo.}{20}{subsection.8.1.8}%
 \contentsline {section}{\numberline {B}Polipasto El\IeC {\'e}ctrico.}{20}{section.8.2}%
-\contentsline {subsection}{\numberline {B.1}\centering --- Variables ---}{20}{subsection.8.2.1}%
-\contentsline {subsection}{\numberline {B.2}\centering --- Mercado Usado ---}{20}{subsection.8.2.2}%
+\contentsline {subsection}{\numberline {B.1}\centering --- Mercado Utilizado ---}{20}{subsection.8.2.1}%
+\contentsline {subsection}{\numberline {B.2}\centering --- Variables ---}{21}{subsection.8.2.2}%
 \contentsline {subsection}{\numberline {B.3}\centering --- Matriz de Dispersion ---}{21}{subsection.8.2.3}%
 \contentsline {subsection}{\numberline {B.4}\centering --- Supuestos del Modelo de Regresi\IeC {\'o}n ---}{21}{subsection.8.2.4}%
 \contentsline {subsubsection}{\numberline {B.4.1}--- Homocedasticidad ---}{21}{subsubsection.8.2.4.1}%
@@ -40,8 +38,8 @@
 \contentsline {subsection}{\numberline {B.7}\centering --- Prueba de Significancia del Modelo ---}{22}{subsection.8.2.7}%
 \contentsline {subsection}{\numberline {B.8}\centering Estimaci\IeC {\'o}n del Valor de Mercado aplicado al Activo.}{23}{subsection.8.2.8}%
 \contentsline {section}{\numberline {C}Bombo Batidor/Mezclador para Cofiter\IeC {\'\i }a.}{23}{section.8.3}%
-\contentsline {subsection}{\numberline {C.1}\centering --- Variables ---}{23}{subsection.8.3.1}%
-\contentsline {subsection}{\numberline {C.2}\centering --- Mercado Usado ---}{23}{subsection.8.3.2}%
+\contentsline {subsection}{\numberline {C.1}\centering --- Mercado Utilizado ---}{23}{subsection.8.3.1}%
+\contentsline {subsection}{\numberline {C.2}\centering --- Variables ---}{24}{subsection.8.3.2}%
 \contentsline {subsection}{\numberline {C.3}\centering --- Matriz de Dispersion ---}{24}{subsection.8.3.3}%
 \contentsline {subsection}{\numberline {C.4}\centering --- Supuestos del Modelo de Regresi\IeC {\'o}n ---}{24}{subsection.8.3.4}%
 \contentsline {subsubsection}{\numberline {C.4.1}--- Homocedasticidad ---}{24}{subsubsection.8.3.4.1}%
@@ -52,40 +50,43 @@
 \contentsline {subsection}{\numberline {C.7}\centering --- Prueba de Significancia del Modelo ---}{25}{subsection.8.3.7}%
 \contentsline {subsection}{\numberline {C.8}\centering Estimaci\IeC {\'o}n del Valor de Mercado aplicado al Activo.}{26}{subsection.8.3.8}%
 \contentsline {section}{\numberline {D}Compresor Horizontal Oil-Free.}{26}{section.8.4}%
-\contentsline {subsection}{\numberline {D.1}\centering --- Variables ---}{26}{subsection.8.4.1}%
-\contentsline {subsection}{\numberline {D.2}\centering --- Mercado Usado ---}{26}{subsection.8.4.2}%
-\contentsline {subsection}{\numberline {D.3}\centering --- Matriz de Dispersion ---}{26}{subsection.8.4.3}%
-\contentsline {subsection}{\numberline {D.4}\centering --- Supuestos del Modelo de Regresi\IeC {\'o}n ---}{28}{subsection.8.4.4}%
-\contentsline {subsubsection}{\numberline {D.4.1}--- Homocedasticidad ---}{28}{subsubsection.8.4.4.1}%
+\contentsline {subsection}{\numberline {D.1}\centering --- Mercado Utilizado ---}{26}{subsection.8.4.1}%
+\contentsline {subsection}{\numberline {D.2}\centering --- Variables ---}{27}{subsection.8.4.2}%
+\contentsline {subsection}{\numberline {D.3}\centering --- Matriz de Dispersion ---}{27}{subsection.8.4.3}%
+\contentsline {subsection}{\numberline {D.4}\centering --- Supuestos del Modelo de Regresi\IeC {\'o}n ---}{27}{subsection.8.4.4}%
+\contentsline {subsubsection}{\numberline {D.4.1}--- Homocedasticidad ---}{27}{subsubsection.8.4.4.1}%
 \contentsline {subsubsection}{\numberline {D.4.2}--- Independencia ---}{28}{subsubsection.8.4.4.2}%
 \contentsline {subsubsection}{\numberline {D.4.3}--- Normalidad ---}{28}{subsubsection.8.4.4.3}%
 \contentsline {subsection}{\numberline {D.5}\centering --- Modelo de Regresi\IeC {\'o}n Estimado ---}{28}{subsection.8.4.5}%
-\contentsline {subsection}{\numberline {D.6}\centering --- Tabla Anova ---}{29}{subsection.8.4.6}%
-\contentsline {subsection}{\numberline {D.7}\centering --- Prueba de Significancia del Modelo ---}{29}{subsection.8.4.7}%
+\contentsline {subsection}{\numberline {D.6}\centering --- Tabla Anova ---}{28}{subsection.8.4.6}%
+\contentsline {subsection}{\numberline {D.7}\centering --- Prueba de Significancia del Modelo ---}{28}{subsection.8.4.7}%
 \contentsline {subsection}{\numberline {D.8}\centering Estimaci\IeC {\'o}n del Valor de Mercado aplicado al Activo.}{29}{subsection.8.4.8}%
 \contentsline {section}{\numberline {E}Secador de Aire, Tipo Refrigerado.}{29}{section.8.5}%
-\contentsline {subsection}{\numberline {E.1}\centering --- Variables ---}{29}{subsection.8.5.1}%
-\contentsline {subsection}{\numberline {E.2}\centering --- Mercado Usado ---}{29}{subsection.8.5.2}%
-\contentsline {subsection}{\numberline {E.3}\centering --- Matriz de Dispersion ---}{31}{subsection.8.5.3}%
-\contentsline {subsection}{\numberline {E.4}\centering --- Supuestos del Modelo de Regresi\IeC {\'o}n ---}{31}{subsection.8.5.4}%
-\contentsline {subsubsection}{\numberline {E.4.1}--- Homocedasticidad ---}{31}{subsubsection.8.5.4.1}%
-\contentsline {subsubsection}{\numberline {E.4.2}--- Independencia ---}{32}{subsubsection.8.5.4.2}%
-\contentsline {subsubsection}{\numberline {E.4.3}--- Normalidad ---}{32}{subsubsection.8.5.4.3}%
-\contentsline {subsection}{\numberline {E.5}\centering --- Modelo de Regresi\IeC {\'o}n Estimado ---}{32}{subsection.8.5.5}%
-\contentsline {subsection}{\numberline {E.6}\centering --- Tabla Anova ---}{32}{subsection.8.5.6}%
-\contentsline {subsection}{\numberline {E.7}\centering --- Prueba de Significancia del Modelo ---}{32}{subsection.8.5.7}%
-\contentsline {subsection}{\numberline {E.8}\centering Estimaci\IeC {\'o}n del Valor de Mercado aplicado al Activo.}{33}{subsection.8.5.8}%
-\contentsline {section}{\numberline {F}Compresor Tipo Tornillo.}{33}{section.8.6}%
-\contentsline {subsection}{\numberline {F.1}\centering --- Variables ---}{33}{subsection.8.6.1}%
-\contentsline {subsection}{\numberline {F.2}\centering --- Mercado Usado ---}{33}{subsection.8.6.2}%
-\contentsline {subsection}{\numberline {F.3}\centering --- Matriz de Dispersion ---}{34}{subsection.8.6.3}%
-\contentsline {subsection}{\numberline {F.4}\centering --- Supuestos del Modelo de Regresi\IeC {\'o}n ---}{34}{subsection.8.6.4}%
-\contentsline {subsubsection}{\numberline {F.4.1}--- Homocedasticidad ---}{34}{subsubsection.8.6.4.1}%
-\contentsline {subsubsection}{\numberline {F.4.2}--- Independencia ---}{35}{subsubsection.8.6.4.2}%
-\contentsline {subsubsection}{\numberline {F.4.3}--- Normalidad ---}{35}{subsubsection.8.6.4.3}%
-\contentsline {subsection}{\numberline {F.5}\centering --- Modelo de Regresi\IeC {\'o}n Estimado ---}{35}{subsection.8.6.5}%
-\contentsline {subsection}{\numberline {F.6}\centering --- Tabla Anova ---}{35}{subsection.8.6.6}%
-\contentsline {subsection}{\numberline {F.7}\centering --- Prueba de Significancia del Modelo ---}{35}{subsection.8.6.7}%
-\contentsline {subsection}{\numberline {F.8}\centering Estimaci\IeC {\'o}n del Valor de Mercado aplicado al Activo.}{36}{subsection.8.6.8}%
-\contentsline {chapter}{\numberline {IX}CONSIDERACIONES PREVIAS A LA CONCLUSI\IeC {\'O}N.}{37}{chapter.9}%
-\contentsline {chapter}{\numberline {X}CONCLUSI\IeC {\'O}N.}{38}{chapter.10}%
+\contentsline {subsection}{\numberline {E.1}\centering --- Mercado Utilizado ---}{29}{subsection.8.5.1}%
+\contentsline {subsection}{\numberline {E.2}\centering --- Variables ---}{30}{subsection.8.5.2}%
+\contentsline {subsection}{\numberline {E.3}\centering --- Matriz de Dispersion ---}{30}{subsection.8.5.3}%
+\contentsline {subsection}{\numberline {E.4}\centering --- Supuestos del Modelo de Regresi\IeC {\'o}n ---}{30}{subsection.8.5.4}%
+\contentsline {subsubsection}{\numberline {E.4.1}--- Homocedasticidad ---}{30}{subsubsection.8.5.4.1}%
+\contentsline {subsubsection}{\numberline {E.4.2}--- Independencia ---}{31}{subsubsection.8.5.4.2}%
+\contentsline {subsubsection}{\numberline {E.4.3}--- Normalidad ---}{31}{subsubsection.8.5.4.3}%
+\contentsline {subsection}{\numberline {E.5}\centering --- Modelo de Regresi\IeC {\'o}n Estimado ---}{31}{subsection.8.5.5}%
+\contentsline {subsection}{\numberline {E.6}\centering --- Tabla Anova ---}{31}{subsection.8.5.6}%
+\contentsline {subsection}{\numberline {E.7}\centering --- Prueba de Significancia del Modelo ---}{31}{subsection.8.5.7}%
+\contentsline {subsection}{\numberline {E.8}\centering Estimaci\IeC {\'o}n del Valor de Mercado aplicado al Activo.}{32}{subsection.8.5.8}%
+\contentsline {section}{\numberline {F}Compresor Tipo Tornillo.}{32}{section.8.6}%
+\contentsline {subsection}{\numberline {F.1}\centering --- Mercado Utilizado ---}{32}{subsection.8.6.1}%
+\contentsline {subsection}{\numberline {F.2}\centering --- Variables ---}{33}{subsection.8.6.2}%
+\contentsline {subsection}{\numberline {F.3}\centering --- Matriz de Dispersion ---}{33}{subsection.8.6.3}%
+\contentsline {subsection}{\numberline {F.4}\centering --- Supuestos del Modelo de Regresi\IeC {\'o}n ---}{33}{subsection.8.6.4}%
+\contentsline {subsubsection}{\numberline {F.4.1}--- Homocedasticidad ---}{33}{subsubsection.8.6.4.1}%
+\contentsline {subsubsection}{\numberline {F.4.2}--- Independencia ---}{34}{subsubsection.8.6.4.2}%
+\contentsline {subsubsection}{\numberline {F.4.3}--- Normalidad ---}{34}{subsubsection.8.6.4.3}%
+\contentsline {subsection}{\numberline {F.5}\centering --- Modelo de Regresi\IeC {\'o}n Estimado ---}{34}{subsection.8.6.5}%
+\contentsline {subsection}{\numberline {F.6}\centering --- Tabla Anova ---}{34}{subsection.8.6.6}%
+\contentsline {subsection}{\numberline {F.7}\centering --- Prueba de Significancia del Modelo ---}{34}{subsection.8.6.7}%
+\contentsline {subsection}{\numberline {F.8}\centering Estimaci\IeC {\'o}n del Valor de Mercado aplicado al Activo.}{35}{subsection.8.6.8}%
+\contentsline {chapter}{\numberline {IX}RESUMEN DE VALORES.}{36}{chapter.9}%
+\contentsline {section}{\numberline {A}Obtenci\IeC {\'o}n del Valor Razonable.}{36}{section.9.1}%
+\contentsline {chapter}{\numberline {X}CONSIDERACIONES PREVIAS A LA CONCLUSI\IeC {\'O}N.}{38}{chapter.10}%
+\contentsline {chapter}{\numberline {XI}CONCLUSI\IeC {\'O}N.}{39}{chapter.11}%
+\contentsline {chapter}{XII \hspace {2mm} REPORTE FOTOGR\IeC {\'A}FICO.}{39}{chapter.11}%

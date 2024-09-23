@@ -1,15 +1,15 @@
 
 # === LIBRARIES === (((
-suppressPackageStartupMessages(library(ggplot2))
-suppressPackageStartupMessages(library(gridExtra))
+# suppressPackageStartupMessages(library(ggplot2))
+# suppressPackageStartupMessages(library(gridExtra))
 suppressPackageStartupMessages(library(lmtest))
-suppressPackageStartupMessages(library(qqplotr))
+# suppressPackageStartupMessages(library(qqplotr))
 suppressPackageStartupMessages(library(GGally))
 # )))
 
 # === DATABASE === (((
 # LEER LOS DATOS Y GUARDARLOS.
-datos = read.table('merged_market_compressor_tornillo.txt',header=TRUE)
+datos = read.table('merged_market_compressor_tornillo_usd.txt',header=TRUE)
 X1 = datos$EDAD
 X2 = datos$POT
 Y = datos$PRECIO
@@ -69,7 +69,7 @@ ks.test(residuales,"pnorm",0, sqrt(anova(regresion)[3,3]))
 # === MODELO DE REGREION LINEAL === (((
 sprintf("--- 4 ESTIMACION DE BETA_i ---")
 regresion
-regresion$coefficients/19.75
+regresion$coefficients
 # )))
 
 # === DATOS ATIPICOS === (((
@@ -150,5 +150,5 @@ summary(regresion)$r.squared
 
 # === SUSTITUCION === (((
 sprintf(" --- SUSTITUCION --- ")
-predict(regresion,data.frame(X1=c(2),X2=c(75) ))*1.03*0.9/19.75
+predict(regresion,data.frame(X1=c(2),X2=c(75) ))
 # )))

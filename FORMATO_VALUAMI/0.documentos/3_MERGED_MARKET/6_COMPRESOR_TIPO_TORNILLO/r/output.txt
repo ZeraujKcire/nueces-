@@ -35,25 +35,25 @@ lm(formula = Y ~ X1 + X2, data = datos)
 
 Coefficients:
 (Intercept)           X1           X2  
-     586304       -23590         -238  
+  24606.274     -995.518       -9.834  
 
-(Intercept)          X1          X2 
-29686.27868 -1194.42830   -12.04984 
+ (Intercept)           X1           X2 
+24606.274073  -995.518369    -9.833835 
 [1] "--- 6 TABLA ANOVA ---"
 Analysis of Variance Table
 
 Response: Y
-          Df     Sum Sq    Mean Sq  F value  Pr(>F)  
-X1         1 8.7862e+10 8.7862e+10 142.4183 0.05322 .
-X2         1 9.6201e+07 9.6201e+07   0.1559 0.76057  
-Residuals  1 6.1693e+08 6.1693e+08                   
+          Df    Sum Sq   Mean Sq F value Pr(>F)  
+X1         1 156451457 156451457 134.283 0.0548 .
+X2         1    164259    164259   0.141 0.7713  
+Residuals  1   1165090   1165090                 
 ---
 Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
 [1] "TABLA ANOVA. NUEVA"
-          Suma Cuadrados Grados Lib. Cuadrados Medios       F
-Regresión    87958129225           2      43979064612 71.2871
-Error          616928786           1        616928786  0.0000
-Totales      88575058011           3      44595993399  0.0000
+          Suma Cuadrados Grados Lib. Cuadrados Medios        F
+Regresión      156615716           2         78307858 67.21184
+Error            1165090           1          1165090  0.00000
+Totales        157780806           3         79472948  0.00000
 [1] "--- 7 SIGNIFICANCIA ---"
 
 Call:
@@ -61,31 +61,31 @@ lm(formula = Y ~ X1 + X2, data = datos)
 
 Residuals:
      1      2      3      4 
-  2407 -18051  -1203  16848 
+ 104.6 -784.5  -52.3  732.2 
 
 Coefficients:
-            Estimate Std. Error t value Pr(>|t|)  
-(Intercept) 586304.0    52768.4  11.111   0.0571 .
-X1          -23590.0     1995.6 -11.821   0.0537 .
-X2            -238.0      602.7  -0.395   0.7606  
+             Estimate Std. Error t value Pr(>|t|)  
+(Intercept) 24606.274   2293.171  10.730   0.0592 .
+X1           -995.518     86.724 -11.479   0.0553 .
+X2             -9.834     26.190  -0.375   0.7713  
 ---
 Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
 
-Residual standard error: 24840 on 1 degrees of freedom
-Multiple R-squared:  0.993,	Adjusted R-squared:  0.9791 
-F-statistic: 71.29 on 2 and 1 DF,  p-value: 0.08346
+Residual standard error: 1079 on 1 degrees of freedom
+Multiple R-squared:  0.9926,	Adjusted R-squared:  0.9778 
+F-statistic: 67.21 on 2 and 1 DF,  p-value: 0.08593
 
 [1] "--- 8.1 PH BETA_0 ---"
 [1] -6.313752  6.313752
-               Estimate Std. Error    t value   Pr(>|t|)
-(Intercept) 586304.0040 52768.4245  11.110887 0.05714297
-X1          -23589.9589  1995.6256 -11.820834 0.05372782
-X2            -237.9843   602.6657  -0.394886 0.76057367
-             Estimate Std. Error   t value    Pr(>|t|)
-(Intercept) 567885.84  18762.071  30.26776 0.001089756
-X1          -23675.36   1508.223 -15.69752 0.004033702
+                Estimate Std. Error     t value   Pr(>|t|)
+(Intercept) 24606.274073 2293.17075  10.7302407 0.05915862
+X1           -995.518369   86.72441 -11.4791029 0.05531936
+X2             -9.833835   26.19020  -0.3754777 0.77133291
+              Estimate Std. Error   t value    Pr(>|t|)
+(Intercept) 23845.2105  810.05783  29.43643 0.001152070
+X1           -999.0473   65.11795 -15.34212 0.004221555
 [1] " --- 11 COEFICIENTE DE DETERMINACIÓN --- "
-[1] 0.9919489
+[1] 0.9915747
 [1] " --- SUSTITUCION --- "
        1 
-24432.21 
+21847.12 
